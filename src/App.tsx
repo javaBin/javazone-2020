@@ -1,4 +1,4 @@
-import React, { createContext, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation, { NavRoute } from './components/Navigation/Navigation';

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styles from './CookieDisclaimer.module.scss';
 import Cookies from 'universal-cookie';
 import { Button } from '../Button/Button';
-import classnames from 'classnames';
 
 export interface CookieDisclaimerProps {
     children: React.ReactNode;

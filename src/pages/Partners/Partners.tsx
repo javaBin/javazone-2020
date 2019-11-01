@@ -1,14 +1,12 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { PageBanner } from '../../components/PageBanner/PageBanner';
 import { Seperator } from '../../components/Seperator/Seperator';
 import { CenterSection } from '../../components/CenterSection/CenterSection';
 import { Section } from '../../components/Section/Section';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
-import { useCanPlayVideoType } from '../../core/hooks/UseCanPlayVideoType';
 
 export function PartnersPage() {
-    const canPlayWebm = useCanPlayVideoType('webm');
     return (
         <>
             <PageBanner header="Partner love <3" subHeader="September 9th - 10th, 2020" imageName="partners_2" />
