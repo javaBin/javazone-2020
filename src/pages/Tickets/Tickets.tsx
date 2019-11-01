@@ -11,9 +11,9 @@ import Link from '../../components/Link/Link';
 export function TicketsPage() {
     return (
         <>
-            <PageBanner header="The Ticket Booth" subHeader="Come join us in Oslo, September 11th - 12th, 2019" imageName="2018/180912_JavaZone_0019" />
+            <PageBanner header="The Ticket Booth" subHeader="Come join us in Oslo, September 9th - 10th, 2020" imageName="2018/180912_JavaZone_0019" />
             <Seperator />
-            <CenterSection header={<h1>Get your tickets for JavaZone 2019 – Early Bird</h1>}>
+            <CenterSection header={<h1>Get your tickets for JavaZone 2020 – Early Bird</h1>}>
                 <TicketPrice>6.290</TicketPrice>
             </CenterSection>
             <Section header={<h1>What's included?</h1>}>
