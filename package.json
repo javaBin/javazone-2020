@@ -5,7 +5,7 @@
   "description": "Web page for JavaZone 2019.",
   "homepage": "https://2019.javazone.no/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "classnames": "^2.2.6",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
