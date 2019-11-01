@@ -1,0 +1,53 @@
+@import '../../variables.scss';
+
+.footer {
+    width: 100%;
+    min-height: 5rem;
+    display: grid;
+    grid-template-areas:
+        'javabin social';
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background: black;
+    &.frontpage {
+        position: fixed;
+        bottom: 0;
+        background: none;
+    }
+    .javabin, .social {
+        display: flex;
+        margin: 0 1rem;
+        a {
+            margin: 0 1rem;
+            padding: 0.3rem 0;
+            text-decoration: none;
+            height: fit-content;
+            font-weight: bold;
+            opacity: 0.7;
+            color: white;
+            font-family: 'PT Sans', sans-serif;
+            transition: opacity 300ms, border-bottom 300ms;
+            border-bottom: 2px solid transparent;
+            &:hover {
+                border-bottom: 2px solid white;
+                opacity: 1;
+            }
+        }
+    }
+    .social {
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (max-width: $screen-xs) {
+    .footer {
+        height: 5rem;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            'javabin'
+            'social';
+        .javabin, .social {
+            justify-content: space-between;
+        }
+    }
+}

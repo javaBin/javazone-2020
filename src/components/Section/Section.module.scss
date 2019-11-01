@@ -1,0 +1,51 @@
+@import '../../variables.scss';
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.container {
+    display: grid;
+    width: 75%;
+    grid-template-areas:
+        'header content';
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 2rem;
+}
+
+@media only screen and (max-width: $screen-md) {
+    .container {
+        grid-template-columns: 100%;
+        grid-template-areas:
+            'header'
+            'content';
+        width: 100%;
+    }
+}
+
+.header {
+    color: $color-logo-red;
+    grid-area: header;
+    text-transform: uppercase;
+    @media only screen and (max-width: $screen-md) {
+        h1 {
+            margin-block-end: 0;
+        }
+    }
+}
+
+.content {
+    color: white;
+    grid-area: content;
+    font-size: 1.4rem;
+    line-height: 140%;
+    @media only screen and (max-width: $screen-md) {
+        p {
+            margin-block-start: 0;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../variables.scss';
+
+.section {
+    margin: 3rem 0;
+    width: 100%;
+    height: auto;
+    max-height: 40rem;
+    min-height: 30rem;
+    overflow: hidden;
+    position: relative;
+    @media only screen and (max-width: $screen-sm) {
+        max-height: 15rem;
+        min-height: 10rem;
+    }
+    img {
+        position: absolute;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+.center {
+    top: 0;
+    bottom: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.left {
+    left: 0;
+}

@@ -1,0 +1,12 @@
+@import '../../variables.scss';
+
+.price {
+    font-size: 4rem;
+    font-weight: bold;
+    @media only screen and (max-width: $screen-md) {
+        font-size: 3rem;
+    }
+    &.soldOut {
+        text-decoration: line-through;
+    }
+}

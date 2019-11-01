@@ -1,0 +1,49 @@
+{
+  "name": "javazone-2019",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Web page for JavaZone 2019.",
+  "homepage": "https://2019.javazone.no/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-feather": "^1.1.4",
+    "react-ga": "^2.5.7",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "universal-cookie": "^3.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/classnames": "^2.2.6",
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.5",
+    "@types/react": "^16.7.2",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-redux": "^6.0.11",
+    "@types/react-router": "^4.4.1",
+    "@types/react-router-dom": "^4.3.1",
+    "node-sass": "^4.10.0",
+    "typescript": "^3.1.6"
+  }
+}

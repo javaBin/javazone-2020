@@ -1,0 +1,121 @@
+@import '../../../variables';
+
+$border-color: lighten(green, 7%);
+
+.timeline {
+    position: relative;
+
+    &__now {
+        background: $primary-color;
+        border-radius: 100%;
+        display: block;
+        height: 8px;
+        // left: calc('50% - 4px');
+        left: 49%;
+        position: absolute;
+        width: 8px;
+        z-index: 2;
+    }
+
+    &__timeline {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__month {
+        border: 1px solid $primary-color;
+        border-bottom: 0;
+        color: green;
+        margin: 0 auto;
+        padding: 40px 7px;
+        position: relative;
+        width: 30px;
+
+        &:last-child {
+            border-bottom: 1px solid $primary-color;
+        }
+
+        &:nth-child(odd) {
+            background: $primary-color;
+            color: black;
+        }
+
+        &:nth-child(even) {
+            color: $primary-color;
+        }
+    }
+
+    &__month-name {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__month-letter {
+        width: 14px;
+    }
+
+    &__event {
+        border-bottom: 1px solid $primary-color;
+        position: absolute;
+        padding-bottom: 5px;
+        width: 130px;
+
+        &:after {
+            background: $primary-color;
+            border-radius: 100%;
+            display: block;
+            content: '';
+            height: 5px;
+            top: 8px;
+            position: relative;
+            width: 5px;
+        }
+
+        &--left {
+            left: -130px;
+            text-align: left;
+
+            &:after {
+                float: left;
+            }
+        }
+
+        &--right {
+            left: 100%;
+            text-align: right;
+
+            &:after {
+                float: right;
+            }
+        }
+
+        @media (min-width: $screen-xs) {
+            width: 200px;
+
+            &--left {
+                left: -200px;
+            }
+        }
+
+        &-title {
+            color: white;
+            font-size: .8rem;
+            font-weight: 400;
+            text-transform: uppercase;
+
+            @media (min-width: $screen-xs) {
+                font-size: 1rem;
+            }
+        }
+
+        &-date {
+            color: $primary-color;
+            font-size: .8rem;
+
+            @media (min-width: $screen-xs) {
+                font-size: 1rem;
+            }
+        }
+    }
+}

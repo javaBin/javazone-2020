@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(25, 25, 25);
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 140%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,31 @@
+@import '../../_variables';
+
+.format {
+    text-align: center;
+    padding: 0 0 1rem 0;
+    @media (min-width: $screen-xs) {
+        padding: 0 1rem;
+    }
+    &.title {
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+    &.length {
+        margin-top: 0;
+    }
+    &.description {
+        text-align: justify;
+    }
+}
+
+.formatList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    @media (min-width: $screen-md) {
+        display: flex;
+        width: 100/3%;
+    }
+}

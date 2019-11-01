@@ -1,0 +1,70 @@
+@import '../../variables.scss';
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border: 0.3rem solid $color-logo-red;
+    border-radius: 0.6rem;
+    margin: 4rem;
+}
+
+.speakers {
+  margin: 0;
+  color: $color-logo-orange;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 'img content';
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2rem;
+    margin: 1rem;
+}
+
+
+.img {
+  overflow: hidden;
+  border-radius: 50%;
+  height: 18rem;
+  width: 18rem;
+}
+
+
+.content {
+  color: white;
+  grid-area: content;
+  font-size: 1.4rem;
+  line-height: 140%;
+  text-align: initial;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons > * {
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: $screen-md) {
+    .container {
+        grid-template-columns: 100%;
+        grid-template-areas:
+                'img'
+                'content';
+    }
+    .buttons {
+        text-align: center;
+    }
+
+    .section {
+      margin: 1rem;
+    }
+
+    .img {
+      height: 15rem;
+      width: 15rem;
+    }
+}
