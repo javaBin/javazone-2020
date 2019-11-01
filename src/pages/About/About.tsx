@@ -18,7 +18,7 @@ export function AboutUsPage() {
                     Our goal is to organize a community-driven conference for developers where they can learn new things, share knowledge, and socialize.
                 </p>
                 <p>
-                    We are happy to see the event grow bigger and better every year. In 2018, we hosted over 3100 participants and 160 speakers across 7 parallel tracks over the course of two days. In addition, we also offered a selection of 9 workshops held on the day before the conference started.
+                    We are happy to see the event grow bigger and better every year. In 2019 we hosted over 3200 participants and 160 speakers across 7 parallel tracks over the course of two days. In addition, we also offered a selection of 11 workshops held on the day before the conference started.
                 </p>
             </Section>
             <Section header={<h1>Who is behind it?</h1>}>

@@ -16,21 +16,21 @@ export function PartnersPage() {
     const canPlayWebm = useCanPlayVideoType('webm');
     return (
         <>
-            <PageBanner header="Partner love <3" subHeader="September 11th - 12th, 2019" imageName="partners_2" />
+            <PageBanner header="Partner love <3" subHeader="September 9th - 10th, 2010" imageName="partners_2" />
             <Seperator />
-            <CenterSection header={<h1>JavaZone 2019: Bigger and better than ever</h1>}>
+            <CenterSection header={<h1>JavaZone 2020: Bigger and better than ever</h1>}>
                 <p>
-                    JavaZone started out in 2002 as a small conference for Java developers but has since then evolved to become one of the largest developer conferences in the world. Each year thousands of people gather in Oslo Spektrum for three full days of learning, mingling, and fun!
+                    JavaZone started out in 2001 as a small conference for Java developers but has since then evolved to become one of the largest developer conferences in the world. Each year thousands of people gather in Oslo Spektrum for three full days of learning, mingling, and fun!
                 </p>
             </CenterSection>
-            <Section header={<h1>Last three years: Completely. Sold. Out.</h1>}>
+            <Section header={<h1>Last four years: Completely. Sold. Out.</h1>}>
                 <p>
-                    Last year, a record breaking 3100 people attended JavaZone. We were completely sold out of tickets AND partner stands. The same happened last year, and a year before. So you might want to join in early if you want to be part of the conference!
+                    Last year, a record breaking 3200 people attended JavaZone. We were completely sold out of tickets AND partner stands. The same happened last year, and the year before, and the year before. So you might want to join in early if you want to be part of the conference!
                 </p>
             </Section>
-            <Section header={<h1>Out philosophy: Partners, not sponsors</h1>}>
+            <Section header={<h1>Our philosophy: Partners, not sponsors</h1>}>
                 <p>
-                    We want JavaZone‘s Expo Area to be an attractive space where our partners and participants can hang out and spend time together. In previous years, our partners have done a great job helping us achieve this goal, and we look forward to seeing what they bring to JavaZone 2019! JavaZone’s Expo Area is a vibrant, busy space full of life and activity. As a partner you are not just supporting our conference economically – you participate in the event and help creating a unique atmosphere. We work closely with our partners to help them realize their ideas and make the most out of their stands. Have you got a great concept for your JavaZone stand and need help to realize it? Don’t be shy - just ask us. Almost anything is possible!
+                    We want JavaZone‘s Expo Area to be an attractive space where our partners and participants can hang out and spend time together. In previous years, our partners have done a great job helping us achieve this goal, and we look forward to seeing what they bring to JavaZone 2020! JavaZone’s Expo Area is a vibrant, busy space full of life and activity. As a partner you are not just supporting our conference economically – you participate in the event and help creating a unique atmosphere. We work closely with our partners to help them realize their ideas and make the most out of their stands. Have you got a great concept for your JavaZone stand and need help to realize it? Don’t be shy - just ask us. Almost anything is possible!
                 </p>
             </Section>
             <ImageSection bottom imageName="2018/180912_JavaZone_0098" />
