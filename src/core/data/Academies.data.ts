@@ -160,7 +160,7 @@ export const academies: Academy[] = [
         date: '12th February',
         slots: 80,
         registrationUrl: 'https://goo.gl/forms/1He9hzOMfKuRUVTg1',
-        imageUrl: 'https://storage.googleapis.com/javazone-assets/images/academy_teknologihuset.jpg',
+        imageUrl: 'https://d3o108dy577i1m.cloudfront.net/2019/images/academy_teknologihuset.jpg',
         partners: getAcademyPartners(['Kantega', 'Netcompany', 'Sysco', 'Tripletex', 'Vipps', 'Sportradar', '2Park', 'Systek']),
         program: academyPrograms[0]
     },

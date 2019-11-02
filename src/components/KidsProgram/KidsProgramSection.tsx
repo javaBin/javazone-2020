@@ -14,7 +14,7 @@ interface KidsProgramSectionProps {
 
 export function KidsProgramSection(props: KidsProgramSectionProps) {
     const imageType = !!props.imageType? props.imageType : 'jpg';
-    const imagePath = `https://storage.googleapis.com/javazone-assets/images/${props.imageName}.${imageType}`;
+    const imagePath = `https://d3o108dy577i1m.cloudfront.net/2019/images/${props.imageName}.${imageType}`;
     return (
         <div className={styles.section}>
             <h2>{props.header}</h2>

@@ -8,7 +8,7 @@ export interface PageBannerProps {
 }
 
 export function PageBanner(props: PageBannerProps) {
-    const imagePath = `https://storage.googleapis.com/javazone-assets/images/${props.imageName}.jpg`;
+    const imagePath = `https://d3o108dy577i1m.cloudfront.net/2019/images/${props.imageName}.jpg`;
     return (
         <section className={styles.pageBanner}>
             <img src={imagePath} alt="Page banner"/>
