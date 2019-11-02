@@ -18,10 +18,10 @@ function Footer(props: FooterProps) {
     return (
         <footer className={componentClass}>
             <div className={styles.javabin}>
-                <a target="_blank" href="https://javabin.no">
+                <a target="_blank" rel="noopener noreferrer" href="https://javabin.no">
                     Made by javaBin
                 </a>
-                <a target="_blank" href="https://java.no/principles">
+                <a target="_blank" rel="noopener noreferrer" href="https://java.no/principles">
                     Code of Conduct
                 </a>
             </div>
@@ -29,10 +29,10 @@ function Footer(props: FooterProps) {
                 <a href="mailto:javazone@java.no">
                     Mail
                 </a>
-                <a target="_blank" href="https://twitter.com/javazone">
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/javazone">
                     Twitter
                 </a>
-                <a target="_blank" href="https://facebook.com/javazoneconference">
+                <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/javazoneconference">
                     Facebook
                 </a>
             </div>

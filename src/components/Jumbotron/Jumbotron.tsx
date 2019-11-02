@@ -20,7 +20,7 @@ export function Jumbotron(props: JumbotronProps) {
 
     return (
         <div className={styles.jumbotron}>
-            <Suspense fallback={<img src="splash.jpg" />}>
+            <Suspense fallback={<img src="splash.jpg" alt="loading"/>}>
                 <video preload="auto" playsInline autoPlay muted loop style={{background: "transparent no-repeat url('splash.jpg')", backgroundSize: "100%"}} className={styles.poster} id="backgroundLapse">
                     <VideoSource canPlayWebm={canPlayWebm} />
                     Your browser does not support HTML5 video.

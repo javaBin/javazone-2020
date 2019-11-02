@@ -21,7 +21,7 @@ export function ImageSection(props: ImageSectionProps) {
     )
     return (
         <div className={styles.section}>
-            <img className={classes} src={imagePath} />
+            <img className={classes} src={imagePath} alt=""/>
         </div>
     )
 }

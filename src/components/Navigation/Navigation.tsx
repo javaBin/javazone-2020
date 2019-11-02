@@ -81,7 +81,7 @@ function MenuButton(props: MenuButtonProps) {
     return (
         <>
             <button className={styles.menu} onClick={handleOpenMenu}>
-                <img src={isMenuOpen ? 'x.svg' : 'menu.svg'} />
+                <img src={isMenuOpen ? 'x.svg' : 'menu.svg'} alt="menu"/>
             </button>
             {isMenuOpen ? <div className={styles.menuContainer}>
                 {props.routes.map(route => {
@@ -109,10 +109,11 @@ const NavItem: React.StatelessComponent<NavItemProps> = (props: NavItemProps) =>
         if(navItemRef.current && elementPosition === 0) {
             setElementPosition(navItemRef.current.offsetWidth + navItemRef.current.offsetLeft);
         }
-    }, []);
+    }, [elementPosition]);
+
     useEffect(() => {
         setIsActiveRoute(props.pathname === props.route.url);
-    }, [props.pathname]);
+    }, [props.pathname, props.route.url]);
 
     const componentClass = classnames(
         styles.navigationNavItem,
