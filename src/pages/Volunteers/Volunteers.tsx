@@ -9,7 +9,9 @@ import {CenterSection} from "../../components/CenterSection/CenterSection";
 export function VolunteersPage() {
     return (
         <>
-            <PageBanner header="Bli frivillig på JavaZone" subHeader="Meld deg på i dag!" imageName="2018/180912_JavaZone_0026"/>
+            <PageBanner header="Bli frivillig på JavaZone"
+                        subHeader="Information in Norwegian for potential student voulenteers"
+                        imageName="2018/180912_JavaZone_0026"/>
             <Seperator/>
             <Section header={<h1>Hva er JavaZone?</h1>}>
                 <p>
