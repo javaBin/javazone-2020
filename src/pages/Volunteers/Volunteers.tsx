@@ -16,7 +16,7 @@ export function VolunteersPage() {
                     JavaZone er verdens største community-drevne Java-konferanse.
                 </p>
                 <p>
-                    Hvert år strømmer over 3100 utviklere til Oslo for å delta på JavaZone. I tillegg kommer nærmere 200
+                    Hvert år strømmer over 3200 utviklere til Oslo for å delta på JavaZone. I tillegg kommer nærmere 160
                     foredragsholdere fra hele verden, pluss mennesker fra over 50 ulike partnere.
                 </p>
             </Section>
@@ -24,16 +24,14 @@ export function VolunteersPage() {
                 <p>
                     Har du lyst til å bidra til at disse menneskene skal få en fantastisk opplevelse, og også få ta del
                     i dette selv?<br/>
-                    Er du student høsten 2019?
+                    Er du student høsten 2020?
                 </p>
                 <p>
                     Perfekt! Du er akkurat den vi leter etter! <br/>
-                    Søk som frivillig på JavaZone 2019, og bli med å hjelpe oss å lage tidenes beste JavaZone!
-                    <br/>
+                    Vi åpner for søknader våren 2020. Du kan sette deg på vår e-postliste for å få beskjed når vi åpner.                    <br/>
                 </p>
                 <p>
-                    <br/>
-                    <Link external url="http://bit.ly/jzf2019">Meld deg på som frivillig!</Link>
+                    <Link external url="http://eepurl.com/dt67aj">Meld deg på e-postlisten!</Link>
                 </p>
             </Section>
             <CenterSection header={<h1>Ofte Stilte Spørsmål (FAQ)</h1>}/>
@@ -84,18 +82,15 @@ export function VolunteersPage() {
             <Section header={<h1>Når må jeg møte opp som frivillig?</h1>}>
                 <p>
                     Det er oppmøte i Oslo Spektrum kl. 19:00 tirsdag
-                    10. september for opplæring, noen oppgaver, mat og omvisning i lokalene. JavaZone er
-                    ferdig kl. 18 på torsdag 12. september. Da rigger vi ned, og deretter går vi videre for
+                    8. september for opplæring, noen oppgaver, mat og omvisning i lokalene. JavaZone er
+                    ferdig kl. 18 på torsdag 10. september. Da rigger vi ned, og deretter går vi videre for
                     mat og drikke. Vi spanderer :) Detaljer blir sendt ut til de som blir tatt opp som
                     frivillige.
                 </p>
             </Section>
             <Section header={<h1>Når må jeg søke?</h1>}>
                 <p>
-                    Fristen for å søke er mandag 3. juni, og du vil få
-                    svar på søknaden etter dette. Dersom du melder deg på etter fristen er gått ut, vil du
-                    havne på venteliste og du vil da få e-post så snart frivillig-påmeldingen for neste
-                    JavaZone åpner.
+                    Vi åpner for søknader til å bli frivillig i april/mai, og søknadsfristen er rundt månedsskiftet mai/juni
                 </p>
             </Section>
             <Section header={<h1>I don’t speak Norwegian… What about me?</h1>}>
@@ -113,8 +108,7 @@ export function VolunteersPage() {
             </Section>
             <Section header={<h1>Bli med da vel!</h1>}>
                 <p>
-                    <Link external url="http://bit.ly/jzf2019">Meld deg på som frivillig!</Link>
-                    <br/>
+                    <Link external url="http://eepurl.com/dt67aj">Meld deg på e-postlisten!</Link>
                 </p>
             </Section>
         </>
