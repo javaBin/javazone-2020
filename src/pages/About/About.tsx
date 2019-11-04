@@ -31,6 +31,7 @@ export function AboutUsPage() {
                         <li><em>Leader</em> – <InlineLink url="javazone@java.no">javazone@java.no</InlineLink> – Anders Karlsen</li>
                         <li><em>Program Committee</em> – <InlineLink url="program@java.no">program@java.no</InlineLink> – Rafael Winterhalter</li>
                         <li><em>Partners</em> – <InlineLink url="partner@java.no">partner@java.no</InlineLink> – Gareth Western</li>
+                        <li><em>Volunteers</em> – <InlineLink url="javazone@java.no">javazone@java.no</InlineLink> – Livar Bergheim</li>
                     </List>
                 </p>
                 <p>

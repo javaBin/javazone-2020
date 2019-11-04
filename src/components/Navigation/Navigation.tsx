@@ -103,7 +103,6 @@ const NavItem: React.StatelessComponent<NavItemProps> = (props: NavItemProps) =>
     const navItemRef: React.MutableRefObject<HTMLDivElement | null> = useRef(null);
     const [isActiveRoute, setIsActiveRoute] = useState(false);
     const [elementPosition, setElementPosition] = useState(0);
-    const [outOfBounds, setOutOfBounds] = useState(false);
 
     useEffect(() => {
         if(navItemRef.current && elementPosition === 0) {
@@ -121,12 +120,11 @@ const NavItem: React.StatelessComponent<NavItemProps> = (props: NavItemProps) =>
     );
 
     return (
-        !outOfBounds ?
         <Link onClick={props.itemClicked} to={props.route.url}>
             <div ref={navItemRef} className={componentClass}>
                 {props.route.title}
             </div>
-        </Link> : null
+        </Link>
     )
 }
 
