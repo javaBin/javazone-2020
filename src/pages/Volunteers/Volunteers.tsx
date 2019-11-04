@@ -90,7 +90,7 @@ export function VolunteersPage() {
             </Section>
             <Section header={<h1>Når må jeg søke?</h1>}>
                 <p>
-                    Vi åpner for søknader til å bli frivillig i april/mai, og søknadsfristen er rundt månedsskiftet mai/juni
+                    Vi åpner for søknader til å bli frivillig i april/mai, og søknadsfristen er rundt månedsskiftet mai/juni.
                 </p>
             </Section>
             <Section header={<h1>I don’t speak Norwegian… What about me?</h1>}>
