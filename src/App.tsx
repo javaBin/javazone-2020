@@ -12,6 +12,7 @@ import { CookieInfoPage } from './pages/CookieInfo/CookieInfo';
 import { CookieDisclaimer } from './components/CookieDisclaimer/CookieDisclaimer';
 import { InlineLink } from './components/InlineLink/InlineLink';
 import { NotFoundPage } from './pages/NotFound/NotFound';
+import {VolunteersPage} from "./pages/Volunteers/Volunteers";
 
 const routes: NavRoute[] = [
   {title: 'Info', url: '/info', show: true},
@@ -21,6 +22,7 @@ const routes: NavRoute[] = [
   {title: 'Academy', url: '/academy', show: false},
   {title: 'Kids', url: '/kids', show: false},
   {title: 'About', url: '/about', show: true},
+  {title: 'Volunteers', url: '/volunteers', show: false},
   {title: 'Cookies', url: '/privacy-cookies', show: false},
   {title: 'Tips for Speakers', url: '/speakers/tips', show: false},
   {title: 'Monetary Policy', url: '/speakers/monetary-policy', show: false},
@@ -49,6 +51,7 @@ function App() {
           <Route exact path="/tickets" component={TicketsPage} />
           <Route exact path="/partners" component={PartnersPage} />
           <Route exact path="/about" component={AboutUsPage} />
+          <Route exact path="/volunteers" component={VolunteersPage} />
           <Route exact path="/privacy-cookies" component={CookieInfoPage} />
           <Route component={NotFoundPage} />
         </Switch>
