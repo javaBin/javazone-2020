@@ -22,7 +22,7 @@ const routes: NavRoute[] = [
   {title: 'Academy', url: '/academy', show: false},
   {title: 'Kids', url: '/kids', show: false},
   {title: 'About', url: '/about', show: true},
-  {title: 'Volunteers', url: '/volunteers', show: false},
+  {title: 'Frivillige', url: '/volunteers', show: true},
   {title: 'Cookies', url: '/privacy-cookies', show: false},
   {title: 'Tips for Speakers', url: '/speakers/tips', show: false},
   {title: 'Monetary Policy', url: '/speakers/monetary-policy', show: false},
