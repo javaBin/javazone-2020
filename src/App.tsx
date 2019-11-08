@@ -13,6 +13,7 @@ import { CookieDisclaimer } from './components/CookieDisclaimer/CookieDisclaimer
 import { InlineLink } from './components/InlineLink/InlineLink';
 import { NotFoundPage } from './pages/NotFound/NotFound';
 import {VolunteersPage} from "./pages/Volunteers/Volunteers";
+import {SpeakersPage} from "./pages/Speakers/Speakers";
 
 const routes: NavRoute[] = [
   {title: 'Info', url: '/info', show: true},
@@ -49,6 +50,7 @@ function App() {
           <Route exact path="/" component={FrontPage} />
           <Route exact path="/info" component={InfoPage} />
           <Route exact path="/tickets" component={TicketsPage} />
+          <Route exact path="/speakers" component={SpeakersPage} />
           <Route exact path="/partners" component={PartnersPage} />
           <Route exact path="/about" component={AboutUsPage} />
           <Route exact path="/volunteers" component={VolunteersPage} />
