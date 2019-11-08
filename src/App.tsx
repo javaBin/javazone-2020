@@ -14,6 +14,8 @@ import { InlineLink } from './components/InlineLink/InlineLink';
 import { NotFoundPage } from './pages/NotFound/NotFound';
 import {VolunteersPage} from "./pages/Volunteers/Volunteers";
 import {SpeakersPage} from "./pages/Speakers/Speakers";
+import {MonetaryPolicyPage} from "./pages/Speakers/MonetaryPolicy";
+import {SpeakerTipsPage} from "./pages/Speakers/Tips";
 
 const routes: NavRoute[] = [
   {title: 'Info', url: '/info', show: true},
@@ -51,6 +53,8 @@ function App() {
           <Route exact path="/info" component={InfoPage} />
           <Route exact path="/tickets" component={TicketsPage} />
           <Route exact path="/speakers" component={SpeakersPage} />
+          <Route exact path="/speakers/tips" component={SpeakerTipsPage} />
+          <Route exact path="/speakers/monetary-policy" component={MonetaryPolicyPage} />
           <Route exact path="/partners" component={PartnersPage} />
           <Route exact path="/about" component={AboutUsPage} />
           <Route exact path="/volunteers" component={VolunteersPage} />

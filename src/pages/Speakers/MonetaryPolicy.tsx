@@ -14,7 +14,7 @@ export function MonetaryPolicyPage() {
                     If your presentation or a workshop is accepted, you may apply for a refund for travel and accommodation. Read below to find out if you are eligible.
                 </p>
                 <p>
-                    Applications for speaker reimbursements <strong><em>must</em></strong> be submitted before the August 1st, 2019.
+                    Applications for speaker reimbursements <strong><em>must</em></strong> be submitted before the August 1st, 2020.
                 </p>
             </Section>
             <Section header={<h1>How to Apply</h1>}>

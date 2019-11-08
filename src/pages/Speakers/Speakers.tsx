@@ -80,13 +80,13 @@ export function SpeakersPage() {
                 <p>
                     Each year we receive hundreds of submissions and we consider each submission as it arrives. Due to a large number of submissions, we can however not guarantee that you will hear from us immediately. We do however answer all submissions and try to do so no later than in July.
                 </p>
-                {/*<p>
+                <p>
                     Our advice to you is simple. <strong>Submit early!</strong> The earlier you submit, the more likely you are to be noticed. Avoid drowning in the end-of-Call for Speakers-tsunami!
-                </p>*/}
+                </p>
                 <br />
-                {/*<Link url='/speakers/tips'>
+                <Link url='/speakers/tips'>
                     Some tips and tricks about your submission
-                </Link>*/}
+                </Link>
             </Section>
             {/*<CenterSection header={<h1>Dates & Deadlines for JavaZone 2019</h1>}>
                 <Timeline />
