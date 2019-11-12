@@ -1,0 +1,2 @@
+(this["webpackJsonpjavazone-2019"]=this["webpackJsonpjavazone-2019"]||[]).push([[3],{52:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return a}));var o=n(0),s=n.n(o);function a(e){return e.canPlayWebm?s.a.createElement("source",{src:"https://d3o108dy577i1m.cloudfront.net/2019/videos/timelapse.webm",type:"video/webm"}):s.a.createElement("source",{src:"https://d3o108dy577i1m.cloudfront.net/2019/videos/timelapse.mp4",type:"video/mp4"})}}}]);
+//# sourceMappingURL=3.e1d5880d.chunk.js.map
