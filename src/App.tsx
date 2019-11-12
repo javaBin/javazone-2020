@@ -20,7 +20,7 @@ import {SpeakerTipsPage} from "./pages/Speakers/Tips";
 const routes: NavRoute[] = [
   {title: 'Info', url: '/info', show: true},
   {title: 'Tickets', url: '/tickets', show: true},
-  {title: 'Speakers', url: '/speakers', show: false},
+  {title: 'Speakers', url: '/speakers', show: true},
   {title: 'Partners', url: '/partners', show: true},
   {title: 'Academy', url: '/academy', show: false},
   {title: 'Kids', url: '/kids', show: false},
