@@ -5,7 +5,7 @@ This is the repository for https://2020.javazone.no.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Run
-```
+```sh
 $ npm install
 $ npm start
 ```
