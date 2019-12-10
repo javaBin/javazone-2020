@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import styles from './PartnerPrices.module.scss';
 import classnames from 'classnames';
 
