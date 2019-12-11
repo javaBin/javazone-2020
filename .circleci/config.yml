@@ -38,7 +38,9 @@ jobs:
 
       - run: npm test
       - run: npm run build
-
+      - run: |
+          git config user.email "ci@java.no"
+          git config user.name "CI Deployment"
       - run: npm run deploy
 
 
