@@ -65,7 +65,7 @@ export function PartnersV2Page() {
                     <li>Branding on <InlineLink external url="https://www.javazone.no">javazone.no</InlineLink>, at the venue, the program and in other promotional material that JavaZone produces.</li>
                 </List>
                 <h2>Possible expansions</h2>
-                <h4>Double Stand Space</h4>
+                <h4>Extended Stand Space</h4>
                 <List>
                     <li>Double the stand area to 12 square meters.</li>
                     <li>One long back wall. It is also possible to divide the area in two if you would prefer.</li>
@@ -82,10 +82,17 @@ export function PartnersV2Page() {
                     <li>Approx. 70 square meters (10 x 7).</li>
                     <li>4-meter high back wall.</li>
                 </List>
+                <h4>Lounge Stand</h4>
+                <List>
+                    <li>A space similar overall area to the single stand package, but located in one of two areas outside the main hall.</li>
+                    <li>Option 1: the west wing lounge, located just to the side of the main hall.</li>
+                    <li>Option 2: in the outer ring of the Spektrum arena, located on the route between the presentation rooms and the main hall.</li>
+                    <li>Optional backing wall to the area, or some freedom to design your own use of the space.</li>
+                </List>
             </Section>
             <Seperator />
             <CenterSection header={<h1>Partnership prices</h1>}>
-                <TicketPrice>71.000</TicketPrice>
+                <TicketPrice>73.000</TicketPrice>
 
                 <p>
                     <i>Note that all 50+ partnerships for JavaZone 2018 were sold out long before the conference.</i>
@@ -95,24 +102,24 @@ export function PartnersV2Page() {
                     We also have some add-ons, as well as tickets for your employees, priced below.
                 </p>
                 <p>
-                    <i style={{fontSize: '1.2rem'}}>After March 1st, the price will increase to NOK 86.000,-.</i><br />
+                    <i style={{fontSize: '1.2rem'}}>After March 1st, the price will increase to NOK 88.000,-.</i><br />
                     <i style={{fontSize: '1rem'}}>All prices are ex VAT.</i>
                 </p>
             </CenterSection>
             <Section header={<h1>Partnership stand</h1>}>
                 <PartnerPriceList>
-                    <PartnerPrice item="Extra Stand Space">38.000</PartnerPrice>
-                    <PartnerPrice item="Restaurant Stand">65.000</PartnerPrice>
+                    <PartnerPrice item="Extra Stand Space">40.000</PartnerPrice>
+                    <PartnerPrice item="Restaurant Stand">67.000</PartnerPrice>
                     <PartnerPrice item="Restaurant Stand (Evening)">20.000</PartnerPrice>
-                    <PartnerPrice item="Concept Stand">60.000</PartnerPrice>
+                    <PartnerPrice item="Concept Stand">62.000</PartnerPrice>
                 </PartnerPriceList>
             </Section>
             <Section header={<h1>Partnership ticket</h1>}>
                 <PartnerPriceList>
-                    <PartnerPrice item="Tickets for employees (0 - 30)">5.890!</PartnerPrice>
-                    <PartnerPrice item="Tickets for employees (31 - 50)">5.690</PartnerPrice>
-                    <PartnerPrice item="Tickets for employees (51 - ∞)">5.490</PartnerPrice>
-                    <PartnerPrice item="Tickets for employees (Partner Late-Bird - After June 30th, 2019)">6.490</PartnerPrice>
+                    <PartnerPrice item="Tickets for employees (0 - 30)">6.190</PartnerPrice>
+                    <PartnerPrice item="Tickets for employees (31 - 50)">5.990</PartnerPrice>
+                    <PartnerPrice item="Tickets for employees (51 - ∞)">5.790</PartnerPrice>
+                    <PartnerPrice item="Tickets for employees (Partner Late-Bird - After June 30th, 2019)">6.790</PartnerPrice>
                 </PartnerPriceList>
             </Section>
             <ImageSection imageName="2018/180912_JavaZone_0158" />
