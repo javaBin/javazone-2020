@@ -110,7 +110,6 @@ export function PartnersV2Page() {
                 <PartnerPriceList>
                     <PartnerPrice item="Extra Stand Space">40.000</PartnerPrice>
                     <PartnerPrice item="Restaurant Stand">67.000</PartnerPrice>
-                    <PartnerPrice item="Restaurant Stand (Evening)">20.000</PartnerPrice>
                     <PartnerPrice item="Concept Stand">62.000</PartnerPrice>
                 </PartnerPriceList>
             </Section>
