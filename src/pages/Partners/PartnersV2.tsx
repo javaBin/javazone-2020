@@ -15,7 +15,7 @@ export function PartnersV2Page() {
     const canPlayWebm = useCanPlayVideoType('webm');
     return (
         <>
-            <PageBanner header="Partner love <3" subHeader="September 9th - 10th, 2010" imageName="partners_2" />
+            <PageBanner header="Partner love <3" subHeader="September 9th - 10th, 2020" imageName="partners_2" />
             <Seperator />
             <CenterSection header={<h1>JavaZone 2020: Bigger and better than ever</h1>}>
                 <p>
@@ -84,7 +84,7 @@ export function PartnersV2Page() {
                 </List>
                 <h4>Lounge Stand</h4>
                 <List>
-                    <li>A space similar overall area to the single stand package, but located in one of two areas outside the main hall.</li>
+                    <li>A package at the same prize as the "Standard package". The space given is bigger, but located in one of two areas outside the main hall.</li>
                     <li>Option 1: the west wing lounge, located just to the side of the main hall.</li>
                     <li>Option 2: in the outer ring of the Spektrum arena, located on the route between the presentation rooms and the main hall.</li>
                     <li>Optional backing wall to the area, or some freedom to design your own use of the space.</li>
@@ -103,7 +103,7 @@ export function PartnersV2Page() {
                 </p>
                 <p>
                     <i style={{fontSize: '1.2rem'}}>After March 1st, the price will increase to NOK 88.000,-.</i><br />
-                    <i style={{fontSize: '1rem'}}>All prices are ex VAT.</i>
+                    <i style={{fontSize: '1rem'}}>All prices are ex VAT. and ticket fee</i>
                 </p>
             </CenterSection>
             <Section header={<h1>Partnership stand</h1>}>
