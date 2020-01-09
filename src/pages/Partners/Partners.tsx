@@ -103,7 +103,7 @@ export function PartnersPage() {
                 </p>
                 <p>
                     <i style={{fontSize: '1.2rem'}}>After March 1st, the price will increase to NOK 88.000,-.</i><br />
-                    <i style={{fontSize: '1rem'}}>All prices are ex VAT. and ticket fee</i>
+                    <i style={{fontSize: '1rem'}}>All prices are ex VAT and ticket fee (NOK 120 per ticket)</i>
                 </p>
             </CenterSection>
             <Section header={<h1>Partnership stand</h1>}>
@@ -115,10 +115,10 @@ export function PartnersPage() {
             </Section>
             <Section header={<h1>Partnership ticket</h1>}>
                 <PartnerPriceList>
-                    <PartnerPrice item="Tickets for employees (0 - 30)">6.190</PartnerPrice>
+                    <PartnerPrice item="Tickets for employees (1 - 30)">6.190</PartnerPrice>
                     <PartnerPrice item="Tickets for employees (31 - 50)">5.990</PartnerPrice>
                     <PartnerPrice item="Tickets for employees (51 - ∞)">5.790</PartnerPrice>
-                    <PartnerPrice item="Tickets for employees (Partner Late-Bird - After June 30th, 2019)">6.790</PartnerPrice>
+                    <PartnerPrice item="Tickets for employees (Partner Late-Bird - After June 30th, 2020)">6.790</PartnerPrice>
                 </PartnerPriceList>
             </Section>
             <ImageSection imageName="2018/180912_JavaZone_0158" />
