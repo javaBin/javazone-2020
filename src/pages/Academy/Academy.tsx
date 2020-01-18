@@ -4,7 +4,6 @@ import { Seperator } from '../../components/Seperator/Seperator';
 import { CenterSection } from '../../components/CenterSection/CenterSection';
 import { AcademyLocationSection } from '../../components/AcademyLocation/AcademyLocationSection';
 import { Section } from '../../components/Section/Section';
-import { AcademyProgram } from '../../components/AcademyProgram/AcademyProgram';
 import { academies } from '../../core/data';
 
 export function AcademyPage() {
