@@ -33,9 +33,9 @@ function PartnerImage(props: {name: string, url: string}) {
 }
 
 export function AcademyProgram(props: AcademyProgramProps) {
-    const [selectedCity, setSelectedCity] = useState({name: '', key: -1} as ActiveButton)
-    const [selectedProgram, setSelectedProgram] = useState({} as Program);
-    const [selectedPartners, setSelectedPartners] = useState([] as Partner[]);
+    const [selectedCity, setSelectedCity] = useState({name: props.program[0].city, key: 0} as ActiveButton)
+    const [selectedProgram, setSelectedProgram] = useState(props.program[0]);
+    const [selectedPartners, setSelectedPartners] = useState(props.partners[0]);
     function activeButton(button: ActiveButton) {
         setSelectedCity(button);
         setSelectedProgram(props.program[button.key]);

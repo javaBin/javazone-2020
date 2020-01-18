@@ -35,10 +35,6 @@ export function AcademyPage() {
                 </p> 
             </Section>
             <AcademyLocationSection academies={academies} />
-            <Seperator />
-            <CenterSection header={<h1>Program, speakers and partners</h1>}>
-                <AcademyProgram program={academies.map(academy => academy.program)} partners={academies.map(city => city.partners)} />
-            </CenterSection>
         </>
     )
 }

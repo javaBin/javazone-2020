@@ -16,6 +16,7 @@ import {VolunteersPage} from "./pages/Volunteers/Volunteers";
 import {SpeakersPage} from "./pages/Speakers/Speakers";
 import {MonetaryPolicyPage} from "./pages/Speakers/MonetaryPolicy";
 import {SpeakerTipsPage} from "./pages/Speakers/Tips";
+import {AcademyPage} from "./pages/Academy/Academy";
 
 const routes: NavRoute[] = [
   {title: 'Info', url: '/info', show: true},
@@ -58,6 +59,7 @@ function App() {
           <Route exact path="/partners" component={PartnersPage} />
           <Route exact path="/about" component={AboutUsPage} />
           <Route exact path="/volunteers" component={VolunteersPage} />
+          <Route exact path="/academy" component={AcademyPage} />
           <Route exact path="/privacy-cookies" component={CookieInfoPage} />
           <Route component={NotFoundPage} />
         </Switch>

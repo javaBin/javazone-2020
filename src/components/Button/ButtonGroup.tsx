@@ -12,7 +12,7 @@ interface ButtonGroupProps {
 }
 
 export function ButtonGroup(props: ButtonGroupProps) {
-    const [activeButton, setActiveButton] = useState({name: '', key: -1});
+    const [activeButton, setActiveButton] = useState({name: props.children[0], key: 0});
     function handleClick(child: ReactElement<any>, key: number) {
         const activeButton = {name: child.props.children, key};
         setActiveButton(activeButton);
