@@ -11,6 +11,7 @@ import classnames from 'classnames';
 import styles from './Speakers.module.scss';
 import { PresentationFormat } from '../../core/models/PresentationFormat.model';
 import { lightning, presentation, workshop } from '../../core/data/PresentationFormats.data';
+import Timeline from "./Timeline/Timeline";
 
 
 export function SpeakersPage() {
@@ -29,7 +30,7 @@ export function SpeakersPage() {
                     JavaZone hosts both international and Norwegian speakers. We'd love to have you join us in 2020!
                 </p>
                 <p>
-                    Our call for speakers opens <b style={{textDecoration: "underline"}}>February 3rd</b>.
+                    Our call for speakers opens <b style={{textDecoration: "underline"}}>February 2nd</b>.
                 </p>
                 {/*<Link external url="https://talks.javazone.no">Submit your talk!</Link>*/}
             </Section>
@@ -61,12 +62,12 @@ export function SpeakersPage() {
                     <Format {...workshop} />
                 </ul>
             </CenterSection>
-            {/*<Section header={<h1>Get Some Inspiration</h1>}>
+            <Section header={<h1>Get Some Inspiration</h1>}>
                 <h3>Workshop for Potential Speakers</h3>
                 <p>
-                    On March 12th, we will be <InlineLink external url='https://www.meetup.com/javaBin/events/258787075'>hosting a workshop</InlineLink> for all those considering submitting a talk to JavaZone. More information and the registation link will be posted here later.
+                    On March 17th, we will be <InlineLink external url='https://www.meetup.com/javaBin/events/268254999/'>hosting a workshop</InlineLink> for all those considering submitting a talk to JavaZone.
                 </p>
-            </Section>*/}
+            </Section>
             <Section header={<h1>Audience and Topics</h1>}>
                 <p>
                     JavaZone is a conference for developers and technical architects, with an emphasis on technical talks. However, we are open to talks about other areas, including methodology, project management, and other topics related to programming.
@@ -87,9 +88,9 @@ export function SpeakersPage() {
                     Some tips and tricks about your submission
                 </Link>
             </Section>
-            {/*<CenterSection header={<h1>Dates & Deadlines for JavaZone 2019</h1>}>
+            <CenterSection header={<h1>Dates & Deadlines for JavaZone 2019</h1>}>
                 <Timeline />
-            </CenterSection>*/}
+            </CenterSection>
             <Section header={<h1>What’s in it for me?</h1>}>
                 <h3>Accepted presentations, lightning talks, and workshops</h3>
                 <p>
