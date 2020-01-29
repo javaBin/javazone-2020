@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+<div id="root">
+    <div id="checkin_registration"></div>
+</div>
+</body>
+<script src="css-element-queries/ResizeSensor.js"></script>
+<script src="css-element-queries/ElementQueries.js"></script>
+<script>
+    (function(w, d) {
+        var id = window.location.hash.split('#')[1];
+        d.event_id = id;
+        var headTag = d.getElementsByTagName('head')[0];
+        var script = d.createElement('script');
+        script.src = 'https://registration.checkin.no/registration.loader.js';
+        script.async = 1;
+        script.crossOrigin = 1;
+        headTag.appendChild(script);
+    })(window, document);
+
+</script>
+<script>
+
+    let height;
+    const sendPostMessage = () => {
+        if (height !== document.getElementById('root').offsetHeight) {
+            height = document.getElementById('root').offsetHeight;
+            window.parent.postMessage({
+                frameHeight: height
+            }, '*');
+            console.log(height);
+        }
+    };
+
+    var element = document.getElementById('root');
+    new ResizeSensor(element, function() {
+        sendPostMessage()
+    });
+</script>
+</html>

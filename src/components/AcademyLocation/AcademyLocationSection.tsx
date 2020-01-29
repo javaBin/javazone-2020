@@ -36,7 +36,7 @@ function AcademyLocation(academy: Academy) {
                 <h1>{academy.date}</h1>
                 <a target="_blank" rel="noopener noreferrer" className={styles.location} href={academy.locationUrl}>{academy.location}</a>
                 <span className={styles.slots}>{academy.slots} students</span>
-                <Link external url={academy.registrationUrl}>Registration</Link>
+                <Link url="academy/registration">Registration</Link>
             </div>
         </div>
     )
