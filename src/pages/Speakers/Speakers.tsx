@@ -32,7 +32,7 @@ export function SpeakersPage() {
                 <p>
                     Our call for speakers opens <b style={{textDecoration: "underline"}}>February 2nd</b>.
                 </p>
-                {/*<Link external url="https://talks.javazone.no">Submit your talk!</Link>*/}
+                <Link external url="https://talks.javazone.no">Submit your talk!</Link>
             </Section>
             <ImageSection bottom imageName="2018/180912_JavaZone_0039" />
             <Seperator />

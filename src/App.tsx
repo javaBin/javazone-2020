@@ -24,7 +24,7 @@ const routes: NavRoute[] = [
   {title: 'Tickets', url: '/tickets', show: true},
   {title: 'Speakers', url: '/speakers', show: true},
   {title: 'Partners', url: '/partners', show: true},
-  {title: 'Academy', url: '/academy', show: false},
+  {title: 'Academy', url: '/academy', show: true},
   {title: 'Academy', url: '/academy/registration', show: false},
   {title: 'Kids', url: '/kids', show: false},
   {title: 'Frivillige', url: '/volunteers', show: true},
