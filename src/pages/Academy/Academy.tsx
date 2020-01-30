@@ -20,7 +20,7 @@ export function AcademyPage() {
                     you to take part in the JavaZone experience.
                 </p>
                 <p>
-                    We will bring great talks, free food, mingling, and great partners to <strong>Oslo</strong>, <strong>Bergen</strong>, and <strong>Tromsø</strong>. 
+                    We will bring great talks, free food, mingling, and great partners to <strong>Oslo</strong>, <strong>Throndheim</strong>, and <strong>Tromsø</strong>.
                     <br />
                     Join us for a great evening!
                 </p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
 import styles from './AcademyLocationSection.module.scss';
-import { Academy } from '../../core/models/Academy.model';
+import { Academy } from '../../core/models';
 import Link from '../Link/Link';
 
 interface AcademyLocationSectionProps {
@@ -23,7 +23,7 @@ export function AcademyLocationSection(props: AcademyLocationSectionProps) {
 function AcademyLocation(academy: Academy) {
     const classes = classnames(
         {[styles.oslo]: academy.name === 'Oslo'},
-        {[styles.bergen]: academy.name === 'Bergen'},
+        {[styles.trondheim]: academy.name === 'Trondheim'},
         {[styles.tromso]: academy.name === 'Tromsø'},
     )
     return (
@@ -36,7 +36,7 @@ function AcademyLocation(academy: Academy) {
                 <h1>{academy.date}</h1>
                 <a target="_blank" rel="noopener noreferrer" className={styles.location} href={academy.locationUrl}>{academy.location}</a>
                 <span className={styles.slots}>{academy.slots} students</span>
-                <Link url="academy/registration">Registration</Link>
+                <Link url={`/academy/registration?city=${academy.name.toLowerCase()}`}>Registration</Link>
             </div>
         </div>
     )
