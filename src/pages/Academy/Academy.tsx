@@ -25,12 +25,12 @@ export function AcademyPage() {
                     Join us for a great evening!
                 </p>
                 <p>
-                    A detailed program and more information will be soon posted here. Watch this space!
+                    A detailed program and more information will soon be posted here. Watch this space!
                 </p>
             </CenterSection>
             <Section header={<h1>How do I register?</h1>}>
                 <p>
-                   Fill in the form by clicking the "Registration" link below for your preferred town. We’ll contact you as soon as possible with information about whether you got a spot. The events are usually quite popular, so make sure to register as soon as possible.
+                   Click the "Registration" link below for your preferred town, and fill in your details in the registration form. You'll get a confirmation email with your ticket which you must bring to the event. The events are usually quite popular, so make sure to register as soon as possible.
                 </p> 
             </Section>
             <AcademyLocationSection academies={academies} />
