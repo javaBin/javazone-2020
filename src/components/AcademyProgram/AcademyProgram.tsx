@@ -44,9 +44,9 @@ export function AcademyProgram(props: AcademyProgramProps) {
     return (
         <div>
             <ButtonGroup activeButton={(button: ActiveButton) => activeButton(button)}>
+                <button>Tromø</button>
+                <button>Trondheim</button>
                 <button>Oslo</button>
-                <button>Bergen</button>
-                <button>Tromsø</button>
             </ButtonGroup>
             {!!selectedCity.name
                 ? <div className={styles.container}>

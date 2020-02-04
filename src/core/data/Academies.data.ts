@@ -4,6 +4,114 @@ import { AcademyProgram } from '../models/AcademyProgram.model';
 
 export const academyPrograms: AcademyProgram[] = [
     {
+        city: 'tromsø',
+        schedule: [
+            {
+                time: '11:30',
+                title: 'Doors open'
+            },
+            {
+                time: '12:00 - 12:30',
+                title: 'Introduction'
+            },
+            {
+                time: '12:30 - 13:20',
+                title: 'Kodeknekking for spioner',
+                speakers: 'Henrik Walker Moe'
+            },
+            {
+                time: '13:20 - 13:40',
+                title: 'Break'
+            },
+            {
+                time: '13:40 - 14:30',
+                title: 'Hvordan kan teknologi hjelpe politiet med å forebygge kriminalitet?',
+                speakers: 'Tore Aasgaard'
+            },
+            {
+                time: '14:30 - 15:20', // TODO: fix time
+                title: 'Bli kjent med javaBin Tromsø',
+                speakers: 'Sverre Moe'
+            },
+            {
+                time: '15:20 - 15:40',
+                title: 'Break'
+            },
+            {
+                time: '15:40 - 16:30',
+                title: 'Hvordan kan du bruke maskinlæring til å finne din neste bolig!',
+                speakers: 'Aleksander Bai, Tom Bang'
+            },
+            {
+                time: '16:30 - 17:00',
+                title: 'Break'
+            },
+            {
+                time: '17:00 - 18:00',
+                title: 'Highscores - A Brief History of Computer Music',
+                speakers: 'Anders Norås'
+            },
+            {
+                time: '18:00 - 19:00',
+                title: 'javaBin Tromsø meetup: Java and Haskell - Similarities and Differences',
+                speakers: 'Dervis Mansuroglu'
+            },
+            {
+                time: '19:00 - ∞',
+                title: 'Party'
+            }
+        ]
+    },
+    {
+        city: 'trondheim',
+        schedule: [
+            {
+                time: '11:30',
+                title: 'Doors open'
+            },
+            {
+                time: '12:00 - 12:30',
+                title: 'Introduction'
+            },
+            {
+                time: '12:30 - 13:30',
+                title: 'Hvordan kan du bruke maskinlæring til å finne din neste bolig!',
+                speakers: 'Aleksander Bai & Tom Bang'
+            },
+            {
+                time: '13:30 - 14:00',
+                title: 'Break'
+            },
+            {
+                time: '14:00 - 15:00',
+                title: 'Kodeknekking for spioner',
+                speakers: 'Henrik Walker Moe'
+            },
+            {
+                time: '15:00 - 15:30',
+                title: 'Break'
+            },
+            {
+                time: '15:30 - 16:30',
+                title: 'Highscores - A Brief History of Computer Music',
+                speakers: 'Anders Norås'
+            },
+            {
+                time: '16:30 - 17:00',
+                title: 'Break'
+            },
+            {
+                time: '17:00 - 18:00',
+                title: 'Hvordan kan teknologi hjelpe politiet med å forebygge kriminalitet?',
+                speakers: 'Tore Aasgaard'
+            },
+            {
+                time: '18:00 - ∞',
+                title: 'Party'
+            }
+        ]
+    },
+    {
         city: 'oslo',
         schedule: [
             {
@@ -16,8 +124,8 @@ export const academyPrograms: AcademyProgram[] = [
             },
             {
                 time: '12:30 - 13:30',
-                title: 'A Brief History of Computer Art.',
-                speakers: 'Anders Norås'
+                title: 'Hvordan kan teknologi hjelpe politiet med å forebygge kriminalitet?',
+                speakers: 'Tore Aasgaard'
             },
             {
                 time: '13:30 - 14:00',
@@ -25,8 +133,8 @@ export const academyPrograms: AcademyProgram[] = [
             },
             {
                 time: '14:00 - 15:00',
-                title: 'Hallo, hører du meg? Slutten på kleine videosamtaler takket være kode',
-                speakers: 'Ingvild Indrebø'
+                title: 'Hvordan kan du bruke maskinlæring til å finne din neste bolig!',
+                speakers: 'Aleksander Bai & Tom Bang'
             },
             {
                 time: '15:00 - 15:30',
@@ -34,8 +142,8 @@ export const academyPrograms: AcademyProgram[] = [
             },
             {
                 time: '15:30 - 16:30',
-                title: 'It\'s about time',
-                speakers: 'Christin Gorman'
+                title: 'Kodeknekking for spioner',
+                speakers: 'Henrik Walker Moe'
             },
             {
                 time: '16:30 - 17:00',
@@ -43,106 +151,8 @@ export const academyPrograms: AcademyProgram[] = [
             },
             {
                 time: '17:00 - 18:00',
-                title: 'Feltrapport fra en systemarkeolog',
-                speakers: 'Hilde Nøkland'
-            },
-            {
-                time: '18:00 - ∞',
-                title: 'Party'
-            }
-        ]
-    },
-    {
-        city: 'bergen',
-        schedule: [
-            {
-                time: '11:30',
-                title: 'Doors open'
-            },
-            {
-                time: '12:00 - 12:30',
-                title: 'Introduction'
-            },
-            {
-                time: '12:30 - 13:30',
-                title: 'Skikkelig garasje-IT: Hvordan lage system som kjører på P-hus',
-                speakers: 'Stian Mathiassen'
-            },
-            {
-                time: '13:30 - 14:00',
-                title: 'Break'
-            },
-            {
-                time: '14:00 - 15:00',
-                title: 'A Brief History of Computer Art.',
+                title: 'Henrik Walker Moe',
                 speakers: 'Anders Norås'
-            },
-            {
-                time: '15:00 - 15:30',
-                title: 'Break'
-            },
-            {
-                time: '15:30 - 16:30',
-                title: 'Feltrapport fra en systemarkeolog',
-                speakers: 'Hilde Nøkland'
-            },
-            {
-                time: '16:30 - 17:00',
-                title: 'Break'
-            },
-            {
-                time: '17:00 - 18:00',
-                title: 'Open Source all the offentlig things! - men hvordan gjør vi det i NAV?',
-                speakers: 'Audun Fauchald Strand, Truls Jørgensen'
-            },
-            {
-                time: '18:00 - ∞',
-                title: 'Party'
-            }
-        ]
-    },
-    {
-        city: 'tromsø',
-        schedule: [
-            {
-                time: '11:30',
-                title: 'Doors open'
-            },
-            {
-                time: '12:00 - 12:30',
-                title: 'Introduction'
-            },
-            {
-                time: '12:30 - 13:30',
-                title: 'Open Source all the offentlig things! - men hvordan gjør vi det i NAV?',
-                speakers: 'Audun Fauchald Strand, Truls Jørgensen'
-            },
-            {
-                time: '13:30 - 14:00',
-                title: 'Break'
-            },
-            {
-                time: '14:00 - 15:00',
-                title: 'Hallo, hører du meg? Slutten på kleine videosamtaler takket være kode',
-                speakers: 'Ingvild Indrebø'
-            },
-            {
-                time: '15:00 - 15:30',
-                title: 'Break'
-            },
-            {
-                time: '15:30 - 16:30',
-                title: 'A Brief History of Computer Art.',
-                speakers: 'Anders Norås'
-            },
-            {
-                time: '16:30 - 17:00',
-                title: 'Break'
-            },
-            {
-                time: '17:00 - 18:00',
-                title: 'Skikkelig garasje-IT: Hvordan lage system som kjører på P-hus',
-                speakers: 'Stian Mathiassen'
             },
             {
                 time: '18:00 - ∞',
@@ -161,18 +171,18 @@ export const academies: Academy[] = [
         slots: 80,
         registrationUrl: 'https://goo.gl/forms/NJi8tlRqGGb0Z6WD3',
         imageUrl: 'http://res.cloudinary.com/simpleview/image/upload/v1451482793/clients/norway/northern-lights-tromso-norway_2-1_a8b03e36-f1cd-46be-939e-ebf6d70c41e2.jpg',
-        partners: getAcademyPartners(['Sysco', 'Finn']),
-        program: academyPrograms[2]
+        partners: getAcademyPartners([]),
+        program: academyPrograms[0]
     },
     {
-        name: 'Throndheim',
+        name: 'Trondheim',
         location: 'Digs',
         locationUrl: 'https://digs.no/',
         date: '26th February',
         slots: 80,
         registrationUrl: 'https://goo.gl/forms/2PyxrN4sbEOE0jls1',
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Trondheim%2C_Norwegen%2C_Speicherh%C3%A4user_2005.jpg/1920px-Trondheim%2C_Norwegen%2C_Speicherh%C3%A4user_2005.jpg',
-        partners: getAcademyPartners(['Kantega', 'Ambita', 'Miles']),
+        partners: getAcademyPartners([]),
         program: academyPrograms[1]
     },
     {
@@ -183,7 +193,7 @@ export const academies: Academy[] = [
         slots: 80,
         registrationUrl: 'https://goo.gl/forms/1He9hzOMfKuRUVTg1',
         imageUrl: 'https://d3o108dy577i1m.cloudfront.net/2019/images/academy_teknologihuset.jpg',
-        partners: getAcademyPartners(['Kantega', 'Netcompany', 'Sysco', 'Tripletex', 'Vipps', 'Sportradar', '2Park', 'Systek']),
-        program: academyPrograms[0]
+        partners: getAcademyPartners([]),
+        program: academyPrograms[2]
     }
 ]

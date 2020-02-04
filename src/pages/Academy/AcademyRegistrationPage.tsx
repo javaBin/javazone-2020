@@ -7,7 +7,7 @@ import Link from "../../components/Link/Link";
 
 function eventId(city: string) {
     if (city === 'oslo') return '22425';
-    if (city === 'throndheim') return '22422';
+    if (city === 'trondheim') return '22422';
     if (city === 'tromsø') return '22424';
 
     return null
