@@ -29,7 +29,7 @@ export const academyPrograms: AcademyProgram[] = [
                 speakers: 'Tore Aasgaard'
             },
             {
-                time: '14:30 - 15:20', // TODO: fix time
+                time: '14:30 - 15:20',
                 title: 'Bli kjent med javaBin Tromsø',
                 speakers: 'Sverre Moe'
             },
@@ -151,7 +151,7 @@ export const academyPrograms: AcademyProgram[] = [
             },
             {
                 time: '17:00 - 18:00',
-                title: 'Henrik Walker Moe',
+                title: 'Highscores - A Brief History of Computer Music',
                 speakers: 'Anders Norås'
             },
             {
