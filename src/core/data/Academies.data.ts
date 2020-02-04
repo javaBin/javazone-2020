@@ -154,15 +154,15 @@ export const academyPrograms: AcademyProgram[] = [
 
 export const academies: Academy[] = [
     {
-        name: 'Oslo',
-        location: 'Teknologihuset',
-        locationUrl: 'http://www.teknologihuset.no/',
+        name: 'Tromsø',
+        location: 'Universitetet i Tromsø',
+        locationUrl: 'https://uit.no/startsida',
         date: '25th February',
         slots: 80,
-        registrationUrl: 'https://goo.gl/forms/1He9hzOMfKuRUVTg1',
-        imageUrl: 'https://d3o108dy577i1m.cloudfront.net/2019/images/academy_teknologihuset.jpg',
-        partners: getAcademyPartners(['Kantega', 'Netcompany', 'Sysco', 'Tripletex', 'Vipps', 'Sportradar', '2Park', 'Systek']),
-        program: academyPrograms[0]
+        registrationUrl: 'https://goo.gl/forms/NJi8tlRqGGb0Z6WD3',
+        imageUrl: 'http://res.cloudinary.com/simpleview/image/upload/v1451482793/clients/norway/northern-lights-tromso-norway_2-1_a8b03e36-f1cd-46be-939e-ebf6d70c41e2.jpg',
+        partners: getAcademyPartners(['Sysco', 'Finn']),
+        program: academyPrograms[2]
     },
     {
         name: 'Throndheim',
@@ -176,14 +176,14 @@ export const academies: Academy[] = [
         program: academyPrograms[1]
     },
     {
-        name: 'Tromsø',
-        location: 'Universitetet i Tromsø',
-        locationUrl: 'https://uit.no/startsida',
+        name: 'Oslo',
+        location: 'Teknologihuset',
+        locationUrl: 'http://www.teknologihuset.no/',
         date: '27th February',
         slots: 80,
-        registrationUrl: 'https://goo.gl/forms/NJi8tlRqGGb0Z6WD3',
-        imageUrl: 'http://res.cloudinary.com/simpleview/image/upload/v1451482793/clients/norway/northern-lights-tromso-norway_2-1_a8b03e36-f1cd-46be-939e-ebf6d70c41e2.jpg',
-        partners: getAcademyPartners(['Sysco', 'Finn']),
-        program: academyPrograms[2]
+        registrationUrl: 'https://goo.gl/forms/1He9hzOMfKuRUVTg1',
+        imageUrl: 'https://d3o108dy577i1m.cloudfront.net/2019/images/academy_teknologihuset.jpg',
+        partners: getAcademyPartners(['Kantega', 'Netcompany', 'Sysco', 'Tripletex', 'Vipps', 'Sportradar', '2Park', 'Systek']),
+        program: academyPrograms[0]
     }
 ]
