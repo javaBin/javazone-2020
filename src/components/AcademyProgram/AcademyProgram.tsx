@@ -26,8 +26,8 @@ function ProgramSlot(props: {title: string, time: string, speaker?: string}) {
 function PartnerImage(props: {name: string, url: string}) {
     const partnerImage = `https://d3o108dy577i1m.cloudfront.net/2019/logos/${props.name.toLocaleLowerCase()}.svg`;
     return (
-        <a target="_blank" href={props.url}>
-            <img className={styles.partner} src={partnerImage} />
+        <a href={props.url}>
+            <img alt="" className={styles.partner} src={partnerImage} />
         </a>
     )
 }
