@@ -44,7 +44,7 @@ export function AcademyProgram(props: AcademyProgramProps) {
     return (
         <div>
             <ButtonGroup activeButton={(button: ActiveButton) => activeButton(button)}>
-                <button>Tromø</button>
+                <button>Tromsø</button>
                 <button>Trondheim</button>
                 <button>Oslo</button>
             </ButtonGroup>
