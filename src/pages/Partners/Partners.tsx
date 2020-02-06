@@ -84,7 +84,7 @@ export function PartnersPage() {
                 </List>
                 <h4>Lounge Stand</h4>
                 <List>
-                    <li>A package at the same prize as the "Standard package". The space given is bigger, but located in one of two areas outside the main hall.</li>
+                    <li>A package at the same price as the "Standard package". The space given is bigger, but located in one of two areas outside the main hall.</li>
                     <li>Option 1: the west wing lounge, located just to the side of the main hall.</li>
                     <li>Option 2: in the outer ring of the Spektrum arena, located on the route between the presentation rooms and the main hall.</li>
                     <li>Optional backing wall to the area, or some freedom to design your own use of the space.</li>
