@@ -88,7 +88,7 @@ export function SpeakersPage() {
                     Some tips and tricks about your submission
                 </Link>
             </Section>
-            <CenterSection header={<h1>Dates & Deadlines for JavaZone 2019</h1>}>
+            <CenterSection header={<h1>Dates & Deadlines for JavaZone 2020</h1>}>
                 <Timeline />
             </CenterSection>
             <Section header={<h1>What’s in it for me?</h1>}>
