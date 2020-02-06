@@ -68,8 +68,8 @@ const data = [
                 location: '-20px',
                 align: 'left'
             }, {
-                title: 'JavaZone 2019!',
-                date: 'September 09th',
+                title: 'JavaZone 2020!',
+                date: 'September 9th-10th',
                 location: '-10px',
                 align: 'right'
             }
