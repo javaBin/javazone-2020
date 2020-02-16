@@ -5,24 +5,32 @@ import { CenterSection } from '../../components/CenterSection/CenterSection';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
+import {TicketPrice} from "../../components/TicketPrice/TicketPrice";
+import Link from "../../components/Link/Link";
 
 export function TicketsPage() {
     return (
         <>
             <PageBanner header="The Ticket Booth" subHeader="Come join us in Oslo, September 9th - 10th, 2020" imageName="2018/180912_JavaZone_0019" />
             <Seperator />
-            <CenterSection header={<h1>Information about tickets for JavaZone 2020</h1>}>
+            <CenterSection header={<h1>Get your tickets for JavaZone 2020 – Early Bird</h1>}>
+                <TicketPrice>6,590</TicketPrice>
             </CenterSection>
             <Section header={<h1>What's included?</h1>}>
                 <p>
-                    The JavaZone Ticket includes full access to the conference and entry to workshops on Tuesday (limited seating: first come, first served). 
+                    The JavaZone Ticket includes full access to the conference and entry to workshops on Tuesday (limited seating: first come, first served).
                 </p>
                 <p>
                     The price also includes a 1-year membership in javaBin, the Norwegian Java User Group.
                     <br />
+                    Prices are ex. VAt and ticket fee (NOK 120 per ticket)
                 </p>
                 <p>
-                    Ticket will be on sale in February 2020
+                    After April 17th, the ticket price will be NOK 7,190.00,- (Late Bird price).
+                </p>
+
+                <p>
+                    <Link url="/tickets/buy">Get your tickets now!</Link>
                 </p>
             </Section>
             <ImageSection imageName="tickets_2" />
@@ -54,7 +62,7 @@ export function TicketsPage() {
             </Section>
             <CenterSection header={<h1>Need more info about JavaZone?</h1>}>
                 <p>
-                    We'll release more information about the conference before the summer, and the detailed program with information about all the talks will be ready in July. 
+                    We'll release more information about the conference before the summer, and the detailed program with information about all the talks will be ready in July.
                 </p>
                 <p>
                     Don't wait too long buying your ticket, though – last year all of the 3,200 spots were gone, and we had long waiting lists. We expect a decent amount of interest this year as well.
