@@ -171,7 +171,7 @@ export const academies: Academy[] = [
         slots: 80,
         registrationUrl: 'https://goo.gl/forms/NJi8tlRqGGb0Z6WD3',
         imageUrl: 'http://res.cloudinary.com/simpleview/image/upload/v1451482793/clients/norway/northern-lights-tromso-norway_2-1_a8b03e36-f1cd-46be-939e-ebf6d70c41e2.jpg',
-        partners: getAcademyPartners([]),
+        partners: getAcademyPartners(['Nav']),
         program: academyPrograms[0]
     },
     {
@@ -182,7 +182,7 @@ export const academies: Academy[] = [
         slots: 80,
         registrationUrl: 'https://goo.gl/forms/2PyxrN4sbEOE0jls1',
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Trondheim%2C_Norwegen%2C_Speicherh%C3%A4user_2005.jpg/1920px-Trondheim%2C_Norwegen%2C_Speicherh%C3%A4user_2005.jpg',
-        partners: getAcademyPartners([]),
+        partners: getAcademyPartners(['Sopra', 'Sparebank1']),
         program: academyPrograms[1]
     },
     {
@@ -193,7 +193,7 @@ export const academies: Academy[] = [
         slots: 80,
         registrationUrl: 'https://goo.gl/forms/1He9hzOMfKuRUVTg1',
         imageUrl: 'https://d3o108dy577i1m.cloudfront.net/2019/images/academy_teknologihuset.jpg',
-        partners: getAcademyPartners([]),
+        partners: getAcademyPartners(['SSB', 'Statnett', 'Sopra', 'Nav']),
         program: academyPrograms[2]
     }
 ]
