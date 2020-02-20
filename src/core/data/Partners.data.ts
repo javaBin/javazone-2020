@@ -44,5 +44,25 @@ export const partners: Partner[] = [
     {
         name: 'Miles',
         homepageUrl: 'https://www.miles.no/'
+    },
+    {
+        name: 'Nav',
+        homepageUrl: 'https://www.nav.no/'
+    },
+    {
+        name: 'Sopra',
+        homepageUrl: 'https://www.soprasteria.no/'
+    },
+    {
+        name: 'Sparebank1',
+        homepageUrl: 'https://www.sparebank1.no/'
+    },
+    {
+        name: 'SSB',
+        homepageUrl: 'https://www.ssb.no/'
+    },
+    {
+        name: 'Statnett',
+        homepageUrl: 'https://www.statnett.no/'
     }
-]
+];
