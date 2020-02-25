@@ -1,7 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        #checkin_registration h2 {
+            color: #f05350;
+        }
 
+        #checkin_registration {
+            color: white;
+        }
+
+        #checkin_registration .w50p {
+            background: transparent !important;
+        }
+
+        #checkin_registration .w40p {
+            background: transparent !important;
+        }
+
+        #checkin_registration .registration--start {
+            background-color: transparent;
+        }
+
+
+        #checkin_registration .registration--body {
+            background-color: transparent;
+        }
+
+        #checkin_registration button.btn-success {
+            background-color: transparent;
+            color: #f05350 !important;
+            border: 2px solid #f05350 !important;
+        }
+
+        #checkin_registration button.btn-success:hover {
+            background-color: #a11c38;
+        !important;
+            color: #fff !important;
+            border: 2px solid #f05350 !important;
+        }
+
+        /* Option button color */
+        #checkin_registration .ticket--amount--button.plus,
+        #checkin_registration button.btn--active {
+            background-color: #a11c38 !important;
+            border: 2px solid #f05350 !important;
+            color: #fff !important;
+        }
+
+        #checkin_registration .btn-default {
+            background-color: transparent;
+            color: #fff;
+            border: 2px solid #f05350 !important;
+        }
+
+        #checkin_registration .userDetails .nextButton {
+            color: white;
+            border: 2px solid #fcaf1a;
+        !important;
+        }
+
+        #checkin_registration .payment > .payment--option {
+            color: white;
+        }
+    </style>
 </head>
 <body>
 <div id="root">
@@ -11,7 +73,7 @@
 <script src="css-element-queries/ResizeSensor.js"></script>
 <script src="css-element-queries/ElementQueries.js"></script>
 <script>
-    (function(w, d) {
+    (function (w, d) {
         var id = window.location.hash.split('#')[1];
         d.event_id = id;
         var headTag = d.getElementsByTagName('head')[0];
@@ -36,7 +98,7 @@
     };
 
     var element = document.getElementById('root');
-    new ResizeSensor(element, function() {
+    new ResizeSensor(element, function () {
         sendPostMessage()
     });
 </script>

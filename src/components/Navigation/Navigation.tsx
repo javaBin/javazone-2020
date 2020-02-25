@@ -81,7 +81,7 @@ function MenuButton(props: MenuButtonProps) {
     return (
         <>
             <button className={styles.menu} onClick={handleOpenMenu}>
-                <img src={isMenuOpen ? 'x.svg' : 'menu.svg'} alt="menu"/>
+                <img src={isMenuOpen ? './x.svg' : './menu.svg'} alt="menu"/>
             </button>
             {isMenuOpen ? <div className={styles.menuContainer}>
                 {props.routes.map(route => {
