@@ -23,7 +23,6 @@ export function AcademyLocationSection(props: AcademyLocationSectionProps) {
 function AcademyLocation(academy: Academy) {
     const classes = classnames(
         {[styles.oslo]: academy.name === 'Oslo'},
-        {[styles.trondheim]: academy.name === 'Trondheim'},
         {[styles.tromso]: academy.name === 'Tromsø'},
     )
     return (
