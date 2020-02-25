@@ -134,6 +134,6 @@ export const academies: Academy[] = [
         registrationUrl: 'https://goo.gl/forms/1He9hzOMfKuRUVTg1',
         imageUrl: 'https://d3o108dy577i1m.cloudfront.net/2019/images/academy_teknologihuset.jpg',
         partners: getAcademyPartners(['SSB', 'Statnett', 'Sopra', 'Nav']),
-        program: academyPrograms[2]
+        program: academyPrograms[1]
     }
 ]
