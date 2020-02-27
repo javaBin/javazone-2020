@@ -5,10 +5,12 @@ export interface PageBannerProps {
     header: string;
     subHeader: string;
     imageName: string;
+    imagePath?: string;
 }
 
 export function PageBanner(props: PageBannerProps) {
-    const imagePath = `https://d3o108dy577i1m.cloudfront.net/2019/images/${props.imageName}.jpg`;
+    const path = !props.imagePath ? '2019/images/' : props.imagePath;
+    const imagePath = `https://d3o108dy577i1m.cloudfront.net/${path}${props.imageName}.jpg`;
     return (
         <section className={styles.pageBanner}>
             <img src={imagePath} alt="Page banner"/>

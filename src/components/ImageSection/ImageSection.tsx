@@ -4,6 +4,7 @@ import classnames from 'classnames';
 
 interface ImageSectionProps {
     imageName: string;
+    path?: string
     bottom?: boolean;
     top?: boolean;
     right?: boolean;
@@ -11,7 +12,8 @@ interface ImageSectionProps {
 }
 
 export function ImageSection(props: ImageSectionProps) {
-    const imagePath = `https://d3o108dy577i1m.cloudfront.net/2019/images/${props.imageName}.jpg`;
+    const newPath = !props.path ? '2019/images/' : props.path;
+    const imagePath = `https://d3o108dy577i1m.cloudfront.net/${newPath}${props.imageName}.jpg`;
     const classes = classnames(
         {[styles.center]: !props.bottom && !props.top && !props.left && !props.right},
         {[styles.bottom]: props.bottom},
