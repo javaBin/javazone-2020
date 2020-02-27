@@ -25,7 +25,7 @@ export function JourneyZonePage() {
             <Seperator/>
             <Section header={<h1>Why?</h1>}>
                 <p>
-                    Because we can and because we would you to spend quality time with quality ppl.
+                    Because we can and because we would you to spend quality time with quality people.
                 </p>
             </Section>
             <Section header={<h1>when? where?</h1>}>
