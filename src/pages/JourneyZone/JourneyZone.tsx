@@ -9,7 +9,7 @@ import Link from "../../components/Link/Link";
 export function JourneyZonePage() {
     return (
         <>
-            <PageBanner header="JourneyZone 2020" subHeader="Canvas Hotel Camping" imagePath="2020/journeyzone/"
+            <PageBanner header="JourneyZone 2020" subHeader="Canvas Hotel" imagePath="2020/journeyzone/"
                         imageName="hotelv2"/>
             <Seperator/>
             <CenterSection header={<h1>What is this?</h1>}>
@@ -18,7 +18,7 @@ export function JourneyZonePage() {
                     year we will take you to the Mecca of singletrack biking and glamping – Canvas Hotel. Together with
                     29 other fellow speakers from JavaZone you will enjoy the silence of the wilderness. As Canvas
                     describes themselves, “glamping in luxurious yurt tents, incredible scenery, mountain biking at its
-                    very best, unforgettable camping life and fantastic food”.
+                    very best, unforgettable nature and fantastic food”.
                 </p>
             </CenterSection>
             <ImageSection path="2020/journeyzone/" imageName="bath"/>
