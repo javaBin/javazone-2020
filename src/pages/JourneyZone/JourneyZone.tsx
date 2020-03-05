@@ -40,7 +40,7 @@ export function JourneyZonePage() {
                     arranged. Accommodation is glamping. No sleeping bag required for this trip (We will send a more
                     detailed packing list closer to the event). Have a look at this video for inspiration and temptation
                 </p>
-                <Link url="https://www.youtube.com/watch?v=vxvXTLzbVB8">See video</Link>
+                <Link external url="https://www.youtube.com/watch?v=vxvXTLzbVB8">See video</Link>
             </Section>
             <ImageSection path="2020/journeyzone/" imageName="fun"/>
             <Seperator/>
