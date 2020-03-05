@@ -1,6 +1,7 @@
 import React, { lazy, Suspense, useEffect } from 'react';
 import styles from './Jumbotron.module.scss';
 import { useCanPlayVideoType } from '../../core/hooks/UseCanPlayVideoType';
+import Link from "../Link/Link";
 
 const VideoSource = lazy(() => import('./VideoSource'));
 
@@ -30,6 +31,7 @@ export function Jumbotron(props: JumbotronProps) {
                 <h1>{props.title}</h1>
                 <h2>{props.subTitle}</h2>
                 <h2 className={styles.locationText}>{props.location}</h2>
+                <div className={styles.link}><Link url='/corona'>JavaZone & COVID-19</Link></div>
             </div>
         </div>
     )

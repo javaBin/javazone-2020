@@ -12,6 +12,12 @@
         right: 0;
         text-align: end;
         z-index: 5;
+
+        .link {
+            margin-top: 1rem;
+            float: right;
+        }
+
         @media only screen and (max-width: $screen-sm) {
             text-align: center;
             padding: 0 1rem;
