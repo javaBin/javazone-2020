@@ -10,7 +10,7 @@ export function VolunteersPage() {
     return (
         <>
             <PageBanner header="Bli frivillig på JavaZone"
-                        subHeader="Information in Norwegian for potential student voulenteers"
+                        subHeader="Information in Norwegian for potential student volunteers"
                         imageName="2018/180912_JavaZone_0026"/>
             <Seperator/>
             <Section header={<h1>Hva er JavaZone?</h1>}>
