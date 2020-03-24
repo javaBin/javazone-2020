@@ -11,14 +11,13 @@
     background: none;
     text-align: center;
     cursor: pointer;
-    a {
-        color: $color-logo-red;
-        text-decoration: none;
-    }
+    text-decoration: none; 
+    color: $color-logo-red;
+    
     &:hover {
+        text-decoration: none; 
         background: $color-logo-red-dark;
-        a {
-            color: white;
-        }
+        color: white;
+         
     }
 }
