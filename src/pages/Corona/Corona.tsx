@@ -2,7 +2,6 @@ import React from 'react';
 import { PageBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { Seperator } from '../../components/Seperator/Seperator';
-import { List } from '../../components/List/List';
 import {CenterSection} from "../../components/CenterSection/CenterSection";
 import {InlineLink} from "../../components/InlineLink/InlineLink";
 
