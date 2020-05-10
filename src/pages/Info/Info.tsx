@@ -4,6 +4,7 @@ import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
 import { Seperator } from '../../components/Seperator/Seperator';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
+import Link from "../../components/Link/Link";
 
 export function InfoPage() {
     return (
@@ -21,12 +22,13 @@ export function InfoPage() {
                     We have been organizing JavaZone since 2001 and have been excited to watch the event grow bigger and better every year. In 2019 we hosted over 3200 participants and 160 speakers across 7 parallel tracks over the course of two days. In addition, we also offered a selection of 11 workshops held on the day before the conference started.
                 </p>
                 <p>
-                    We would not be what we are today without YOU! Thank you for your support and contributions over the years. Don’t procrastinate! Join your fellow Java developers at JavaZone on September 9th-10th, 2020!
+                    We would not be what we are today without YOU! Thank you for your support and contributions over the years. Don’t procrastinate! Join your fellow Java developers at JavaZone on January 20th-21th, 2020!
                 </p>
+                <div><Link url='/corona'>JavaZone & COVID-19</Link></div>
             </Section>
             <Section header={<h1>First thing first: Your ticket!</h1>}>
                 <p>
-                    To attend JavaZone you will need a ticket. The ticket grants you access to the full JavaZone experience, including workshops. The ticket sales ticket sales will open in February. The start for ticket sales will be announced on social media and on this page. The number of tickets is limited and distributed on a first-come-first-served basis, so it pays to be quick.
+                    To attend JavaZone you will need a ticket. The ticket grants you access to the full JavaZone experience, including workshops. The number of tickets is limited and distributed on a first-come-first-served basis, so it pays to be quick.
                 </p>
             </Section>
             <ImageSection imageName="partners_1" />
@@ -43,7 +45,7 @@ export function InfoPage() {
             </Section>
             <Section header={<h1>Hands-on workshops</h1>}>
                 <p>
-                    Do you prefer practical tasks more than theory? Take part in one of our great workshops and boost your knowledge and skills. The workshops are included in your ticket, but we have a limited number of seats. More information, along with registration details will be made available in August.
+                    Do you prefer practical tasks more than theory? Take part in one of our great workshops and boost your knowledge and skills. The workshops are included in your ticket, but we have a limited number of seats. More information, along with registration details will be made available in December.
                 </p>
             </Section>
             <Section header={<h1>... and a whole lotta love</h1>}>
@@ -55,7 +57,7 @@ export function InfoPage() {
             <Seperator />
             <Section header={<h1>The JavaZone Program</h1>}>
                 <p>
-                    The program will be made available before the summer holidays. Stay tuned!
+                    The program will be made available a month before the conference. Stay tuned!
                 </p>
             </Section>
             <Section header={<h1>Lightning talks</h1>}>
@@ -80,7 +82,7 @@ export function InfoPage() {
                     AweZone is JavaZone's traditional party which takes place on Wednesday evening.
                 </p>
                 <p>
-                    The party offers a great chance to catch up with old friends, meet new ones, and also experience a great line-up of entertainment! More information about the party will be given in August.
+                    The party offers a great chance to catch up with old friends, meet new ones, and also experience a great line-up of entertainment! More information about the party will be given a month before the conference.
                 </p>
             </Section>
             <Section header={<h1>A few very important principles</h1>}>

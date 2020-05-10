@@ -16,6 +16,9 @@
         .link {
             margin-top: 1rem;
             float: right;
+            @media (max-width: $screen-sm) {
+                float: none;
+            }
         }
 
         @media only screen and (max-width: $screen-sm) {
@@ -23,6 +26,7 @@
             padding: 0 1rem;
             position: relative;
         }
+
         h1 {
             font-size: 7rem;
             margin: 0;

@@ -2,7 +2,8 @@ import React from 'react';
 import { PageBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { Seperator } from '../../components/Seperator/Seperator';
-import { List } from '../../components/List/List';
+import {CenterSection} from "../../components/CenterSection/CenterSection";
+import {InlineLink} from "../../components/InlineLink/InlineLink";
 
 export function CoronaPage() {
     return (
@@ -11,17 +12,33 @@ export function CoronaPage() {
             <Seperator />
             <Section header={<h1>Information</h1>}>
                 <p>
-                    Due to the rapid development of the COVID-19 outbreak, we are currently considering backup plans in the case that JavaZone is affected. Although we are hoping for the best, we will continue to monitor future developments and ensure that our conference is conducted in the best interests of our attendees health.                </p>
-                <p>
-                    If JavaZone 2020 cannot be conducted as usual, we are considering several options, including:
-                    <List>
-                        <li>Moving the conference to a later date when the outbreak is under control.</li>
-                        <li>Reducing the scope of the conference to Norwegian residents whilst assisting non-residents to present their sessions remotely.</li>
-                        <li>Cancelling the physical conference and transforming it into a virtual event.</li>
-                    </List>
+                    Due to the COVID-19 outbreak we have decided to postphone JavaZone 2020 untl January 2021. The conference will be held on January 20th and 21st (With workshops on January 19th). In addition we will try a new concept: JavaZone VR. This will be an online conference held on September 9th.
                 </p>
+            </Section>
+            <CenterSection header={<h1>Frequently asked questions (FAQ)</h1>}/>
+            <Section header={<h1>So I have already bought a ticket, is it still valid?</h1>}>
                 <p>
-                    In the event that the conference cannot be run as a physical event on the planned days in September, we will contact all speakers and ticket holders and offer cancelations and refunds to those who are not interested in participating in the altered event. At this point, we are however hopeful that this will not be necessary and recommend planning your JavaZone experience as usual.
+                    Yes, of course. Your ticket is valid for the conference in January. Participation in the JavaZone VR conference in September is also included.
+                </p>
+            </Section>
+            <Section header={<h1>I already have a ticket, but I cannot attend in January, can I get a refund?</h1>}>
+                <p>
+                    Sure. Just send a mail to <InlineLink external noBlankTarget url="mailto:javazone@java.no">javazone@java.no</InlineLink> and we will refund the full ticket price minus a small processing fee (to cover credit card fees or invoice fees). The refund offer is valid until November 1st.
+                </p>
+            </Section>
+            <Section header={<h1>What will the format of the conference in January be?</h1>}>
+                <p>
+                    This will be the traditional JavaZone experience. We will host it in Oslo Spektrum. There will be food and coffee and other beverages as usual. Oslo Spektrum is a huge venue and we are confident that we will be able to arrange JavaZone in a safe manner and comply to the rules and recommendations from the authorities.
+                </p>
+            </Section>
+            <Section header={<h1>So what is this JavaZone VR conference?</h1>}>
+                <p>
+                    JavaZone VR is an online conference which will be arranged on September 9th. We will try to recreate the JavaZone experience as closely as possible, only we will do it online insted of as a physical event. More information will follow in the coming weeks, so stay tuned.
+                </p>
+            </Section>
+            <Section header={<h1>What about JavaZone 2021, will that be happening in September 2021?</h1>}>
+                <p>
+                    Yes, that is our current plan.
                 </p>
             </Section>
         </>

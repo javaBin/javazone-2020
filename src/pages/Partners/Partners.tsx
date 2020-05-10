@@ -95,14 +95,14 @@ export function PartnersPage() {
                 <TicketPrice>73.000</TicketPrice>
 
                 <p>
-                    <i>Note that all 50+ partnerships for JavaZone 2018 were sold out long before the conference.</i>
+                    <i>Note that all 50+ partnerships for JavaZone 2019 were sold out long before the conference.</i>
                 </p>
                 <p>
                     All partnerships have a base price for entry which gives you everything described above.
                     We also have some add-ons, as well as tickets for your employees, priced below.
                 </p>
                 <p>
-                    <i style={{fontSize: '1.2rem'}}>After March 1st, the price will increase to NOK 88.000,-.</i><br />
+                    <i style={{fontSize: '1.2rem'}}>After September 1st, the price will increase to NOK 88.000,-.</i><br />
                     <i style={{fontSize: '1rem'}}>All prices are ex VAT and ticket fee (NOK 120 per ticket)</i>
                 </p>
             </CenterSection>
@@ -118,7 +118,7 @@ export function PartnersPage() {
                     <PartnerPrice item="Tickets for employees (1 - 30)">6.190</PartnerPrice>
                     <PartnerPrice item="Tickets for employees (31 - 50)">5.990</PartnerPrice>
                     <PartnerPrice item="Tickets for employees (51 - ∞)">5.790</PartnerPrice>
-                    <PartnerPrice item="Tickets for employees (Partner Late-Bird - After June 30th, 2020)">6.790</PartnerPrice>
+                    <PartnerPrice item="Tickets for employees (Partner Late-Bird - After October 30th, 2020)">6.790</PartnerPrice>
                 </PartnerPriceList>
             </Section>
             <ImageSection imageName="2018/180912_JavaZone_0158" />
