@@ -4,6 +4,7 @@ import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
 import { Seperator } from '../../components/Seperator/Seperator';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
+import Link from "../../components/Link/Link";
 
 export function InfoPage() {
     return (
@@ -23,6 +24,7 @@ export function InfoPage() {
                 <p>
                     We would not be what we are today without YOU! Thank you for your support and contributions over the years. Don’t procrastinate! Join your fellow Java developers at JavaZone on January 20th-21th, 2020!
                 </p>
+                <div><Link url='/corona'>JavaZone & COVID-19</Link></div>
             </Section>
             <Section header={<h1>First thing first: Your ticket!</h1>}>
                 <p>
