@@ -21,16 +21,19 @@ export function SpeakersPage() {
             <Seperator />
             <Section header={<h1>About JavaZone</h1>}>
                 <p>
-                    JavaZone 2020 will be the 20th consecutive JavaZone conference and will consist of a day of pre-conference workshops on September 9th, followed by two days of lightning talks and presentations on September 9th and 10th.
+                    JavaZone 2020 will be the 20th physical JavaZone conference and will consist of a day of pre-conference workshops on January 19th 2021, followed by two days of lightning talks and presentations on January 20th and 21st 2021.
                 </p>
                 <p>
-                    Last year's event was completely sold out, with more than 3200 attendees enjoying 127 sessions.
+                    Originally, JavaZone 2020 should have happened in September 2020, just as its 19 prior editions, but due to the Coronavirus-outbreak we have moved the conference to a later date. To mark the occasion, we are organizing a one-day, virtual conference on September 9th: JavaZone VR. When submitting to JavaZone 2020, you can also suggest that we consider your talk for JavaZone VR. In this case, your presentation is considered for both events.
                 </p>
                 <p>
-                    JavaZone hosts both international and Norwegian speakers. We'd love to have you join us in 2020!
+                    JavaZone 2019 completely sold out, with more than 3200 attendees enjoying 127 sessions. For JavaZone VR, we expect several hundret participants.
                 </p>
                 <p>
-                    Our call for speakers opens <b style={{textDecoration: "underline"}}>February 2nd</b>.
+                    JavaZone hosts both international and Norwegian speakers. We'd love to have you join us the coming January!
+                </p>
+                <p>
+                    Our call for speakers remains open until the <b style={{textDecoration: "underline"}}>31st of August</b>. Presentations for JavaZone VR might be selected prior to this date.
                 </p>
                 <Link external url="https://talks.javazone.no">Submit your talk!</Link>
             </Section>
@@ -41,7 +44,7 @@ export function SpeakersPage() {
                     Over the last decade JavaZone has grown to become one of the most important Java events in Europe! You can see for yourself – over 1300 videos from previous years talks are available for free at <InlineLink external url='https://vimeo.com/javazone'>Vimeo</InlineLink>, and the <InlineLink external url='https://2019.javazone.no/program'>full program from JavaZone 2019</InlineLink> is also available.
                 </p>
                 <p>
-                    We can brag as much as we want, but JavaZone would be nothing without all the great speakers! That's why we need your help to make sure that JavaZone 2020 will be at least as awesome as the earlier events. If you think you have something interesting to share, please submit your talk or workshop in February.
+                    We can brag as much as we want, but JavaZone would be nothing without all the great speakers! That's why we need your help to make sure that JavaZone 2020 will be at least as awesome as the earlier events. If you think you have something interesting to share, please submit your talk or workshop.
                 </p>
                 <p>
                     JavaZone is committed to diversity, and we are especially interested in quality submissions from groups that are under-represented in tech.
@@ -78,7 +81,7 @@ export function SpeakersPage() {
             </Section>
             <Section header={<h1>Ongoing Evaluation of Talks</h1>}>
                 <p>
-                    Each year we receive hundreds of submissions and we consider each submission as it arrives. Due to a large number of submissions, we can however not guarantee that you will hear from us immediately. We do however answer all submissions and try to do so no later than in July.
+                    Each year we receive hundreds of submissions and we consider each submission as it arrives. Due to a large number of submissions, we can however not guarantee that you will hear from us immediately. We do however answer all submissions and try to do so no later than in October.
                 </p>
                 <p>
                     Our advice to you is simple. <strong>Submit early!</strong> The earlier you submit, the more likely you are to be noticed. Avoid drowning in the end-of-Call for Speakers-tsunami!
@@ -94,7 +97,7 @@ export function SpeakersPage() {
             <Section header={<h1>What’s in it for me?</h1>}>
                 <h3>Accepted presentations, lightning talks, and workshops</h3>
                 <p>
-                    As a JavaZone speaker, you get free admission to the conference. Additionally, you are also invited to the speakers' dinner, held on September 8th. Finally, you can apply for a place on JourneyZone, our annual speaker adventure.
+                    As a JavaZone speaker, you get free admission to the conference. Additionally, you are also invited to the speakers' dinner, held on January 19th. Finally, you can apply for a place on JourneyZone, our annual speaker adventure.
                 </p>
                 <h3>Coverage of Expenses</h3>
                 <p>
