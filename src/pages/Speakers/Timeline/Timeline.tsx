@@ -26,12 +26,7 @@ const data = [
     },
     {
         month: 'Apr',
-        events: [{
-            title: 'Call for speakers closes',
-            date: 'April 17nd',
-            location: '25px',
-            align: 'right'
-        }]
+        events: []
     },
     {
         month: 'May',
@@ -39,17 +34,7 @@ const data = [
     },
     {
         month: 'Jun',
-        events: [{
-            title: 'Accepted speakers notified',
-            date: 'By The End of June',
-            location: '60px',
-            align: 'left'
-        },{
-            title: 'Deadline for Reimbursement Applications',
-            date: 'June 20th',
-            location: '15px',
-            align: 'right'
-        }]
+        events: []
     },
     {
         month: 'Jul',
@@ -57,21 +42,57 @@ const data = [
     },
     {
         month: 'Aug',
-        events: []
+        events: [{
+            title: 'Call for speakers closes',
+            date: 'August 31st',
+            location: '25px',
+            align: 'right'
+        }]
     },
     {
         month: 'Sep',
+        events: [{
+            title: 'JavaZone VR',
+            date: 'September 9th',
+            location: '60px',
+            align: 'left'
+        }]
+    },
+    {
+        month: 'Oct',
+        events: [{
+            title: 'Accepted speakers notified',
+            date: 'By The End of October',
+            location: '15px',
+            align: 'right'
+        }]
+    },
+    {
+        month: 'Nov',
+        events: [{
+            title: 'Deadline for Reimbursement Applications',
+            date: 'November 13th',
+            location: '60px',
+            align: 'left'
+        }]
+    },
+    {
+        month: 'Dec',
+        events: []
+    },
+    {
+        month: 'Jan',
         events: [
             {
-                title: 'Speakers dinner',
-                date: 'September 8th',
-                location: '-20px',
-                align: 'left'
-            }, {
                 title: 'JavaZone 2020!',
-                date: 'September 9th-10th',
+                date: 'January 20th-21st',
                 location: '-10px',
                 align: 'right'
+            }, {
+                title: 'Speakers dinner',
+                date: 'January 19th',
+                location: '-20px',
+                align: 'left'
             }
         ]
     }
