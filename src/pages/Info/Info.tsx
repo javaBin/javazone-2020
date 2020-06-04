@@ -9,7 +9,7 @@ import Link from "../../components/Link/Link";
 export function InfoPage() {
     return (
         <>
-            <PageBanner header="Another year, another JavaZone!" subHeader="September 9th - 10th, 2020" imageName="2018/180913_JavaZone_0010" />
+            <PageBanner header="Another year, another JavaZone!" subHeader="January 20th - 21th, 2021" imageName="2018/180913_JavaZone_0010" />
             <Seperator />
             <Section header={<h1>JavaZone 101 the who, what and where</h1>}>
                 <p>
