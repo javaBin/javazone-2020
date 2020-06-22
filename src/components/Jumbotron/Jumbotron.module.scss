@@ -41,6 +41,10 @@
             &.locationText {
                 font-size: 2.5rem;
             }
+            &.subsubTitle{
+                margin-top: 1rem;
+                font-size: 2rem;
+            }
             margin: 0;
             font-size: 3rem;
             @media only screen and (max-width: $screen-xxxs) {
