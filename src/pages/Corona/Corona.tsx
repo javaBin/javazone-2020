@@ -12,7 +12,7 @@ export function CoronaPage() {
             <Seperator />
             <Section header={<h1>Information</h1>}>
                 <p>
-                    Due to the COVID-19 outbreak we have decided to postphone JavaZone 2020 untl January 2021. The conference will be held on January 20th and 21st (With workshops on January 19th). In addition we will try a new concept: JavaZone VR. This will be an online conference held on September 9th.
+                    Due to the COVID-19 outbreak we have decided to postpone JavaZone 2020 until January 2021. The conference will be held on January 20th and 21st (With workshops on January 19th). In addition we will try a new concept: JavaZone VR. This will be an online conference held on September 9th.
                 </p>
             </Section>
             <CenterSection header={<h1>Frequently asked questions (FAQ)</h1>}/>
