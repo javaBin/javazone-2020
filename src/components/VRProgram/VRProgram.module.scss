@@ -1,0 +1,69 @@
+@import '../../variables.scss';
+
+.container {
+    margin-top: 2rem;
+    box-sizing: border-box;
+    background: black;
+    width: 100%;
+    padding: 2rem;
+    height: auto;
+}
+
+.program {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    h2 {
+        margin: 0;
+    }
+    @media only screen and (max-width: $screen-sm) {
+        flex-wrap: wrap;
+    }
+}
+
+.speaker {
+    color: $color-logo-orange;
+    font-size: 1.3rem;
+}
+
+.partnerAir {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.partner {
+    width: 10rem;
+    @media only screen and (max-width: $screen-sm) {
+        width: 8rem;
+    }
+}
+
+.time {
+    min-width: 12rem;
+    text-align: start;
+}
+
+.description {
+    width: 100%;
+    text-align: start;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.talk {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+.talk:last-of-type{
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.active {
+    color: white;
+    background: $color-logo-red-dark;
+}
