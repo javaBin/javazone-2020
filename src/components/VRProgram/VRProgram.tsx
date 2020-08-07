@@ -54,10 +54,10 @@ export function VRProgram() {
     return (
         <div>
             <ButtonGroup activeButton={(button: ActiveButton) => activeButton(button)}>
-                <button>Tekhus</button>
-                <button>NAV</button>
+                <button>Teknologihus - Oslo</button>
+                <button>NAV - Oslo</button>
                 <button>Virtual</button>
-                <button>Trondheim</button>
+                <button>Kantega - Trondheim</button>
             </ButtonGroup>
             {!!selectedLocation.name ? <ProgramContainer program={selectedProgram}/> : null }
         </div>

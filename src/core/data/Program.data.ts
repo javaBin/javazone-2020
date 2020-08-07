@@ -2,21 +2,21 @@ import {Program} from "../models/Program.model";
 
 export const program: Program[] = [
     {
-        location: 'Tekhus',
+        location: 'Teknologihus - Oslo',
         schedule: [
             {
                 time: '9.30 – 10.30',
                 talks: [{
                     title: 'Keynote: Loom',
-                    speakers: 'test123'
+                    speakers: 'Ron Pressler'
                 }]
             },
             {
                 time: '10.40 – 11.40',
                 talks: [{
-                    title: 'Creating a Delivery Platform; the pain and profit'
-                }
-                ]
+                    title: 'Creating a Delivery Platform; the pain and profit',
+                    speakers: 'Anders Brujordet'
+                }]
             },
             {
                 time: '11.40 - 12.30',
@@ -29,7 +29,8 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
-                        title: 'Det skal være lett å gjøre rett - eller hvordan lage nettbank med 20 team og samtidig sove godt om natten'
+                        title: 'Det skal være lett å gjøre rett - eller hvordan lage nettbank med 20 team og samtidig sove godt om natten',
+                        speakers: 'Vidar Moe, Ola Hast'
                     }
                 ]
 
@@ -38,13 +39,16 @@ export const program: Program[] = [
                 time: '13.40 – 14.40',
                 talks: [
                     {
-                        title: 'Why Are PASETOs Better Than JSON Web Tokens? A Quick See on PASETO'
+                        title: 'Why Are PASETOs Better Than JSON Web Tokens? A Quick See on PASETO',
+                        speakers: 'Ruby Jane Cabagnot'
                     },
                     {
-                        title: 'DIY security and privacy: roll your own VPN in 10 minutes'
+                        title: 'DIY security and privacy: roll your own VPN in 10 minutes',
+                        speakers: 'Jonas Nordstrand'
                     },
                     {
-                        title: 'Det handler om å ta vare på folks data'
+                        title: 'Det handler om å ta vare på folks data',
+                        speakers: 'Hans Ove Ringstad'
                     }
                 ]
             },
@@ -52,7 +56,8 @@ export const program: Program[] = [
                 time: '14.50 – 15.50',
                 talks: [
                     {
-                        title: 'What Does Your Phone Really Do?'
+                        title: 'What Does Your Phone Really Do?',
+                        speakers: 'Steven Parker'
                     }
                 ]
             },
@@ -60,25 +65,28 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
-                        title: 'Keynote: Career Advice'
+                        title: 'Keynote: Career Advice',
+                        speakers: 'Trisha Gee'
                     }
                 ]
             },
         ]
     },
     {
-        location: 'NAV',
+        location: 'NAV - Oslo',
         schedule: [
             {
                 time: '9.30 – 10.30',
                 talks: [{
-                    title: 'Keynote: Loom'
+                    title: 'Keynote: Loom',
+                    speakers: 'Ron Pressler'
                 }]
             },
             {
                 time: '10.40 – 11.40',
                 talks: [{
-                    title: 'Sikkerhetsfolk og jurister er mer Rive-Rolf enn Byggmester Bob - Må det være sånn?'
+                    title: 'Sikkerhetsfolk og jurister er mer Rive-Rolf enn Byggmester Bob - Må det være sånn?',
+                    speakers: 'Rune Schumann, Mia Johnsen'
                 }
                 ]
             },
@@ -93,7 +101,8 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
-                        title: 'A Story About an Agile Six Pizza Team'
+                        title: 'A Story About an Agile Six Pizza Team',
+                        speakers: 'Joakim Lehn'
                     }
                 ]
 
@@ -102,13 +111,16 @@ export const program: Program[] = [
                 time: '13.40 – 14.40',
                 talks: [
                     {
-                        title: '3 tips til utviklere for raskere testing'
+                        title: '3 tips til utviklere for raskere testing',
+                        speakers: 'Tina Syversen'
                     },
                     {
-                        title: 'Conway\'s mob'
+                        title: 'Conway\'s mob',
+                        speakers: 'Einar W. Høst'
                     },
                     {
-                        title: 'Webdev by Day, Gamedev by night'
+                        title: 'Webdev by Day, Gamedev by night',
+                        speakers: 'Gunnar Kriik'
                     }
                 ]
             },
@@ -116,7 +128,8 @@ export const program: Program[] = [
                 time: '14.50 – 15.50',
                 talks: [
                     {
-                        title: 'Create great UX and desirable products with high-productivity platform'
+                        title: 'Create great UX and desirable products with high-productivity platform',
+                        speakers: 'Kristoffer Holm'
                     }
                 ]
             },
@@ -124,7 +137,8 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
-                        title: 'Keynote: Career Advice'
+                        title: 'Keynote: Career Advice',
+                        speakers: 'Trisha Gee'
                     }
                 ]
             },
@@ -136,13 +150,15 @@ export const program: Program[] = [
             {
                 time: '9.30 – 10.30',
                 talks: [{
-                    title: 'Keynote: Loom'
+                    title: 'Keynote: Loom',
+                    speakers: 'Ron Pressler'
                 }]
             },
             {
                 time: '10.40 – 11.40',
                 talks: [{
-                    title: 'Events, Dear Boy, Events'
+                    title: 'Events, Dear Boy, Events',
+                    speakers: 'Tim Berglund'
                 }
                 ]
             },
@@ -157,7 +173,8 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
-                        title: 'Game of Streams: How to Tame & Get the Most from your Messaging Platforms 🐉'
+                        title: 'Game of Streams: How to Tame & Get the Most from your Messaging Platforms 🐉',
+                        speakers: 'Mark Heckler'
                     }
                 ]
 
@@ -166,7 +183,8 @@ export const program: Program[] = [
                 time: '13.40 – 14.40',
                 talks: [
                     {
-                        title: 'The Hacker\'s Guide to JWT Security'
+                        title: 'The Hacker\'s Guide to JWT Security',
+                        speakers: 'Patrycja Wegrzynowicz'
                     },
                     {
                         title: '??'
@@ -180,7 +198,8 @@ export const program: Program[] = [
                 time: '14.50 – 15.50',
                 talks: [
                     {
-                        title: 'All You Wanted to Know About Contributing to OpenSource'
+                        title: 'All You Wanted to Know About Contributing to OpenSource',
+                        speakers: 'Andres Almiray'
                     }
                 ]
             },
@@ -188,25 +207,28 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
-                        title: 'Keynote: Career Advice'
+                        title: 'Keynote: Career Advice',
+                        speakers: 'Trisha Gee'
                     }
                 ]
             },
         ]
     },
     {
-        location: 'Trondheim',
+        location: 'Kantega - Trondheim',
         schedule: [
             {
                 time: '9.30 – 10.30',
                 talks: [{
-                    title: 'Keynote: Loom'
+                    title: 'Keynote: Loom',
+                    speakers: 'Ron Pressler'
                 }]
             },
             {
                 time: '10.40 – 11.40',
                 talks: [{
-                    title: 'Overvåke gata eller finne korrupsjon? Norges data er ferdig indeksert'
+                    title: 'Overvåke gata eller finne korrupsjon? Norges data er ferdig indeksert',
+                    speakers: 'Hallvard Nygård'
                 }
                 ]
             },
@@ -221,7 +243,8 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
-                        title: 'Master https in your application'
+                        title: 'Master https in your application',
+                        speakers: 'Johannes Brodwall'
                     }
                 ]
 
@@ -230,7 +253,8 @@ export const program: Program[] = [
                 time: '13.40 – 14.40',
                 talks: [
                     {
-                        title: 'Kreativitet tenkning for utviklere'
+                        title: 'Kreativitet tenkning for utviklere',
+                        speakers: 'Dag Frode Solberg'
                     },
                     {
                         title: 'Kantega'
@@ -244,7 +268,8 @@ export const program: Program[] = [
                 time: '14.50 – 15.50',
                 talks: [
                     {
-                        title: 'Building Quality in Legacy Systems - The Art of Asking Questions'
+                        title: 'Building Quality in Legacy Systems - The Art of Asking Questions',
+                        speakers: 'Mufrid Krilic'
                     }
                 ]
             },
@@ -252,7 +277,8 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
-                        title: 'Keynote: Career Advice'
+                        title: 'Keynote: Career Advice',
+                        speakers: 'Trisha Gee'
                     }
                 ]
             },
