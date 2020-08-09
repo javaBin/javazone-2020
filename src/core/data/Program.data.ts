@@ -2,7 +2,7 @@ import {Program} from "../models/Program.model";
 
 export const program: Program[] = [
     {
-        location: 'Teknologihus - Oslo',
+        location: 'Teknologihuset - Oslo',
         schedule: [
             {
                 time: '9.30 – 10.30',

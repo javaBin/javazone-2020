@@ -87,7 +87,7 @@ export function VRProgram() {
     return (
         <div>
             <ButtonGroup activeButton={(button: ActiveButton) => activeButton(button)}>
-                <button>Teknologihus - Oslo</button>
+                <button>Teknologihuset - Oslo</button>
                 <button>NAV - Oslo</button>
                 <button>Virtual</button>
                 <button>Kantega - Trondheim</button>
