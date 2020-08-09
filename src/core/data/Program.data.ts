@@ -201,12 +201,6 @@ export const program: Program[] = [
                         title: 'The Hacker\'s Guide to JWT Security',
                         speakers: 'Patrycja Wegrzynowicz',
                         abstract: 'JSON Web Token (JWT) is an open standard for creating tokens that assert some number of claims like a logged in user and his/her roles. JWT is widely used in modern applications as a stateless authentication mechanism. Therefore, it is important to understand JWT security risks, especially when broken authentication is among the most prominent security vulnerabilities according to the OWASP Top 10 list. This talk guides you through various security risks of JWT, including confidentiality problems, vulnerabilities in algorithms and libraries, token cracking, token sidejacking, and more. In live demos, you’ll learn how to hijack a user account exploiting common security vulnerabilities on the client-side, on the server-side, and in transport. You’ll also find out about common mistakes and vulnerabilities along with the best practices related to the implementation of JWT authentication and the usage of available JWT libraries.'
-                    },
-                    {
-                        title: '??'
-                    },
-                    {
-                        title: '??'
                     }
                 ]
             },
@@ -261,8 +255,7 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
-                        title: 'Master https in your application',
-                        speakers: 'Johannes Brodwall'
+                        title: 'TBD'
                     }
                 ]
 
@@ -271,14 +264,13 @@ export const program: Program[] = [
                 time: '13.40 – 14.40',
                 talks: [
                     {
-                        title: 'Kreativitet tenkning for utviklere',
-                        speakers: 'Dag Frode Solberg'
+                        title: 'TBD'
                     },
                     {
-                        title: 'Kantega'
+                        title: 'TBD'
                     },
                     {
-                        title: 'Kantega'
+                        title: 'TBD'
                     }
                 ]
             },
@@ -286,8 +278,7 @@ export const program: Program[] = [
                 time: '14.50 – 15.50',
                 talks: [
                     {
-                        title: 'Building Quality in Legacy Systems - The Art of Asking Questions',
-                        speakers: 'Mufrid Krilic'
+                        title: 'TBD'
                     }
                 ]
             },
