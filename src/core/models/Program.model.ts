@@ -1,7 +1,9 @@
 
 
 export interface Talk {
-    title: string, speakers?: string;
+    title: string;
+    speakers?: string;
+    abstract?: string;
 }
 
 export interface Schedule {

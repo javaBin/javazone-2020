@@ -8,7 +8,8 @@ export const program: Program[] = [
                 time: '9.30 – 10.30',
                 talks: [{
                     title: 'Keynote: Loom',
-                    speakers: 'Ron Pressler'
+                    speakers: 'Ron Pressler',
+                    abstract: 'Her komme masse info om foredraget som noen må lime inn snart for at vi skal se infoen. trallalalal al ala la la '
                 }]
             },
             {

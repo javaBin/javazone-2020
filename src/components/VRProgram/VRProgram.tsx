@@ -1,17 +1,50 @@
-import React, {useState} from 'react';
+import React, {ReactNode, useState} from 'react';
+import {Collapse} from 'react-collapse';
 import styles from './VRProgram.module.scss';
-import {ButtonGroup, ActiveButton} from '../Button/ButtonGroup';
+import {ActiveButton, ButtonGroup} from '../Button/ButtonGroup';
 import {Program, Schedule, Talk} from '../../core/models/Program.model';
 import {program} from '../../core/data/Program.data';
+import classNames from "classnames";
+
+
+function ClickableDiv(props: {clickAble: boolean, className?: string, onClick?: () => void, children?: ReactNode}){
+    const {clickAble, className, onClick, children} = props;
+
+    const cls = classNames(className, {[styles.clickable]: clickAble});
+
+    if (clickAble){
+        return <div className={cls} onClick={onClick} role="button">
+            {children}
+        </div>
+    }
+
+    return <div className={className}>{children}</div>
+
+
+}
+
+function SlotInformation(props: {talk: Talk}){
+    const {talk} = props;
+    const [open, setOpen] = useState(false);
+    const expandeble = !!talk.abstract;
+
+    const cls = classNames(styles.talk, {[styles.clickable]: expandeble});
+
+    return <ClickableDiv clickAble={expandeble} className={cls} onClick={() => setOpen(!open)}>
+        <span>{talk.title}</span>
+        <span className={styles.speaker}>{talk.speakers}</span>
+        <Collapse isOpened={open}>
+            <div className={styles.abstractTitle}>Abstract:</div>
+            <div className={styles.abstract}>{talk.abstract}</div>
+        </Collapse>
+    </ClickableDiv>
+}
 
 function Slot(props: {talks: Talk[]}){
     return <div className={styles.description}>
         {
             props.talks.map((talk, index) => {
-                return <div className={styles.talk} key={index}>
-                    <span>{talk.title}</span>
-                    <span className={styles.speaker}>{talk.speakers}</span>
-                </div>
+                return <SlotInformation key={index} talk={talk}/>
             })
         }
     </div>
