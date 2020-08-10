@@ -14,7 +14,7 @@ export function ProgramPage(){
             <Seperator />
             <CenterSection header={<h1>Information</h1>}>
                 <p>
-                    JavaZone VR will have four parallel tracks, and you can follow them stream lived here the whole day.
+                    "JavaZone VR will have four parallel tracks which all will streamed live on this page!
                 </p>
             </CenterSection>
             <Section header={<h1>The different tracks</h1>}>
