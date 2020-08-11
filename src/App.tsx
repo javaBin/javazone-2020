@@ -30,7 +30,7 @@ const routes: NavRoute[] = [
   {title: 'Speakers', url: '/speakers', show: true},
   {title: 'JourneyZone', url: '/journeyzone', show: false},
   {title: 'Partners', url: '/partners', show: true},
-  {title: 'Program', url: '/program', show: false},
+  {title: 'Program', url: '/program', show: true},
   {title: 'Academy', url: '/academy', show: false},
   {title: 'Academy', url: '/academy/registration', show: false},
   {title: 'Kids', url: '/kids', show: false},
