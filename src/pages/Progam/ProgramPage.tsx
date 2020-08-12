@@ -14,16 +14,16 @@ export function ProgramPage(){
             <Seperator />
             <CenterSection header={<h1>Information</h1>}>
                 <p>
-                    "JavaZone VR will have four parallel tracks which all will streamed live on this page!
+                    JavaZone VR will have four parallel tracks all of which will be streamed live on this page!
                 </p>
             </CenterSection>
             <Section header={<h1>The different tracks</h1>}>
                 <p>
                     <List>
-                        <li>We will host a live track from Teknologihuset in Oslo.</li>
-                        <li>The second track will be at our partners NAV in Oslo.</li>
-                        <li>The third track will be live from our partners Kantega in Trondheim</li>
-                        <li>The final track will be a online track from speakers from all over the world</li>
+                        <li>The first track will be streamed live from Teknologihuset in Oslo.</li>
+                        <li>Our partner Nav in Oslo will host the second track.</li>
+                        <li>Our partner Kantega will host the third track from their location in Trondheim.</li>
+                        <li>The final track will be a purely virtual track featuring speakers from all over the world.</li>
                     </List>
                 </p>
                 <p>
