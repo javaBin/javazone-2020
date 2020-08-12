@@ -9,7 +9,7 @@ export const program: Program[] = [
                 talks: [{
                     title: 'Keynote: Loom',
                     speakers: 'Ron Pressler'
-                
+
                 }]
             },
             {
@@ -169,11 +169,12 @@ export const program: Program[] = [
             },
             {
                 time: '10.40 – 11.40',
-                talks: [{
-                    title: 'Events, Dear Boy, Events',
-                    speakers: 'Tim Berglund',
-                    abstract: 'Harold McMillan was Prime Minister of England from 1957 to 1963, the last British PM born during Queen Victoria’s rule, and one whose wit and even-keeled nature defined his administration. When asked by a reporter what might force his government off the course he had firmly laid out for it, he allegedly replied “Events, dear boy, events.” The same might be said about what is driving software architectures today. Event-driven systems have enabled organizations to build substantial microservices ecosystems with all of the decoupling and evolvability that we were promised by the distributed computing technologies of 20 years ago. But these systems raise some interesting questions: if events now rule, what has become of entities? If we store events in logs, do we still need databases? Can we merely produce immutable events to trivially scalable logs and loose our microservices to consume them with no regard for what is actually out there in the world? To make sense of this, we turn to the past. Spanning 2,500 years before McMillan deployed his wit on that poor reporter, we will look at what Heraclitus, Aristotle, Karl Popper, and W.V.O. Quine thought and wrote about these same questions. Are there things in the world that maintain their identity over time, or is the world just a sequence of experiences? Life may be a stream of events, but sometimes I still want to look things up by key. Four great thinkers will help be better at following the paradigm that will be shaping our systems for the next generation. And as usual, a good philosophy lesson will make us better at practical tasks. We’ll apply a rich view of events and entities to a proposed microservices architecture that can last the next decade.'
-                }
+                talks: [
+                    {
+                        title: 'All You Wanted to Know About Contributing to OpenSource',
+                        speakers: 'Andres Almiray',
+                        abstract: 'OpenSource has changed how we develop software. Once seen as a rebellious activity it\'s now embraced by organizations with great success. A great way to level up your programming skills it to code more. Another way is to read others’ code. OpenSource fosters collaboration and communication, allowing you to expand your reach to a wide variety of code styles, viewpoints, use cases, and tools. In this session we\'ll cover several aspects of OpenSource, from getting involved, setting up a toolchain, starting a community, maintenance and governance, and more.'
+                    }
                 ]
             },
             {
@@ -187,17 +188,6 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
-                        title: 'Game of Streams: How to Tame & Get the Most from your Messaging Platforms 🐉',
-                        speakers: 'Mark Heckler',
-                        abstract: 'Most mission-critical systems have distributed elements or are entirely distributed, resulting in a number of challenges: performance, scalability, reliability, resilience...the eight fallacies of distributed computing are alive and well! Messaging platforms are often used to solve these problems and increase the "ilities", but they don\'t come without a few complexities of their own. Come to this session to learn not only how to use open source solutions like Spring Cloud Stream, RabbitMQ, & Apache Kafka to maximize your distributed systems\' capabilities while minimizing complexity...but also how to *really* use them! There be dragons when dealing with messaging platforms; the presenter will show you several ways to tame and harness them for maximum fire, maximum altitude.  All examples will be coded *live & in real-time*!'
-                    }
-                ]
-
-            },
-            {
-                time: '13.40 – 14.40',
-                talks: [
-                    {
                         title: 'The Hacker\'s Guide to JWT Security',
                         speakers: 'Patrycja Wegrzynowicz',
                         abstract: 'JSON Web Token (JWT) is an open standard for creating tokens that assert some number of claims like a logged in user and his/her roles. JWT is widely used in modern applications as a stateless authentication mechanism. Therefore, it is important to understand JWT security risks, especially when broken authentication is among the most prominent security vulnerabilities according to the OWASP Top 10 list. This talk guides you through various security risks of JWT, including confidentiality problems, vulnerabilities in algorithms and libraries, token cracking, token sidejacking, and more. In live demos, you’ll learn how to hijack a user account exploiting common security vulnerabilities on the client-side, on the server-side, and in transport. You’ll also find out about common mistakes and vulnerabilities along with the best practices related to the implementation of JWT authentication and the usage of available JWT libraries.'
@@ -205,12 +195,22 @@ export const program: Program[] = [
                 ]
             },
             {
+                time: '13.40 – 14.40',
+                talks: [
+                    {
+                        title: 'Game of Streams: How to Tame & Get the Most from your Messaging Platforms 🐉',
+                        speakers: 'Mark Heckler',
+                        abstract: 'Most mission-critical systems have distributed elements or are entirely distributed, resulting in a number of challenges: performance, scalability, reliability, resilience...the eight fallacies of distributed computing are alive and well! Messaging platforms are often used to solve these problems and increase the "ilities", but they don\'t come without a few complexities of their own. Come to this session to learn not only how to use open source solutions like Spring Cloud Stream, RabbitMQ, & Apache Kafka to maximize your distributed systems\' capabilities while minimizing complexity...but also how to *really* use them! There be dragons when dealing with messaging platforms; the presenter will show you several ways to tame and harness them for maximum fire, maximum altitude.  All examples will be coded *live & in real-time*!'
+                    }
+                ]
+            },
+            {
                 time: '14.50 – 15.50',
                 talks: [
                     {
-                        title: 'All You Wanted to Know About Contributing to OpenSource',
-                        speakers: 'Andres Almiray',
-                        abstract: 'OpenSource has changed how we develop software. Once seen as a rebellious activity it\'s now embraced by organizations with great success. A great way to level up your programming skills it to code more. Another way is to read others’ code. OpenSource fosters collaboration and communication, allowing you to expand your reach to a wide variety of code styles, viewpoints, use cases, and tools. In this session we\'ll cover several aspects of OpenSource, from getting involved, setting up a toolchain, starting a community, maintenance and governance, and more.'
+                        title: 'Events, Dear Boy, Events',
+                        speakers: 'Tim Berglund',
+                        abstract: 'Harold McMillan was Prime Minister of England from 1957 to 1963, the last British PM born during Queen Victoria’s rule, and one whose wit and even-keeled nature defined his administration. When asked by a reporter what might force his government off the course he had firmly laid out for it, he allegedly replied “Events, dear boy, events.” The same might be said about what is driving software architectures today. Event-driven systems have enabled organizations to build substantial microservices ecosystems with all of the decoupling and evolvability that we were promised by the distributed computing technologies of 20 years ago. But these systems raise some interesting questions: if events now rule, what has become of entities? If we store events in logs, do we still need databases? Can we merely produce immutable events to trivially scalable logs and loose our microservices to consume them with no regard for what is actually out there in the world? To make sense of this, we turn to the past. Spanning 2,500 years before McMillan deployed his wit on that poor reporter, we will look at what Heraclitus, Aristotle, Karl Popper, and W.V.O. Quine thought and wrote about these same questions. Are there things in the world that maintain their identity over time, or is the world just a sequence of experiences? Life may be a stream of events, but sometimes I still want to look things up by key. Four great thinkers will help be better at following the paradigm that will be shaping our systems for the next generation. And as usual, a good philosophy lesson will make us better at practical tasks. We’ll apply a rich view of events and entities to a proposed microservices architecture that can last the next decade.'
                     }
                 ]
             },
