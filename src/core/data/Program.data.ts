@@ -271,7 +271,21 @@ export const program: Program[] = [
                         title: 'TBD'
                     },
                     {
-                        title: 'TBD'
+                        title: 'Ubeskyttet UX',
+                        speakers: 'Aleksander Schipper',
+                        abstract: 'Vi har alle funnet oss selv i den kleine situasjonen. Er det meg det er noe galt med? Er det deg det er noe galt med? Begge parter vet ikke helt hva som skjer, men noe er feil - og det er flaut for alle. Du prøver å få gjennom noe, men får det ikke til. Jeg er ganske sikker på at jeg ikke har med meg noe ræl fra siste side jeg var på - tenker du. Og det er nok sant. Det er ikke deg, men det er den du interagerer med, dessverre. Du er ikke den første, og er hvert fall ikke den siste. Man snakker ofte om helsesjekk i forskjellige systemer, men det er spesielt en form for sykdom det ikke snakkes mye om i dag. Den er veldig utbredt, men lite kjent hos folk flest. Det er et felles ansvar å løfte sykdommen ut fra skyggene. Jeg snakker selvfølgelig om ubeskyttet UX\n' +
+                            '\n' +
+                            'Designere fra flere forskjellige disipliner jobber gjerne med UX, og du har kanskje hørt titler som; interaksjonsdesigner, tjenestedesigner, informasjonsarkitekt, grafisk designer, visuell designer, UI designer, Adferds-designer, Idé-astronaut, Designpsykolog osv... Noe som gjør det ekstra fancy er om det står -lead bak. Da har man liksom svart belte, og er helt rå i faget. Men noe jeg føler vi ofte glemmer er at UX er noe som treffer alle i teamet. Om du er en helt sinnsyk fullstack utvikler, eller om du har en mastergrad i forretning fra en fancy skole i utlandet - inngår UX deg også. \n' +
+                            '\n' +
+                            'Jeg vil gjerne dele noen erfaringer om ubeskyttet UX jeg har opplevd:\n' +
+                            '\n' +
+                            'Produkteier vet visst ALT som er verdt å vite om brukerne av systemet. Man blir møtt med motstand dersom man nevner ting som: Intervjuer, brukertester, medlytt på saksbehandlere... Kreative workshops oppleves som bortkastet tid. Fasiten sitter i samme rom som deg. Produkteier kan alt om brukerens problemer og behov.\n' +
+                            '\n' +
+                            'Teamet måles på hvor mye de lager, hvor mange JIRA tasker de fullfører og hvor fort dette går ut i produksjon. Det er jo kjekt å kunne gjøre raske endringer dersom noe er feil, men hvis suksessfaktoren i teamet er hvor mye de får ut - så er det noe som skurrer. Bare fordi man kan bygge noe, bør man egentlig bygge det? \n' +
+                            '\n' +
+                            'Når det først gjennomføres en brukertest, så er det liten interesse hos utviklere og forretning. Alle bør bidra! Backend, Frontend, fullstack, forretning, design - alle bør være med! Alle observerer forskjellige ting som har med systemet å gjøre. Alle bør bry seg mye om dette, og hvis alle bryr seg, får alle mer eierskap. Ikke bare det, men man avdekker enda flere muligheter for forbedring. \n' +
+                            '\n' +
+                            'Designere får høre at de er her for å få alt til å se pent ut. Ikke noe mindre, ikke noe mer.'
                     },
                     {
                         title: 'TBD'
@@ -282,7 +296,13 @@ export const program: Program[] = [
                 time: '14.50 – 15.50',
                 talks: [
                     {
-                        title: 'TBD'
+                        title: 'Building Quality in Legacy Systems - The Art of Asking Questions',
+                        speakers: 'Mufrid Krilic',
+                        abstract: 'The goal of being able to build quality in software products from the get-go is something that many organizations are trying to achieve. However, the very definition of software quality is somewhat elusive which makes it difficult to agree upon the perceived level of quality in software products. Moreover, working with legacy systems poses its own set of challenges as uncertainty of preserving overall quality in the legacy product seems to be an everyday struggle for many teams.\n' +
+                            '\n' +
+                            'This talk builds on a multi-perspective definition suggested by Gojko Adzic in his blogpost “Redefining Software Quality” some years ago. For each perspective a series of well-defined questions will be presented that help teams challenge their own assumptions about quality in the end-product.\n' +
+                            '\n' +
+                            'The talk is based on practical applications of Gojko’s definition as embraced by the teams working on a legacy enterprise software in the healthcare domain.'
                     }
                 ]
             },
