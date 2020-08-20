@@ -73,8 +73,11 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
-                        title: 'Keynote: Career Advice',
-                        speakers: 'Trisha Gee'
+                        title: 'Keynote: Career Advice for Programmers',
+                        speakers: 'Trisha Gee',
+                        abstract: 'I’m no expert, but I have worked hard to steer my career, and I have been responsible for CV-screening and interviewing candidates for developer positions, and I’m involved with mentoring developers. Here, I like to share stories of things I learnt the hard way.\n' +
+                            '\n' +
+                            'Anyone ever give you advice on how to remain a programmer? To avoid being “promoted” into positions away from technology and code? Anyone ever tell you at school or university that you needed social skills to be a good developer? Did you know, without having had half a dozen different jobs, that all development roles are not created equal? Is it true that moving jobs a lot is a Bad Thing? In this session, Trisha is going to share some lessons she learnt the hard way while managing her career as a Java developer. She’s going to tell you secrets that others don’t want to share. And she’ll give you tools for working out what your next steps are. If nothing else, you’ll get to laugh at the (many) mistakes Trisha made in her search for The Perfect Job.'
                     }
                 ]
             },
@@ -152,8 +155,11 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
-                        title: 'Keynote: Career Advice',
-                        speakers: 'Trisha Gee'
+                        title: 'Keynote: Career Advice for Programmers',
+                        speakers: 'Trisha Gee',
+                        abstract: 'I’m no expert, but I have worked hard to steer my career, and I have been responsible for CV-screening and interviewing candidates for developer positions, and I’m involved with mentoring developers. Here, I like to share stories of things I learnt the hard way.\n' +
+                            '\n' +
+                            'Anyone ever give you advice on how to remain a programmer? To avoid being “promoted” into positions away from technology and code? Anyone ever tell you at school or university that you needed social skills to be a good developer? Did you know, without having had half a dozen different jobs, that all development roles are not created equal? Is it true that moving jobs a lot is a Bad Thing? In this session, Trisha is going to share some lessons she learnt the hard way while managing her career as a Java developer. She’s going to tell you secrets that others don’t want to share. And she’ll give you tools for working out what your next steps are. If nothing else, you’ll get to laugh at the (many) mistakes Trisha made in her search for The Perfect Job.'
                     }
                 ]
             },
@@ -221,8 +227,11 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
-                        title: 'Keynote: Career Advice',
-                        speakers: 'Trisha Gee'
+                        title: 'Keynote: Career Advice for Programmers',
+                        speakers: 'Trisha Gee',
+                        abstract: 'I’m no expert, but I have worked hard to steer my career, and I have been responsible for CV-screening and interviewing candidates for developer positions, and I’m involved with mentoring developers. Here, I like to share stories of things I learnt the hard way.\n' +
+                            '\n' +
+                            'Anyone ever give you advice on how to remain a programmer? To avoid being “promoted” into positions away from technology and code? Anyone ever tell you at school or university that you needed social skills to be a good developer? Did you know, without having had half a dozen different jobs, that all development roles are not created equal? Is it true that moving jobs a lot is a Bad Thing? In this session, Trisha is going to share some lessons she learnt the hard way while managing her career as a Java developer. She’s going to tell you secrets that others don’t want to share. And she’ll give you tools for working out what your next steps are. If nothing else, you’ll get to laugh at the (many) mistakes Trisha made in her search for The Perfect Job.'
                     }
                 ]
             },
@@ -259,7 +268,11 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
-                        title: 'TBD'
+                        title: 'User Behaviour Analysis - Anomalous behaviour',
+                        speakers: 'Muhammad Ali Norozi',
+                        abstract: 'User behaviour analysis (UBA) is the set of methods/techniques/mindset for collecting, combining, and analysing quantitative and qualitative user data to understand how users interact with a product, and why. And from those data points there are data point which we call for anomalies. Those data points which stand out and which at times contain wealth of indications and signals, necessary for the product and business in general.\n' +
+                            '\n' +
+                            'In this talk I will go from general UBA to more specific anomalous cases and specifically to some cases of fraud and anti money laundering (AML). Some existing ML methods and discussions around that.'
                     }
                 ]
 
@@ -310,8 +323,11 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
-                        title: 'Keynote: Career Advice',
-                        speakers: 'Trisha Gee'
+                        title: 'Keynote: Career Advice for Programmers',
+                        speakers: 'Trisha Gee',
+                        abstract: 'I’m no expert, but I have worked hard to steer my career, and I have been responsible for CV-screening and interviewing candidates for developer positions, and I’m involved with mentoring developers. Here, I like to share stories of things I learnt the hard way.\n' +
+                            '\n' +
+                            'Anyone ever give you advice on how to remain a programmer? To avoid being “promoted” into positions away from technology and code? Anyone ever tell you at school or university that you needed social skills to be a good developer? Did you know, without having had half a dozen different jobs, that all development roles are not created equal? Is it true that moving jobs a lot is a Bad Thing? In this session, Trisha is going to share some lessons she learnt the hard way while managing her career as a Java developer. She’s going to tell you secrets that others don’t want to share. And she’ll give you tools for working out what your next steps are. If nothing else, you’ll get to laugh at the (many) mistakes Trisha made in her search for The Perfect Job.'
                     }
                 ]
             },
