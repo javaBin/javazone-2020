@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 
 @font-face {
   font-family: 'lunatix';
-  src: url('./assets/Lunatix\ Light\ Regular.otf');
+  src: url('./assets/LunatixLightRegular.otf');
 }
 
 body {
   margin: 0;
   padding: 0;
   background-color: rgb(25, 25, 25);
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 @for $i from 1 through 6{
   h#{$i} {
-    font-family: 'lunatix';
+    font-family: 'lunatix', serif;
   }
 }
 

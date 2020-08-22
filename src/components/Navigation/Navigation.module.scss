@@ -10,6 +10,7 @@
     box-sizing: border-box;
     z-index: 100;
     padding: 1rem;
+    font-family: 'lunatix', serif;
     @media only screen and (max-width: $screen-xs) {
         padding: 1rem;
         box-sizing: border-box;
@@ -37,7 +38,7 @@
         right: 0;
     }
     &NavItem {
-        margin: 0 0.5rem;
+        margin: 0.2rem 0.5rem 0 0.5rem;
         padding: 0.4rem 0.4rem;
         font-size: 1.5rem;
         opacity: 0.70;
