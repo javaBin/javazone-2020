@@ -36,10 +36,10 @@ function Bio(props: {speakers?: Speakers}) {
     return (
         <>
             {props.speakers?.map(speaker =>
-                <>
-                    <div className={styles.abstractTitle}>{`${speaker.name}: `}</div>
-                    <div className={styles.abstract}>{speaker.bio}</div>
-                </>
+                <div className={styles.bio}>
+                    <span className={styles.bioTittle}>{`${speaker.name}: `}</span>
+                    <span>{speaker.bio}</span>
+                </div>
             )}
         </>
     )
