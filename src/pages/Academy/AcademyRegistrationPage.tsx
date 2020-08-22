@@ -41,8 +41,7 @@ export function AcademyRegistrationPage() {
 
     return (
         <>
-            <VikingBanner header="JavaZone Academy" subHeader={`Register for Academy-${realCityName}`}
-                        imagePath="2020/images/"/>
+            <VikingBanner header="JavaZone Academy" subHeader={`Register for Academy-${realCityName}`}/>
             <Seperator/>
             <CenterSection>
                 <div className={styles.back}>
