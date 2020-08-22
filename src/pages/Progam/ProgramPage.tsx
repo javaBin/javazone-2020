@@ -16,6 +16,9 @@ export function ProgramPage(){
                 <p>
                     JavaZone VR will have four parallel tracks all of which will be streamed live on this page!
                 </p>
+                <p>
+                    Please note that all given times are in Oslo time (CEST/ UTC+2).
+                </p>
             </CenterSection>
             <Section header={<h1>The different tracks</h1>}>
                 <p>
