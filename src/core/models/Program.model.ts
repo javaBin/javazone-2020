@@ -7,6 +7,7 @@ export type Speakers = Speaker[]
 
 export interface Talk {
     title: string;
+    id: string;
     speakers?: Speakers;
     abstract?: string;
 }

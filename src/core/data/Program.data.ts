@@ -1,5 +1,6 @@
 import {Program} from "../models/Program.model";
 
+
 export const program: Program[] = [
     {
         location: 'Teknologihuset - Oslo',
@@ -7,6 +8,7 @@ export const program: Program[] = [
             {
                 time: '9.30 – 10.30',
                 talks: [{
+                    id: "1",
                     title: 'Keynote: Scalable, Harmonious Concurrency for the Java Platform',
                     speakers: [{
                         name: 'Ron Pressler',
@@ -19,6 +21,7 @@ export const program: Program[] = [
             {
                 time: '10.40 – 11.40',
                 talks: [{
+                    id: "2",
                     title: 'Creating a Delivery Platform; the pain and profit',
                     speakers: [{
                         name:'Anders Brujordet',
@@ -31,6 +34,7 @@ export const program: Program[] = [
             {
                 time: '11.40 - 12.30',
                 talks: [{
+                    id: "3",
                     title: 'Break'
 
                 }]
@@ -39,6 +43,7 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
+                        id: "4",
                         title: 'Det skal være lett å gjøre rett - eller hvordan lage nettbank med 20 team og samtidig sove godt om natten',
                         speakers: [{
                             name: 'Vidar Moe',
@@ -60,6 +65,7 @@ export const program: Program[] = [
                 time: '13.40 – 14.40',
                 talks: [
                     {
+                        id: "5",
                         title: 'Why Are PASETOs Better Than JSON Web Tokens? A Quick See on PASETO',
                         speakers: [{
                             name: 'Ruby Jane Cabagnot',
@@ -68,6 +74,7 @@ export const program: Program[] = [
                         abstract: 'JSON Web Tokens (JWTs) have become ubiquitous in the web authentication landscape over the last four years. In this talk, I’ll introduce you to their successor: PASETO tokens (platform agnostic security tokens). PASETO takes the best parts of the JWT spec and removes the rest. PASETO is a much simpler, more secure, and easier to use version of the JWT spec that makes cryptographers happy reduces risk for developers like you.'
                     },
                     {
+                        id: "6",
                         title: 'DIY security and privacy: roll your own VPN in 10 minutes',
                         speakers: [{
                             name: 'Jonas Nordstrand',
@@ -76,6 +83,7 @@ export const program: Program[] = [
                         abstract: 'It’s more important than ever to use a personal VPN - both for personal internet privacy and for safely accessing your smart-home/IoT-stuff when your’re away from home. There’s no shortage of commercial VPN offerings vying for your business - but no option is as satisfying (or secure) as rolling your own setup! In this session I’ll demonstrate how you can roll a personal VPN in just 10 minutes with Wireguard - the simple, understandable and elegant VPN system that was recently merged into the Linux kernel source code tree.'
                     },
                     {
+                        id: "7",
                         title: 'Det handler om å ta vare på folks data',
                         speakers: [{
                             name: 'Hans Ove Ringstad',
@@ -89,6 +97,7 @@ export const program: Program[] = [
                 time: '14.50 – 15.50',
                 talks: [
                     {
+                        id: "8",
                         title: 'What Does Your Phone Really Do?',
                         speakers: [{
                             name: 'Steven Parker',
@@ -102,6 +111,7 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
+                        id: "9",
                         title: 'Keynote: Career Advice for Programmers',
                         speakers: [{
                             name: 'Trisha Gee',
@@ -121,6 +131,7 @@ export const program: Program[] = [
             {
                 time: '9.30 – 10.30',
                 talks: [{
+                    id: "10",
                     title: 'Keynote: Scalable, Harmonious Concurrency for the Java Platform',
                     speakers: [{
                         name: 'Ron Pressler',
@@ -132,6 +143,7 @@ export const program: Program[] = [
             {
                 time: '10.40 – 11.40',
                 talks: [{
+                    id: "11",
                     title: 'Sikkerhetsfolk og jurister er mer Rive-Rolf enn Byggmester Bob - Må det være sånn?',
                     speakers: [{
                         name: 'Rune Schumann',
@@ -150,6 +162,7 @@ export const program: Program[] = [
             {
                 time: '11.40 - 12.30',
                 talks: [{
+                    id: "12",
                     title: 'Break'
 
                 }]
@@ -158,6 +171,7 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
+                        id: "13",
                         title: 'A Story About an Agile Six Pizza Team',
                         speakers: [{
                             name:'Joakim Lehn',
@@ -172,6 +186,7 @@ export const program: Program[] = [
                 time: '13.40 – 14.40',
                 talks: [
                     {
+                        id: "14",
                         title: '3 tips til utviklere for raskere testing',
                         speakers: [{
                             name: 'Tina Syversen',
@@ -180,6 +195,7 @@ export const program: Program[] = [
                         abstract: 'I dagens raske leveranseløp er det viktig å få saker fra utvikling til produksjon raskest mulig. Tiden det tar å gjennomføre en funksjonell test vil forsinke saken, og er i mange tilfeller ikke nødvendig. Det betyr ikke at det ikke er behov for testere, men vi kan hjelpe utviklerne under utvikling, i stedet for å vente på at saken skal bli klar til test. Dette kan bidra til at vi unngår feil og får saken raskere ut i produksjon.  I denne praten vil jeg komme med tre tips til utviklere for å oppnå raskere testing.'
                     },
                     {
+                        id: "15",
                         title: 'Conway\'s mob',
                         speakers: [{
                             name: 'Einar W. Høst',
@@ -188,6 +204,7 @@ export const program: Program[] = [
                         abstract: 'Conway\'s Law is the observation that organizational structures tend to be replicated in systems. This creates a strong bi-directional bond between organization structure and system structure that inhibits changes to either. This can make cross-structural efforts difficult: they face potentially formidable inertia, having to overcome reinforced, overlapping, dual-natured boundaries - both social and technological. What organizational juggernaut can hope to succeed against such resistance? At NRK TV, we have started using mobs for this. The software development mobs we unleash are activity-driven, autonomous entities that absorb the social agents (people!) they need to successfully cross boundaries. What do the mobs leave in their wake? Our experiences so far suggest mostly an incredibly varied collection of solutions to difficult problems in a surprisingly short span of time. But wait, there\'s more! Something deeper and subtler is at work at the same time, hiding in the negative space we tend to label friction and inefficiency.'
                     },
                     {
+                        id: "16",
                         title: 'Webdev by Day, Gamedev by night',
                         speakers: [{
                             name:'Gunnar Kriik',
@@ -201,6 +218,7 @@ export const program: Program[] = [
                 time: '14.50 – 15.50',
                 talks: [
                     {
+                        id: "17",
                         title: 'Create great UX and desirable products with high-productivity platform',
                         speakers: [{
                             name: 'Kristoffer Holm',
@@ -214,6 +232,7 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
+                        id: "18",
                         title: 'Keynote: Career Advice for Programmers',
                         speakers: [{
                             name: 'Trisha Gee',
@@ -233,6 +252,7 @@ export const program: Program[] = [
             {
                 time: '9.30 – 10.30',
                 talks: [{
+                    id: "19",
                     title: 'Keynote: Scalable, Harmonious Concurrency for the Java Platform',
                     speakers: [{
                         name:'Ron Pressler',
@@ -245,6 +265,7 @@ export const program: Program[] = [
                 time: '10.40 – 11.40',
                 talks: [
                     {
+                        id: "20",
                         title: 'All You Wanted to Know About Contributing to OpenSource',
                         speakers: [{
                             name: 'Andres Almiray',
@@ -257,6 +278,7 @@ export const program: Program[] = [
             {
                 time: '11.40 - 12.30',
                 talks: [{
+                    id: "21",
                     title: 'Break'
 
                 }]
@@ -265,6 +287,7 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
+                        id: "22",
                         title: 'The Hacker\'s Guide to JWT Security',
                         speakers: [{
                             name: 'Patrycja Wegrzynowicz',
@@ -280,6 +303,7 @@ export const program: Program[] = [
                 time: '13.40 – 14.40',
                 talks: [
                     {
+                        id: "23",
                         title: 'Game of Streams: How to Tame & Get the Most from your Messaging Platforms 🐉',
                         speakers: [{
                             name:'Mark Heckler',
@@ -293,6 +317,7 @@ export const program: Program[] = [
                 time: '14.50 – 15.50',
                 talks: [
                     {
+                        id: "24",
                         title: 'Events, Dear Boy, Events',
                         speakers: [{
                             name: 'Tim Berglund',
@@ -306,6 +331,7 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
+                        id: "25",
                         title: 'Keynote: Career Advice for Programmers',
                         speakers: [{
                             name:'Trisha Gee',
@@ -325,6 +351,7 @@ export const program: Program[] = [
             {
                 time: '9.30 – 10.30',
                 talks: [{
+                    id: "26",
                     title: 'Keynote: Scalable, Harmonious Concurrency for the Java Platform',
                     speakers: [{
                         name:'Ron Pressler',
@@ -336,6 +363,7 @@ export const program: Program[] = [
             {
                 time: '10.40 – 11.40',
                 talks: [{
+                    id: "27",
                     title: 'Overvåke gata eller finne korrupsjon? Norges data er ferdig indeksert',
                     speakers: [{
                         name:'Hallvard Nygård',
@@ -348,6 +376,7 @@ export const program: Program[] = [
             {
                 time: '11.40 - 12.30',
                 talks: [{
+                    id: "28",
                     title: 'Break'
 
                 }]
@@ -356,6 +385,7 @@ export const program: Program[] = [
                 time: '12.30 – 13.30',
                 talks: [
                     {
+                        id: "29",
                         title: 'User Behaviour Analysis - Anomalous behaviour',
                         speakers: [{
                             name:'Muhammad Ali Norozi',
@@ -372,9 +402,11 @@ export const program: Program[] = [
                 time: '13.40 – 14.40',
                 talks: [
                     {
+                        id: "30",
                         title: 'TBD'
                     },
                     {
+                        id: "31",
                         title: 'Ubeskyttet UX',
                         speakers: [{
                             name: 'Aleksander Schipper',
@@ -395,6 +427,7 @@ export const program: Program[] = [
                             'Designere får høre at de er her for å få alt til å se pent ut. Ikke noe mindre, ikke noe mer.'
                     },
                     {
+                        id: "32",
                         title: 'TBD'
                     }
                 ]
@@ -403,6 +436,7 @@ export const program: Program[] = [
                 time: '14.50 – 15.50',
                 talks: [
                     {
+                        id: "33",
                         title: 'Building Quality in Legacy Systems - The Art of Asking Questions',
                         speakers: [{
                             name: 'Mufrid Krilic',
@@ -422,6 +456,7 @@ export const program: Program[] = [
                 time: '16.00 – 17.00',
                 talks: [
                     {
+                        id: "34",
                         title: 'Keynote: Career Advice for Programmers',
                         speakers: [{
                             name:'Trisha Gee',
