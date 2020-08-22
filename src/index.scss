@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
 
+@font-face {
+  font-family: 'lunatix';
+  src: url('./assets/Lunatix\ Light\ Regular.otf');
+}
 
 body {
   margin: 0;
@@ -10,6 +14,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@for $i from 1 through 6{
+  h#{$i} {
+    font-family: 'lunatix';
+  }
+}
+
 p {
   font-size: 1.4rem;
   line-height: 140%;
@@ -18,4 +28,8 @@ p {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.ReactCollapse--collapse {
+  transition: height 300ms;
 }
