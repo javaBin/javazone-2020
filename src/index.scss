@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
 
+@font-face {
+  font-family: 'lunatix';
+  src: url('./assets/Lunatix\ Light\ Regular.otf');
+}
 
 body {
   margin: 0;
@@ -8,6 +12,12 @@ body {
   font-family: 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@for $i from 1 through 6{
+  h#{$i} {
+    font-family: 'lunatix';
+  }
 }
 
 p {

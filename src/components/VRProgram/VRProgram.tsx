@@ -78,7 +78,7 @@ function ProgramSlot(props: Schedule) {
     return (
         <div className={styles.program}>
             <div className={styles.time}>
-                <h2>{time}</h2>
+                <h2 style={{fontFamily: 'PT Sans'}}>{time}</h2>
             </div>
             <div className={styles.description}>
                 <Slot talks={talks}/>
