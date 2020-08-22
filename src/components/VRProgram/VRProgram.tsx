@@ -44,7 +44,7 @@ function Slot(props: {talks: Talk[]}){
     return <div className={styles.description}>
         {
             props.talks.map((talk, index) => {
-                return <SlotInformation key={index} talk={talk}/>
+                return <SlotInformation key={talk.id} talk={talk}/>
             })
         }
     </div>

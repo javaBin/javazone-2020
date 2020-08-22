@@ -2,6 +2,7 @@
 
 export interface Talk {
     title: string;
+    id: string,
     speakers?: string;
     abstract?: string;
 }
