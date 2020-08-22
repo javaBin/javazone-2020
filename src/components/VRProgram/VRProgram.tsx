@@ -2,7 +2,7 @@ import React, {ReactNode, useState} from 'react';
 import {Collapse} from 'react-collapse';
 import styles from './VRProgram.module.scss';
 import {ActiveButton, ButtonGroup} from '../Button/ButtonGroup';
-import {Program, Schedule, Talk} from '../../core/models/Program.model';
+import {Program, Schedule, Speakers, Talk} from '../../core/models/Program.model';
 import {program} from '../../core/data/Program.data';
 import classNames from "classnames";
 
@@ -23,6 +23,29 @@ function ClickableDiv(props: {clickAble: boolean, className?: string, onClick?: 
 
 }
 
+function Abstract(props: {abstract?: string}) {
+    return (
+        <>
+            <div className={styles.abstractTitle}>Abstract:</div>
+            <div className={styles.abstract}>{props.abstract}</div>
+        </>
+    )
+}
+
+function Bio(props: {speakers?: Speakers}) {
+    return (
+        <>
+            {props.speakers?.map(speaker =>
+                <>
+                    <div className={styles.abstractTitle}>{`${speaker.name}: `}</div>
+                    <div className={styles.abstract}>{speaker.bio}</div>
+                </>
+            )}
+        </>
+    )
+}
+
+
 function SlotInformation(props: {talk: Talk}){
     const {talk} = props;
     const [open, setOpen] = useState(false);
@@ -32,10 +55,10 @@ function SlotInformation(props: {talk: Talk}){
 
     return <ClickableDiv clickAble={expandeble} className={cls} onClick={() => setOpen(!open)}>
         <span>{talk.title}</span>
-        <span className={styles.speaker}>{talk.speakers}</span>
+        <span className={styles.speaker}>{talk.speakers && talk.speakers.map(speaker => speaker.name).join(", ")}</span>
         <Collapse isOpened={open}>
-            <div className={styles.abstractTitle}>Abstract:</div>
-            <div className={styles.abstract}>{talk.abstract}</div>
+            <Abstract abstract={talk.abstract}/>
+            <Bio speakers={props.talk.speakers}/>
         </Collapse>
     </ClickableDiv>
 }
@@ -51,7 +74,7 @@ function Slot(props: {talks: Talk[]}){
 }
 
 function ProgramSlot(props: Schedule) {
-    const {time, talks} = props
+    const {time, talks} = props;
     return (
         <div className={styles.program}>
             <div className={styles.time}>
