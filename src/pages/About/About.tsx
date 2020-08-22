@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageBanner } from '../../components/PageBanner/PageBanner';
+import { VikingBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
 import { Seperator } from '../../components/Seperator/Seperator';
@@ -8,7 +8,7 @@ import { List } from '../../components/List/List';
 export function AboutUsPage() {
     return (
         <>
-            <PageBanner header="JavaZone: The biggest community-driven Java conference" subHeader="What is it? Who is behind it?" imageName="2018/180913_JavaZone_0010" />
+            <VikingBanner header="JavaZone: The biggest community-driven Java conference" subHeader="What is it? Who is behind it?"/>
             <Seperator />
             <Section header={<h1>What is JavaZone?</h1>}>
                 <p>

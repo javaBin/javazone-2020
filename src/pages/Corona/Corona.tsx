@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageBanner } from '../../components/PageBanner/PageBanner';
+import { VikingBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { Seperator } from '../../components/Seperator/Seperator';
 import {CenterSection} from "../../components/CenterSection/CenterSection";
@@ -8,7 +8,7 @@ import {InlineLink} from "../../components/InlineLink/InlineLink";
 export function CoronaPage() {
     return (
         <>
-            <PageBanner header="Information about JavaZone in context of COVID-19" subHeader="" imageName="2018/180913_JavaZone_0010" />
+            <VikingBanner header="Information about JavaZone in context of COVID-19" subHeader=""/>
             <Seperator />
             <Section header={<h1>Information</h1>}>
                 <p>

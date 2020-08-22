@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageBanner } from '../../components/PageBanner/PageBanner';
+import { VikingBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
 import { Seperator } from '../../components/Seperator/Seperator';
@@ -9,7 +9,7 @@ import Link from "../../components/Link/Link";
 export function InfoPage() {
     return (
         <>
-            <PageBanner header="Another year, another JavaZone!" subHeader="January 20th - 21th, 2021" imageName="2018/180913_JavaZone_0010" />
+            <VikingBanner header="Another year, another JavaZone!" subHeader="January 20th - 21th, 2021"/>
             <Seperator />
             <Section header={<h1>JavaZone 101 the who, what and where</h1>}>
                 <p>

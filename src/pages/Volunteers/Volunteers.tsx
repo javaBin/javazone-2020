@@ -1,5 +1,5 @@
 import React from 'react';
-import {PageBanner} from '../../components/PageBanner/PageBanner';
+import {VikingBanner} from '../../components/PageBanner/PageBanner';
 import {Section} from '../../components/Section/Section';
 import Link from '../../components/Link/Link';
 import {InlineLink} from '../../components/InlineLink/InlineLink';
@@ -9,9 +9,8 @@ import {CenterSection} from "../../components/CenterSection/CenterSection";
 export function VolunteersPage() {
     return (
         <>
-            <PageBanner header="Bli frivillig på JavaZone"
-                        subHeader="Information in Norwegian for potential student volunteers"
-                        imageName="2018/180912_JavaZone_0026"/>
+            <VikingBanner header="Bli frivillig på JavaZone"
+                        subHeader="Information in Norwegian for potential student volunteers"/>
             <Seperator/>
             <Section header={<h1>Hva er JavaZone?</h1>}>
                 <p>
