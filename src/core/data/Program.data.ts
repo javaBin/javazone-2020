@@ -177,7 +177,7 @@ export const program: Program[] = [
                             name:'Joakim Lehn',
                             bio: 'Joakim is a technical team lead and department manager with the consultancy firm Aboveit, currently digging deep into PSD2 and Open Banking for the biggest bank in Norway. He is passionate about cloud development, DevOps and building an awesome team culture with his colleagues.'
                         }],
-                        abstract: 'For two years I had the challange of leading a six pizza team consisting of up to 15 develoåers, using an agile mindset and methodology. In this presentation I will tell the story of how the team evolved and experimented with different agile methods, trying to use the team size as a benefit instead of an disadvantage.'
+                        abstract: 'For two years I had the challenge of leading a six pizza team consisting of up to 15 developers, using an agile mindset and methodology. In this presentation I will tell the story of how the team evolved and experimented with different agile methods, trying to use the team size as a benefit instead of a disadvantage.'
                     }
                 ]
 
