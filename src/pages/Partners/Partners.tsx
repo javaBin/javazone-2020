@@ -15,7 +15,7 @@ export function PartnersPage() {
     const canPlayWebm = useCanPlayVideoType('webm');
     return (
         <>
-            <VikingBanner header="Partner love <3" subHeader="January 20th - 21th, 2021"/>
+            <VikingBanner header="Partner love" subHeader="January 20th - 21th, 2021"/>
             <Seperator />
             <CenterSection header={<h1>JavaZone 2020: Bigger and better than ever</h1>}>
                 <p>
