@@ -3,7 +3,6 @@ import {VikingBanner} from '../../components/PageBanner/PageBanner';
 import {Section} from '../../components/Section/Section';
 import Link from '../../components/Link/Link';
 import {InlineLink} from '../../components/InlineLink/InlineLink';
-import {Seperator} from "../../components/Seperator/Seperator";
 import {CenterSection} from "../../components/CenterSection/CenterSection";
 
 export function VolunteersPage() {
@@ -11,7 +10,6 @@ export function VolunteersPage() {
         <>
             <VikingBanner header="Bli frivillig på JavaZone"
                         subHeader="Information in Norwegian for potential student volunteers"/>
-            <Seperator/>
             <Section header={<h1>Hva er JavaZone?</h1>}>
                 <p>
                     JavaZone er verdens største community-drevne Java-konferanse.

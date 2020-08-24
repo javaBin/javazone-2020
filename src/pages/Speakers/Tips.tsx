@@ -1,13 +1,11 @@
 import React from 'react';
 import { PageBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
-import { Seperator } from '../../components/Seperator/Seperator';
 
 export function SpeakerTipsPage() {
     return (
         <>
             <PageBanner header="Tips And Tricks for Speakers" subHeader="Make that abstract shine" imageName="2018/180913_JavaZone_0010" />
-            <Seperator />
             <Section header={<h1>Increase the chance of your talk being accepted</h1>}>
                     <p>
                         There is generally a very high correlation between how much work one puts into the creation of a proposal and the chance that the proposal is accepted. Even a proposal with an extremely cool theme, entertaining title, and an experienced speaker may be excluded if the description is lacking. We have gathered some tips that should be considered when writing a JavaZone proposal, and a few reasons why proposals may be rejected.

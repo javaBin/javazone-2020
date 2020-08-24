@@ -1,6 +1,5 @@
 import React, {useLayoutEffect} from 'react';
 import {VikingBanner} from '../../components/PageBanner/PageBanner';
-import {Seperator} from '../../components/Seperator/Seperator';
 import {CenterSection} from '../../components/CenterSection/CenterSection';
 import Link from "../../components/Link/Link";
 import styles from './BuyTicketsPage.module.scss';
@@ -29,7 +28,6 @@ export function BuyTicketsPage() {
     return (
         <>
             <VikingBanner header="The Ticket Booth" subHeader="Get your tickets now!"/>
-            <Seperator/>
             <CenterSection>
                 <div className={styles.back}>
                     <Link url="/tickets">

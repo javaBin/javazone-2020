@@ -2,7 +2,6 @@ import React from 'react';
 import { VikingBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
-import { Seperator } from '../../components/Seperator/Seperator';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
 import Link from "../../components/Link/Link";
 
@@ -10,7 +9,6 @@ export function InfoPage() {
     return (
         <>
             <VikingBanner header="Another year, another JavaZone!" subHeader="January 20th - 21th, 2021"/>
-            <Seperator />
             <Section header={<h1>JavaZone 101 the who, what and where</h1>}>
                 <p>
                     JavaZone – the biggest European community-driven conference for modern developers will be 19 years old in 2020! Don’t miss out on two days of inspiring tech talks, a day of hands-on sessions, mingling, and a great party!
@@ -32,7 +30,6 @@ export function InfoPage() {
                 </p>
             </Section>
             <ImageSection imageName="partners_1" />
-            <Seperator />
             <Section header={<h1>Two conference days</h1>}>
                 <p>
                     Two days full of talks from renowned Norwegian and international speakers, in varying formats and categories. You don´t want to miss our amazing lineup.
@@ -54,7 +51,6 @@ export function InfoPage() {
                 </p>
             </Section>
             <ImageSection imageName="partners_3" />
-            <Seperator />
             <Section header={<h1>The JavaZone Program</h1>}>
                 <p>
                     The program will be made available a month before the conference. Stay tuned!
@@ -76,7 +72,6 @@ export function InfoPage() {
                 </p>
             </Section>
             <ImageSection imageName="info_1" />
-            <Seperator />
             <Section header={<h1>AweZone: celebrating the community</h1>}>
                 <p>
                     AweZone is JavaZone's traditional party which takes place on Wednesday evening.

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { VikingBanner } from "../../components/PageBanner/PageBanner";
-import {Seperator} from "../../components/Seperator/Seperator";
 import {CenterSection} from "../../components/CenterSection/CenterSection";
 import {Section} from "../../components/Section/Section";
 import {KidsSection} from "../../components/KidsProgram/KidsSection";
@@ -11,7 +10,6 @@ export function KidsPage() {
     return (
         <>
             <VikingBanner header="JavaZone Kids" subHeader="En smakebit på JavaZone for framtidens utviklere"/>
-            <Seperator />
             <CenterSection header={<h1>Tre sesjoner: En smakebit på voksenlivet</h1>}>
                 <p>
                     JavaZone inviterer alle, og spesielt deltakere på JavaZone, til å ta med seg sine barn på 
@@ -59,7 +57,6 @@ export function KidsPage() {
                     <strong><em>Påmeldingen åpner 1. mars kl. 12.00.</em></strong>
                 </p>
             </Section>
-            <Seperator />
             <KidsSection header={<h1>Sesjoner</h1>}>
                 <Box>
                     <h1>Fullt!</h1>
@@ -70,7 +67,6 @@ export function KidsPage() {
                 <KidsProgram/>
             </KidsSection>
 
-            <Seperator />
             <CenterSection header={<h1>Vi sees på teknologihuset søndag 24. mars!</h1>}>
                 <p>
                     Vennlig hilsen,

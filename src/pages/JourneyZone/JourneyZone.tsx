@@ -1,6 +1,5 @@
 import React from 'react';
 import {VikingBanner} from '../../components/PageBanner/PageBanner';
-import {Seperator} from '../../components/Seperator/Seperator';
 import {CenterSection} from '../../components/CenterSection/CenterSection';
 import {Section} from '../../components/Section/Section';
 import {ImageSection} from '../../components/ImageSection/ImageSection';
@@ -10,7 +9,6 @@ export function JourneyZonePage() {
     return (
         <>
             <VikingBanner header="JourneyZone 2020" subHeader="Canvas Hotel"/>
-            <Seperator/>
             <CenterSection header={<h1>What is this?</h1>}>
                 <p>
                     JourneyZone is our annual trip exclusively for speakers just after the JavaZone conference. This
@@ -21,7 +19,6 @@ export function JourneyZonePage() {
                 </p>
             </CenterSection>
             <ImageSection path="2020/journeyzone/" imageName="bath"/>
-            <Seperator/>
             <Section header={<h1>Why?</h1>}>
                 <p>
                     Because we can and because we would you to spend quality time with quality people.
@@ -42,7 +39,6 @@ export function JourneyZonePage() {
                 <Link external url="https://www.youtube.com/watch?v=vxvXTLzbVB8">See video</Link>
             </Section>
             <ImageSection path="2020/journeyzone/" imageName="fun"/>
-            <Seperator/>
             <CenterSection header={<h1>Who can attend?</h1>}>
                 <p>
                     All speakers of JavaZone are invited, but we have a limited number of spots available for the

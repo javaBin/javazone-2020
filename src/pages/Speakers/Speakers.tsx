@@ -3,7 +3,6 @@ import { PageBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
 import Link from '../../components/Link/Link';
-import { Seperator } from '../../components/Seperator/Seperator';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
 import { CenterSection } from '../../components/CenterSection/CenterSection';
 import { Zap, BookOpen, Monitor } from 'react-feather';
@@ -18,7 +17,6 @@ export function SpeakersPage() {
     return (
         <>
             <PageBanner header="Call for Speakers" subHeader="Speak at JavaZone 2020" imagePath="2020/images" imageName="jz20-banner-background.png" />
-            <Seperator />
             <Section header={<h1>About JavaZone</h1>}>
                 <p>
                     JavaZone 2020 will be the 20th physical JavaZone conference and will consist of a day of pre-conference workshops on January 19th 2021, followed by two days of lightning talks and presentations on January 20th and 21st 2021.
@@ -38,7 +36,6 @@ export function SpeakersPage() {
                 <Link external url="https://talks.javazone.no">Submit your talk!</Link>
             </Section>
             <ImageSection bottom imageName="2018/180912_JavaZone_0039" />
-            <Seperator />
             <Section header={<h1>What is it like speaking at JavaZone?</h1>}>
                 <p>
                     Over the last decade JavaZone has grown to become one of the most important Java events in Europe! You can see for yourself – over 1300 videos from previous years talks are available for free at <InlineLink external url='https://vimeo.com/javazone'>Vimeo</InlineLink>, and the <InlineLink external url='https://2019.javazone.no/program'>full program from JavaZone 2019</InlineLink> is also available.
@@ -51,8 +48,6 @@ export function SpeakersPage() {
                 </p>
             </Section>
             <ImageSection imageName="partners_1" />
-            <Seperator />
-
             <Section header={<h1>Formats and Durations</h1>}>
                 <p>
                     You should think about which format your talk will work best in. Are you presenting a new idea, or do you require more time to elaborate on your subject? How hands-on do you want to be? We have three formats you can present your material in.

@@ -2,14 +2,12 @@ import React from 'react';
 import { VikingBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
-import { Seperator } from '../../components/Seperator/Seperator';
 import { List } from '../../components/List/List';
 
 export function AboutUsPage() {
     return (
         <>
             <VikingBanner header="JavaZone: The biggest community-driven Java conference" subHeader="What is it? Who is behind it?"/>
-            <Seperator />
             <Section header={<h1>What is JavaZone?</h1>}>
                 <p>
                     JavaZone is the biggest community-driven Java conference that has been organized in Oslo, Norway since 2001. It is organized on a voluntary basis by a group of people from <InlineLink external url="https://java.no">javaBin</InlineLink>, the Norwegian Java User Group, working around the year and putting many hours to create an amazing conference experience for you. 

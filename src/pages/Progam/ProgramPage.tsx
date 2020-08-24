@@ -1,5 +1,4 @@
 import {VikingBanner} from "../../components/PageBanner/PageBanner";
-import {Seperator} from "../../components/Seperator/Seperator";
 import {CenterSection} from "../../components/CenterSection/CenterSection";
 import React from "react";
 import {VRProgram} from "../../components/VRProgram/VRProgram";
@@ -11,7 +10,6 @@ export function ProgramPage(){
     return (
         <>
             <VikingBanner header="JavaZone VR Program 2020" subHeader="Mark your schedule" />
-            <Seperator />
             <CenterSection header={<h1>Information</h1>}>
                 <p>
                     JavaZone VR will have four parallel tracks all of which will be streamed live on this page!

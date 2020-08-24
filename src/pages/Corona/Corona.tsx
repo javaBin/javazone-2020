@@ -1,7 +1,6 @@
 import React from 'react';
 import { VikingBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
-import { Seperator } from '../../components/Seperator/Seperator';
 import {CenterSection} from "../../components/CenterSection/CenterSection";
 import {InlineLink} from "../../components/InlineLink/InlineLink";
 
@@ -9,7 +8,6 @@ export function CoronaPage() {
     return (
         <>
             <VikingBanner header="Information about JavaZone in context of COVID-19" subHeader=""/>
-            <Seperator />
             <Section header={<h1>Information</h1>}>
                 <p>
                     Due to the COVID-19 outbreak we have decided to postpone JavaZone 2020 until January 2021. The conference will be held on January 20th and 21st (With workshops on January 19th). In addition we will try a new concept: JavaZone VR. This will be an online conference held on September 9th.

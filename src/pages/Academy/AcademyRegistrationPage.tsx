@@ -1,6 +1,5 @@
 import React, {useLayoutEffect} from 'react';
 import {VikingBanner} from '../../components/PageBanner/PageBanner';
-import {Seperator} from '../../components/Seperator/Seperator';
 import {CenterSection} from '../../components/CenterSection/CenterSection';
 import styles from './AcademyRegistration.module.scss';
 import Link from "../../components/Link/Link";
@@ -42,7 +41,6 @@ export function AcademyRegistrationPage() {
     return (
         <>
             <VikingBanner header="JavaZone Academy" subHeader={`Register for Academy-${realCityName}`}/>
-            <Seperator/>
             <CenterSection>
                 <div className={styles.back}>
                     <Link url="/academy">

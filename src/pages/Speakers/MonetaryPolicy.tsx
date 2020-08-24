@@ -2,13 +2,11 @@ import React from 'react';
 import { PageBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
-import { Seperator } from '../../components/Seperator/Seperator';
 
 export function MonetaryPolicyPage() {
     return (
         <>
             <PageBanner header="Reimbursement Policy" subHeader="Refunds for speakers" imageName="2018/180913_JavaZone_0010" />
-            <Seperator />
             <Section header={<h1>What & How</h1>}>
                 <p>
                     If your presentation or a workshop is accepted, you may apply for a refund for travel and accommodation. Read below to find out if you are eligible.

@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react';
 import {VikingBanner} from '../../components/PageBanner/PageBanner';
-import { Seperator } from '../../components/Seperator/Seperator';
 import { CenterSection } from '../../components/CenterSection/CenterSection';
 import { Section } from '../../components/Section/Section';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
@@ -16,7 +15,6 @@ export function PartnersPage() {
     return (
         <>
             <VikingBanner header="Partner love" subHeader="January 20th - 21th, 2021"/>
-            <Seperator />
             <CenterSection header={<h1>JavaZone 2020: Bigger and better than ever</h1>}>
                 <p>
                     JavaZone started out in 2001 as a small conference for Java developers but has since then evolved to become one of the largest developer conferences in the world. Each year thousands of people gather in Oslo Spektrum for three full days of learning, mingling, and fun!
@@ -33,7 +31,6 @@ export function PartnersPage() {
                 </p>
             </Section>
             <ImageSection bottom imageName="2018/180912_JavaZone_0098" />
-            <Seperator />
             <CenterSection header={<h1>The Expo Area</h1>}>
                 <p>
                     All our partner stands are traditionally located in the Expo Area, which is located in the center of the venue. During each break, the Expo is full of attendees. This is partly because we continuously serve food from the restaurant stands – throughout the day, and partly because of you – our partners – make this area one of the liveliest Expo Areas of any conference.
@@ -90,7 +87,6 @@ export function PartnersPage() {
                     <li>Optional backing wall to the area, or some freedom to design your own use of the space.</li>
                 </List>
             </Section>
-            <Seperator />
             <CenterSection header={<h1>Partnership prices</h1>}>
                 <TicketPrice>73.000</TicketPrice>
 
@@ -122,7 +118,6 @@ export function PartnersPage() {
                 </PartnerPriceList>
             </Section>
             <ImageSection imageName="2018/180912_JavaZone_0158" />
-            <Seperator />
             <CenterSection header={<h1>Contact us</h1>}>
                 <p>You can contact us about partnership details at <InlineLink external url="mailto:partner@java.no">partner@java.no</InlineLink></p>
             </CenterSection>

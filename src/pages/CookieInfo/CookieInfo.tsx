@@ -2,14 +2,12 @@ import React from 'react';
 import { VikingBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
-import { Seperator } from '../../components/Seperator/Seperator';
 import { List } from '../../components/List/List';
 
 export function CookieInfoPage() {
     return (
         <>
             <VikingBanner header="JavaZone Website and Cookies" subHeader="Here, have a cookie from our cookie jar!"/>
-            <Seperator />
             <Section header={<h1>What Are Cookies?</h1>}>
                 <p>
                     This Website uses cookies. A cookie is a small file of letters and numbers that we put on your computer. These cookies allow us to distinguish you from other users of the Website which helps us to provide you with a good experience when you browse our Website, and to improve our Website.

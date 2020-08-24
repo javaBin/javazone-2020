@@ -1,6 +1,5 @@
 import React from 'react';
 import { PageBanner } from '../../components/PageBanner/PageBanner';
-import { Seperator } from '../../components/Seperator/Seperator';
 import { CenterSection } from '../../components/CenterSection/CenterSection';
 import { AcademyLocationSection } from '../../components/AcademyLocation/AcademyLocationSection';
 import { Section } from '../../components/Section/Section';
@@ -11,7 +10,6 @@ export function AcademyPage() {
     return (
         <>
             <PageBanner header="JavaZone Academy" subHeader="A free taste of JavaZone for IT-students!" imagePath="2020/images/" imageName="jz20-banner-background.png" />
-            <Seperator />
             <CenterSection header={<h1>Come join us in february</h1>}>
                 <p>
                     Are you a student? Interested in IT? Come join us for JavaZone Academy. 

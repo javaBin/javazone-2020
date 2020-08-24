@@ -1,6 +1,5 @@
 import React from 'react';
 import { VikingBanner } from '../../components/PageBanner/PageBanner';
-import { Seperator } from '../../components/Seperator/Seperator';
 import { CenterSection } from '../../components/CenterSection/CenterSection';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
 import { Section } from '../../components/Section/Section';
@@ -12,7 +11,6 @@ export function TicketsPage() {
     return (
         <>
             <VikingBanner header="The Ticket Booth" subHeader="Come join us in Oslo, January 20th - 21th, 2021"/>
-            <Seperator />
             <CenterSection header={<h1>Get your tickets for JavaZone 2020 – Early Bird</h1>}>
                 <TicketPrice>6,590</TicketPrice>
             </CenterSection>

@@ -28,7 +28,7 @@
 }
 
 .pageBannerHeader {
-    width: 75%;
+    width: 73%;
     height: inherit;
     color: white;
     display: flex;
@@ -42,18 +42,15 @@
     h1 {
         font-size: 4rem;
         margin-bottom: 0;
-        padding: 1rem;
         @media only screen and (max-width: $screen-xs) {
             margin: 0;
-            padding: 0.6rem;
             text-align: center;
-            font-size: 3rem;
+            font-size: 2rem;
         }
     }
     h2 {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: 1rem;
-        padding: 0.6rem;
         @media only screen and (max-width: $screen-xs) {
             text-align: center;
             font-size: 1.5rem
