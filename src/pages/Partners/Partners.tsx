@@ -43,7 +43,7 @@ export function PartnersPage() {
                 </p>
             </CenterSection>
             <CenterSection>
-                <Suspense fallback={<img src="splash.jpg" alt="splash loading screen" />}>
+                <Suspense fallback={<img src="splash.png" alt="splash loading screen" />}>
                     <video style={{width: '100%'}} muted controls id="backgroundLapse">
                         <VideoSource canPlayWebm={canPlayWebm} />
                         Your browser does not support HTML5 video.
