@@ -1,5 +1,5 @@
 import React from 'react';
-import {PageBanner} from '../../components/PageBanner/PageBanner';
+import {VikingBanner} from '../../components/PageBanner/PageBanner';
 import {Seperator} from '../../components/Seperator/Seperator';
 import {CenterSection} from '../../components/CenterSection/CenterSection';
 import {Section} from '../../components/Section/Section';
@@ -9,8 +9,7 @@ import Link from "../../components/Link/Link";
 export function JourneyZonePage() {
     return (
         <>
-            <PageBanner header="JourneyZone 2020" subHeader="Canvas Hotel" imagePath="2020/journeyzone/"
-                        imageName="hotelv2"/>
+            <VikingBanner header="JourneyZone 2020" subHeader="Canvas Hotel"/>
             <Seperator/>
             <CenterSection header={<h1>What is this?</h1>}>
                 <p>

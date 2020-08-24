@@ -10,14 +10,21 @@
     overflow: hidden;
     position: relative;
     background-position: center;
-    img {
-        bottom: 0;
-        position: absolute;
-        @media only screen and (min-width: 1439px) {
-            width: 100%;
-        }
-        filter: brightness(70%);
-    }
+}
+
+.figur {
+  width: 20%;
+  height: 100%;
+}
+
+
+.pageBannerImg {
+  bottom: 0;
+  position: absolute;
+  @media only screen and (min-width: 1439px) {
+    width: 100%;
+  }
+  filter: brightness(70%);
 }
 
 .pageBannerHeader {

@@ -17,7 +17,7 @@ import Timeline from "./Timeline/Timeline";
 export function SpeakersPage() {
     return (
         <>
-            <PageBanner header="Call for Speakers" subHeader="Speak at JavaZone 2020" imageName="2018/180913_JavaZone_0010" />
+            <PageBanner header="Call for Speakers" subHeader="Speak at JavaZone 2020" imagePath="2020/images" imageName="jz20-banner-background.png" />
             <Seperator />
             <Section header={<h1>About JavaZone</h1>}>
                 <p>

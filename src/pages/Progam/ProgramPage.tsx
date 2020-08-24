@@ -1,4 +1,4 @@
-import {PageBanner} from "../../components/PageBanner/PageBanner";
+import {VikingBanner} from "../../components/PageBanner/PageBanner";
 import {Seperator} from "../../components/Seperator/Seperator";
 import {CenterSection} from "../../components/CenterSection/CenterSection";
 import React from "react";
@@ -10,7 +10,7 @@ import {Section} from "../../components/Section/Section";
 export function ProgramPage(){
     return (
         <>
-            <PageBanner header="JavaZone VR Program 2020" subHeader="Mark your schedule" imageName="2018/180913_JavaZone_0010" />
+            <VikingBanner header="JavaZone VR Program 2020" subHeader="Mark your schedule" />
             <Seperator />
             <CenterSection header={<h1>Information</h1>}>
                 <p>

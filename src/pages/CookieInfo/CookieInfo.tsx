@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageBanner } from '../../components/PageBanner/PageBanner';
+import { VikingBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
 import { Seperator } from '../../components/Seperator/Seperator';
@@ -8,7 +8,7 @@ import { List } from '../../components/List/List';
 export function CookieInfoPage() {
     return (
         <>
-            <PageBanner header="JavaZone Website and Cookies" subHeader="Here, have a cookie from our cookie jar!" imageName="2018/180913_JavaZone_0010" />
+            <VikingBanner header="JavaZone Website and Cookies" subHeader="Here, have a cookie from our cookie jar!"/>
             <Seperator />
             <Section header={<h1>What Are Cookies?</h1>}>
                 <p>
