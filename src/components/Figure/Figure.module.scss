@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+.container{
+    display:flex;
+    max-height: 40rem;
+    min-height: 30rem;
+    @media only screen and (max-width: $screen-sm) {
+        max-height: 15rem;
+        min-height: 10rem;
+    }
+}
+
+.figure{
+    object-fit: contain;
+    margin: 0 auto;
+    width: 100%;
+}

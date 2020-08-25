@@ -4,6 +4,7 @@ import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
 import { ImageSection } from '../../components/ImageSection/ImageSection';
 import Link from "../../components/Link/Link";
+import {Figure} from "../../components/Figure/Figure";
 
 export function InfoPage() {
     return (
@@ -29,7 +30,7 @@ export function InfoPage() {
                     To attend JavaZone you will need a ticket. The ticket grants you access to the full JavaZone experience, including workshops. The number of tickets is limited and distributed on a first-come-first-served basis, so it pays to be quick.
                 </p>
             </Section>
-            <ImageSection imageName="partners_1" />
+            <Figure name="duke"/>
             <Section color="pink" header={<h1>Two conference days</h1>}>
                 <p>
                     Two days full of talks from renowned Norwegian and international speakers, in varying formats and categories. You don´t want to miss our amazing lineup.
