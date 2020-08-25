@@ -25,10 +25,10 @@ export const program: Program[] = [
                     title: 'Creating a Delivery Platform; the pain and profit',
                     speakers: [{
                         name:'Anders Brujordet',
-                        bio: 'Senior Software Engineer at Euronext VPS.\n' +
+                        bio: 'Lead DevOps Engineer at Piano.\n' +
                             'Graduated from NTNU in 2010 with a masters degree in Computer Science and have been working somewhere between backend and operations since then. Favorite languages are Bash and Scala and lately security and penetration testing has been an exciting hobby.',
                     }],
-                    abstract: 'In Schibsted I helped build a Delivery Platform for 1500 developers. Now I’m building one for 50 developers at the Norwegian CSD (Verdipapirsentralen). The challenges are not as different as you might think, and I’d like to share my key takeaways and tips for doing this well. I’ll also expand on how we are applying these ideas at Verdipapirsentralen.'
+                    abstract: 'In Schibsted I helped build a Delivery Platform for 1500 developers. Now I’m building one for 20 developers at Piano. The challenges are not as different as you might think, and I’d like to share my key takeaways and tips for doing this well.'
                 }]
             },
             {
