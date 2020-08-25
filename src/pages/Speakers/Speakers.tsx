@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageBanner } from '../../components/PageBanner/PageBanner';
+import { VikingBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
 import Link from '../../components/Link/Link';
@@ -16,7 +16,7 @@ import Timeline from "./Timeline/Timeline";
 export function SpeakersPage() {
     return (
         <>
-            <PageBanner header="Call for Speakers" subHeader="Speak at JavaZone 2020" imagePath="2020/images" imageName="jz20-banner-background.png" />
+            <VikingBanner header="Call for Speakers" subHeader="Speak at JavaZone 2020" />
             <Section header={<h1>About JavaZone</h1>}>
                 <p>
                     JavaZone 2020 will be the 20th physical JavaZone conference and will consist of a day of pre-conference workshops on January 19th 2021, followed by two days of lightning talks and presentations on January 20th and 21st 2021.

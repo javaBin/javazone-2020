@@ -16,8 +16,6 @@ import {VolunteersPage} from "./pages/Volunteers/Volunteers";
 import {SpeakersPage} from "./pages/Speakers/Speakers";
 import {MonetaryPolicyPage} from "./pages/Speakers/MonetaryPolicy";
 import {SpeakerTipsPage} from "./pages/Speakers/Tips";
-import {AcademyPage} from "./pages/Academy/Academy";
-import {AcademyRegistrationPage} from "./pages/Academy/AcademyRegistrationPage";
 import {BuyTicketsPage} from "./pages/Tickets/BuyTicketsPage";
 import {JourneyZonePage} from "./pages/JourneyZone/JourneyZone";
 import {CoronaPage} from "./pages/Corona/Corona";
@@ -31,8 +29,6 @@ const routes: NavRoute[] = [
   {title: 'JourneyZone', url: '/journeyzone', show: false},
   {title: 'Partners', url: '/partners', show: true},
   {title: 'Program', url: '/program', show: true},
-  {title: 'Academy', url: '/academy', show: false},
-  {title: 'Academy', url: '/academy/registration', show: false},
   {title: 'Kids', url: '/kids', show: false},
   {title: 'Frivillige', url: '/volunteers', show: false},
   {title: 'About', url: '/about', show: true},
@@ -71,9 +67,7 @@ function App() {
           <Route exact path="/program" component={ProgramPage} />
           <Route exact path="/about" component={AboutUsPage} />
           <Route exact path="/volunteers" component={VolunteersPage} />
-          <Route exact path="/academy" component={AcademyPage} />
           <Route exact path="/journeyzone" component={JourneyZonePage} />
-          <Route exact path="/academy/registration" component={AcademyRegistrationPage} />
           <Route exact path="/privacy-cookies" component={CookieInfoPage} />
           <Route exact path="/corona" component={CoronaPage} />
           <Route component={NotFoundPage} />
