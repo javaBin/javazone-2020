@@ -1,8 +1,17 @@
 @import '../../variables.scss';
 
+.colorPink{
+    color: $color-logo-pink
+}
+.colorBlue{
+    color: $color-logo-blue
+}
+.colorGreen{
+    color: $color-logo-green
+}
+
 .inlineLink {
     text-decoration: none;
-    color: $color-logo-red;
     padding: 0.1rem 0.3rem;
     border-radius: 3px;
     border: 1px solid transparent;

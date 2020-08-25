@@ -27,8 +27,17 @@
     }
 }
 
+.colorPink{
+    color: $color-logo-pink
+}
+.colorBlue{
+    color: $color-logo-blue
+}
+.colorGreen{
+    color: $color-logo-green
+}
+
 .header {
-    color: $color-logo-red;
     grid-area: header;
     text-transform: uppercase;
     @media only screen and (max-width: $screen-md) {
