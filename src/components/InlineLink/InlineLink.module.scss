@@ -1,13 +1,25 @@
 @import '../../variables.scss';
 
 .colorPink{
-    color: $color-logo-pink
+    color: $color-logo-pink;
+    &:hover {
+        border: 1px solid $color-logo-pink;
+        background: $color-logo-pink-dark;
+    }
 }
 .colorBlue{
-    color: $color-logo-blue
+    color: $color-logo-blue;
+    &:hover {
+        border: 1px solid $color-logo-blue;
+        background: $color-logo-blue-dark;
+    }
 }
 .colorGreen{
-    color: $color-logo-green
+    color: $color-logo-green;
+    &:hover {
+        border: 1px solid $color-logo-green;
+        background: $color-logo-green-dark;
+    }
 }
 
 .inlineLink {
@@ -17,7 +29,5 @@
     border: 1px solid transparent;
     &:hover {
         color: white;
-        border: 1px solid $color-logo-red;
-        background: $color-logo-red-dark;
     }
 }

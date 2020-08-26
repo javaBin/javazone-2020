@@ -30,7 +30,7 @@ export function InlineLink(props: InlineLinkProps) {
     return (
         props.external 
             ? <a className={cls} href={props.url} target={props.noBlankTarget ? '' : '_blank'}>{props.children}</a>
-            : <Link className={styles.inlineLink} to={props.url}>
+            : <Link className={cls} to={props.url}>
                 {props.children}
             </Link>
     )
