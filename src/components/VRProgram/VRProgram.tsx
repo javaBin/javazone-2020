@@ -2,7 +2,7 @@ import React, {ReactNode, useState} from 'react';
 import {Collapse} from 'react-collapse';
 import styles from './VRProgram.module.scss';
 import {ActiveButton, ButtonGroup} from '../Button/ButtonGroup';
-import {Program, Schedule, Speakers, Talk} from '../../core/models/Program.model';
+import {Program, Schedule, Speakers, Speaker, Talk} from '../../core/models/Program.model';
 import {program} from '../../core/data/Program.data';
 import classNames from "classnames";
 
@@ -32,14 +32,23 @@ function Abstract(props: {abstract?: string}) {
     )
 }
 
-function Bio(props: {speakers?: Speakers}) {
+function Bio(props: {speaker: Speaker}){
+    const {name, bio} = props.speaker;
+    if (!bio){
+        return null;
+    }
+
+    return <div className={styles.bio}>
+        <span className={styles.bioTittle}>{`${name}: `}</span>
+        <span>{bio}</span>
+    </div>
+}
+
+function Bios(props: {speakers?: Speakers}) {
     return (
         <>
             {props.speakers?.map(speaker =>
-                <div className={styles.bio}>
-                    <span className={styles.bioTittle}>{`${speaker.name}: `}</span>
-                    <span>{speaker.bio}</span>
-                </div>
+                <Bio speaker={speaker}/>
             )}
         </>
     )
@@ -58,7 +67,7 @@ function SlotInformation(props: {talk: Talk}){
         <span className={styles.speaker}>{talk.speakers && talk.speakers.map(speaker => speaker.name).join(", ")}</span>
         <Collapse isOpened={open}>
             <Abstract abstract={talk.abstract}/>
-            <Bio speakers={props.talk.speakers}/>
+            <Bios speakers={props.talk.speakers}/>
         </Collapse>
     </ClickableDiv>
 }
