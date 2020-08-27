@@ -5,13 +5,13 @@
     font-size: 1.4rem;
     font-weight: bold;
     border-radius: 3px;
-    border: 2px solid $color-logo-red;
+    border: 2px solid $color-logo-blue;
     background: none;
-    color: $color-logo-red;
+    color: $color-logo-blue;
     cursor: pointer;
     &:hover {
         color: white;
-        background: $color-logo-red-dark;
+        background: $color-logo-blue-dark;
     }
     &.small {
         font-weight: normal;
@@ -24,15 +24,15 @@
     font-size: 1.4rem;
     font-weight: bold;
     border-radius: 3px;
-    border: 2px solid $color-logo-red;
+    border: 2px solid $color-logo-blue;
     background: none;
-    color: $color-logo-red;
+    color: $color-logo-blue;
     cursor: pointer;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
     &.active {
         color: white;
-        background: $color-logo-red-dark;
+        background: $color-logo-blue-dark;
     }
     @media only screen and (max-width: $screen-xxs) {
         display: grid;
@@ -44,7 +44,7 @@
 .buttonGroup button:not(:last-child) {
     border-right: none;
     @media only screen and (max-width: $screen-xxs) {
-        border-right: 2px solid $color-logo-red;
+        border-right: 2px solid $color-logo-blue;
         border-bottom: none;
     }
 }
@@ -69,5 +69,5 @@
 
 .buttonGroup > button:hover {
     color: white;
-    background: $color-logo-red-dark;
+    background: $color-logo-blue-dark;
 }

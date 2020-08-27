@@ -10,7 +10,7 @@ export function ProgramPage(){
     return (
         <>
             <VikingBanner header="JavaZone VR Program 2020" subHeader="Mark your schedule" />
-            <CenterSection header={<h1>Information</h1>}>
+            <CenterSection color="blue" header={<h1>Information</h1>}>
                 <p>
                     JavaZone VR will have four parallel tracks all of which will be streamed live on this page!
                 </p>
@@ -18,7 +18,7 @@ export function ProgramPage(){
                     Please note that all given times are in Oslo time (CEST/ UTC+2).
                 </p>
             </CenterSection>
-            <Section header={<h1>The different tracks</h1>}>
+            <Section color="blue" header={<h1>The different tracks</h1>}>
                 <p>
                     <List>
                         <li>The first track will be streamed live from Teknologihuset in Oslo.</li>
@@ -31,7 +31,7 @@ export function ProgramPage(){
                     See below for a detailed program. And watch this space for updates on how to watch them live!
                 </p>
             </Section>
-            <CenterSection header={<h1>Program</h1>}>
+            <CenterSection color="blue" header={<h1>Program</h1>}>
                 <VRProgram />
             </CenterSection>
         </>
