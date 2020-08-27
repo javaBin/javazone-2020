@@ -25,10 +25,10 @@ export const program: Program[] = [
                     title: 'Creating a Delivery Platform; the pain and profit',
                     speakers: [{
                         name:'Anders Brujordet',
-                        bio: 'Senior Software Engineer at Euronext VPS.\n' +
+                        bio: 'Lead DevOps Engineer at Piano.\n' +
                             'Graduated from NTNU in 2010 with a masters degree in Computer Science and have been working somewhere between backend and operations since then. Favorite languages are Bash and Scala and lately security and penetration testing has been an exciting hobby.',
                     }],
-                    abstract: 'In Schibsted I helped build a Delivery Platform for 1500 developers. Now I’m building one for 50 developers at the Norwegian CSD (Verdipapirsentralen). The challenges are not as different as you might think, and I’d like to share my key takeaways and tips for doing this well. I’ll also expand on how we are applying these ideas at Verdipapirsentralen.'
+                    abstract: 'In Schibsted I helped build a Delivery Platform for 1500 developers. Now I’m building one for 20 developers at Piano. The challenges are not as different as you might think, and I’d like to share my key takeaways and tips for doing this well.'
                 }]
             },
             {
@@ -177,7 +177,7 @@ export const program: Program[] = [
                             name:'Joakim Lehn',
                             bio: 'Joakim is a technical team lead and department manager with the consultancy firm Aboveit, currently digging deep into PSD2 and Open Banking for the biggest bank in Norway. He is passionate about cloud development, DevOps and building an awesome team culture with his colleagues.'
                         }],
-                        abstract: 'For two years I had the challange of leading a six pizza team consisting of up to 15 develoåers, using an agile mindset and methodology. In this presentation I will tell the story of how the team evolved and experimented with different agile methods, trying to use the team size as a benefit instead of an disadvantage.'
+                        abstract: 'For two years I had the challenge of leading a six pizza team consisting of up to 15 developers, using an agile mindset and methodology. In this presentation I will tell the story of how the team evolved and experimented with different agile methods, trying to use the team size as a benefit instead of a disadvantage.'
                     }
                 ]
 
@@ -403,7 +403,16 @@ export const program: Program[] = [
                 talks: [
                     {
                         id: "30",
-                        title: 'TBD'
+                        title: 'Fra ingen ende-til-ende tester til full oversikt',
+                        speakers: [{
+                            name: 'Tor Kjetil Moseng',
+                            bio: ''
+                        }],
+                        abstract: 'For Statens Vegvesen utvikler vi en web-basert løsning som skal ta i mot og kontrollere vegdata som skal lagres i den Nasjonale Vegdatabanken (NVDB). Å teste de mange funksjonene manuelt ble etterhvert en kjedelig og langvarig prosess. Noe måtte skje. Omtrent da ble testrammeverket Cypress introdusert. Cypress kjører testene dine i en browser, tester hva brukerene faktisk ser, gir gode feilmeldinger, og ikke minst, lar seg automatisere i en byggeprosess. I tillegg til at jeg klarte å skrive enkle tester med en gang. Fint!\n' +
+                            '\n' +
+                            'Så fra å starte med noen enkle funksjonelle ende-til-ende tester, har antallet og dekningen blitt bedre og bedre. Testene kjører nå jevnlig på Jenkins og gir en samlet oversikt over testene på en fin html-side. I tillegg har vi tatt tak i problemet med flaky tester; det er kanskje noe man må leve med, men de er blitt færre.\n' +
+                            '\n' +
+                            'Jeg vil i denne lyntalen gi et lite innblikk i reisen fra ingen funksjonelle tester til en god oversikt over våre automatiserte ende-til-ende tester.\n'
                     },
                     {
                         id: "31",
@@ -428,7 +437,16 @@ export const program: Program[] = [
                     },
                     {
                         id: "32",
-                        title: 'TBD'
+                        title: 'Teamledelse',
+                        speakers: [{
+                            name: 'Ingunn Moen',
+                            bio: ''
+                        }],
+                        abstract: 'Alle team har ikke samme behov for teamledelse. Noen trenger ledelse for å finne ut hva de skal gjøre. Andre kan ikke lov til å bestemme hva de skal gjøre, men kan selv styre hvordan de skal gjøre jobben. Vi sier at hvis vi rekrutterer folk som er gode på å jobbe i team, så vil det gå av seg selv. Men det vet vi at det ofte ikke gjør.\n' +
+                            '\n' +
+                            'Har du jobbet i et team som hele tiden må gjøre ting på nytt? Strever teamet ditt med å få ferdig oppgaver raskest mulig, eller har dere oversikt over hvilken nytte dere egentlig lager?\n' +
+                            '\n' +
+                            'Jeg vil si noe om hva team trenger avhengig av hvor selvstyrte de er, og du som teamleder eller teamdeltager kan hjelpe, eller hindre, teamet med å jobbe enda bedre og smartere sammen. Hint: det handler om mer enn personlighet.'
                     }
                 ]
             },
