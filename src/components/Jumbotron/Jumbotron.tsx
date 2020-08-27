@@ -16,19 +16,18 @@ export function Jumbotron(props: JumbotronProps) {
 
     const canPlayWebm = useCanPlayVideoType('webm');
     useEffect(() => {
-        //const vid = document.getElementById('backgroundLapse') as HTMLVideoElement;
-        //vid.play();
+        const vid = document.getElementById('backgroundLapse') as HTMLVideoElement;
+        vid.play();
     });
 
     return (
         <div className={styles.jumbotron}>
-            <img src="splash.png" alt="loading"/>
-            {/*<Suspense fallback={<img src="splash.jpg" alt="loading"/>}>
-                <video preload="auto" playsInline autoPlay muted loop style={{background: "transparent no-repeat url('splash.jpg')", backgroundSize: "100%"}} className={styles.poster} id="backgroundLapse">
+            <Suspense fallback={<img src="splash.png" alt="loading"/>}>
+                <video preload="auto" playsInline autoPlay muted loop className={styles.poster} id="backgroundLapse">
                     <VideoSource canPlayWebm={canPlayWebm} />
                     Your browser does not support HTML5 video.
                 </video>
-            </Suspense>*/}
+            </Suspense>
             <div className={styles.jumbotronContent}>
                 <h1>{props.title}</h1>
                 <h2>{props.subTitle}</h2>

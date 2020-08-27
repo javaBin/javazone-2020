@@ -12,5 +12,5 @@ export default function VideoSource(props: VideoSourceProps) {
             : <source src="https://d3o108dy577i1m.cloudfront.net/2019/videos/timelapse.mp4" type="video/mp4" />
 
     }
-    return <source src="https://d3o108dy577i1m.cloudfront.net/2020/videos/timelapse.mp4" type="video/mp4" />
+    return <source src="https://d3o108dy577i1m.cloudfront.net/2020/videos/timelapsev2.mp4" type="video/mp4" />
 }
