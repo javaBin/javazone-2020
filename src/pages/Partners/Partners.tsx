@@ -9,29 +9,30 @@ import { TicketPrice } from '../../components/TicketPrice/TicketPrice';
 import VideoSource from '../../components/Jumbotron/VideoSource';
 import { useCanPlayVideoType } from '../../core/hooks/UseCanPlayVideoType';
 import { PartnerPriceList, PartnerPrice } from '../../components/PartnerPrices/PartnerPrices';
+import {Figure} from "../../components/Figure/Figure";
 
 export function PartnersPage() {
     const canPlayWebm = useCanPlayVideoType('webm');
     return (
         <>
             <VikingBanner header="Partner love" subHeader="January 20th - 21th, 2021"/>
-            <CenterSection header={<h1>JavaZone 2020: Bigger and better than ever</h1>}>
+            <CenterSection color="pink" header={<h1>JavaZone 2020: Bigger and better than ever</h1>}>
                 <p>
                     JavaZone started out in 2001 as a small conference for Java developers but has since then evolved to become one of the largest developer conferences in the world. Each year thousands of people gather in Oslo Spektrum for three full days of learning, mingling, and fun!
                 </p>
             </CenterSection>
-            <Section header={<h1>Last four years: Completely. Sold. Out.</h1>}>
+            <Section color="pink" header={<h1>Last four years: Completely. Sold. Out.</h1>}>
                 <p>
                     Last year, a record breaking 3200 people attended JavaZone. We were completely sold out of tickets AND partner stands. The same happened last year, and the year before, and the year before. So you might want to join in early if you want to be part of the conference!
                 </p>
             </Section>
-            <Section header={<h1>Our philosophy: Partners, not sponsors</h1>}>
+            <Section color="pink" header={<h1>Our philosophy: Partners, not sponsors</h1>}>
                 <p>
                     We want JavaZone‘s Expo Area to be an attractive space where our partners and participants can hang out and spend time together. In previous years, our partners have done a great job helping us achieve this goal, and we look forward to seeing what they bring to JavaZone 2020! JavaZone’s Expo Area is a vibrant, busy space full of life and activity. As a partner you are not just supporting our conference economically – you participate in the event and help creating a unique atmosphere. We work closely with our partners to help them realize their ideas and make the most out of their stands. Have you got a great concept for your JavaZone stand and need help to realize it? Don’t be shy - just ask us. Almost anything is possible!
                 </p>
             </Section>
-            <ImageSection bottom imageName="2018/180912_JavaZone_0098" />
-            <CenterSection header={<h1>The Expo Area</h1>}>
+            <Figure name="ragnar"/>
+            <CenterSection color="pink" header={<h1>The Expo Area</h1>}>
                 <p>
                     All our partner stands are traditionally located in the Expo Area, which is located in the center of the venue. During each break, the Expo is full of attendees. This is partly because we continuously serve food from the restaurant stands – throughout the day, and partly because of you – our partners – make this area one of the liveliest Expo Areas of any conference.
                 </p>
@@ -43,14 +44,14 @@ export function PartnersPage() {
                 </p>
             </CenterSection>
             <CenterSection>
-                <Suspense fallback={<img src="splash.png" alt="splash loading screen" />}>
+                <Suspense fallback={<img src="splash.jpg" alt="splash loading screen" />}>
                     <video style={{width: '100%'}} muted controls id="backgroundLapse">
-                        <VideoSource canPlayWebm={canPlayWebm} />
+                        <VideoSource canPlayWebm={canPlayWebm} oldTimelapse={true} />
                         Your browser does not support HTML5 video.
                     </video>
                 </Suspense>
             </CenterSection>
-            <Section header={<h1>Partner Options</h1>}>
+            <Section color="pink" header={<h1>Partner Options</h1>}>
                 <p>
                     Even though all partners are considered equal, there are a few options to choose from. There is a base package that everyone gets, and then there are a few available expansions. Note that these expansions have limited availability.
                 </p>
@@ -59,7 +60,7 @@ export function PartnersPage() {
                     <li>A 6-square meter stand space in the central arena at Oslo Spektrum with two side walls.</li>
                     <li>4 tickets to the conference for manning the stand.</li>
                     <li>Discounted participant tickets for your employees.</li>
-                    <li>Branding on <InlineLink external url="https://www.javazone.no">javazone.no</InlineLink>, at the venue, the program and in other promotional material that JavaZone produces.</li>
+                    <li>Branding on <InlineLink color="pink" external url="https://www.javazone.no">javazone.no</InlineLink>, at the venue, the program and in other promotional material that JavaZone produces.</li>
                 </List>
                 <h2>Possible expansions</h2>
                 <h4>Extended Stand Space</h4>
@@ -87,7 +88,7 @@ export function PartnersPage() {
                     <li>Optional backing wall to the area, or some freedom to design your own use of the space.</li>
                 </List>
             </Section>
-            <CenterSection header={<h1>Partnership prices</h1>}>
+            <CenterSection color="pink" header={<h1>Partnership prices</h1>}>
                 <TicketPrice>73.000</TicketPrice>
 
                 <p>
@@ -102,14 +103,14 @@ export function PartnersPage() {
                     <i style={{fontSize: '1rem'}}>All prices are ex VAT and ticket fee (NOK 120 per ticket)</i>
                 </p>
             </CenterSection>
-            <Section header={<h1>Partnership stand</h1>}>
+            <Section color="pink" header={<h1>Partnership stand</h1>}>
                 <PartnerPriceList>
                     <PartnerPrice item="Extra Stand Space">40.000</PartnerPrice>
                     <PartnerPrice item="Restaurant Stand">67.000</PartnerPrice>
                     <PartnerPrice item="Concept Stand">62.000</PartnerPrice>
                 </PartnerPriceList>
             </Section>
-            <Section header={<h1>Partnership ticket</h1>}>
+            <Section color="pink" header={<h1>Partnership ticket</h1>}>
                 <PartnerPriceList>
                     <PartnerPrice item="Tickets for employees (1 - 30)">6.190</PartnerPrice>
                     <PartnerPrice item="Tickets for employees (31 - 50)">5.990</PartnerPrice>
@@ -118,8 +119,8 @@ export function PartnersPage() {
                 </PartnerPriceList>
             </Section>
             <ImageSection imageName="2018/180912_JavaZone_0158" />
-            <CenterSection header={<h1>Contact us</h1>}>
-                <p>You can contact us about partnership details at <InlineLink external url="mailto:partner@java.no">partner@java.no</InlineLink></p>
+            <CenterSection color="pink" header={<h1>Contact us</h1>}>
+                <p>You can contact us about partnership details at <InlineLink color="pink" external url="mailto:partner@java.no">partner@java.no</InlineLink></p>
             </CenterSection>
         </>
     )

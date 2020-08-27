@@ -6,13 +6,13 @@ export function SpeakerTipsPage() {
     return (
         <>
             <VikingBanner header="Tips And Tricks for Speakers" subHeader="Make that abstract shine" />
-            <Section header={<h1>Increase the chance of your talk being accepted</h1>}>
+            <Section color="blue" header={<h1>Increase the chance of your talk being accepted</h1>}>
                     <p>
                         There is generally a very high correlation between how much work one puts into the creation of a proposal and the chance that the proposal is accepted. Even a proposal with an extremely cool theme, entertaining title, and an experienced speaker may be excluded if the description is lacking. We have gathered some tips that should be considered when writing a JavaZone proposal, and a few reasons why proposals may be rejected.
                     </p>
                 </Section>
 
-                <Section header={<h1>Things to think about when writing your abstract</h1>}>
+                <Section color="blue" header={<h1>Things to think about when writing your abstract</h1>}>
                         <p>
                             <h3>Create a good title</h3>
                             The title is the first thing people will see. A poorly worded title may be the only thing many will see of your proposal. A good title is catchy and concise, and should describe what you will talk about.
@@ -59,7 +59,7 @@ export function SpeakerTipsPage() {
                         </p>
                 </Section>
 
-                <Section header={<h1>Why was my talk rejected?</h1>}>
+                <Section color="blue" header={<h1>Why was my talk rejected?</h1>}>
                         <p>
                             Even though we are rooting for your talk to be accepted, the fact is that some talks must be rejected. Read through these tips to understand why this might happen. Even better, if you are reading this before the Call for Speakers deadline, you can go through your proposal and make sure you do your best to avoid these common pitfalls.
                         </p>
