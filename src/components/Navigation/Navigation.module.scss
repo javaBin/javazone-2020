@@ -19,6 +19,7 @@
     &.frontpage {
         box-sizing: border-box;
         background: none;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
         @media only screen and (max-width: $screen-xs) {
             padding: 1rem;
         }

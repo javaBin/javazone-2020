@@ -74,7 +74,7 @@ function App() {
         </Switch>
         <Footer routes={routes} />
         <CookieDisclaimer>
-          We have given you a dedicated cookie from our cookie jar in order to store your favorite program schedule. We also use cookies to improve your experience on our site. By using this site you agree to this. For more information please visit our <InlineLink color="blue" url="/privacy-cookies">cookie information page.</InlineLink>
+          We have given you a dedicated cookie from our cookie jar in order to store your favorite program schedule. We also use cookies to improve your experience on our site. By using this site you agree to this. For more information please visit our <InlineLink color="pink" url="/privacy-cookies">cookie information page.</InlineLink>
         </CookieDisclaimer>
       </>
     </Router>

@@ -12,7 +12,22 @@ export function TicketsPage() {
     return (
         <>
             <VikingBanner header="The Ticket Booth" subHeader="Come join us in Oslo, January 20th - 21th, 2021"/>
-            <CenterSection color="green" header={<h1>Get your tickets for JavaZone 2020 – Early Bird</h1>}>
+            <CenterSection color="green" header={<h1>JavaZone VR is a free event</h1>}>
+                <TicketPrice>0</TicketPrice>
+            </CenterSection>
+
+            <Section color="green" header={<h1>It's a free event?</h1>}>
+                <p>Yeah. JavaZone VR is a free event and will be streamed live for all to see.</p>
+
+                <p>The program and streaming information will be made available on the <InlineLink color="green" url="/program">program page</InlineLink>. watch the space for updates on how to watch them live!</p>
+            </Section>
+
+            <Section color="green" header={<h1>What about the regular event?</h1>}>
+                <p>Due to the COVID-19 outbreak we have decided to postpone the regular JavaZone 2020 until January 2021. The conference will be held on January 20th and 21st (With workshops on January 19th).</p>
+                <div><Link color="green" url='/corona'>More information</Link></div>
+            </Section>
+
+            <CenterSection color="green" header={<h1>Get your tickets for JavaZone 2021 – Early Bird</h1>}>
                 <TicketPrice>6,590</TicketPrice>
             </CenterSection>
             <Section color="green" header={<h1>What's included?</h1>}>
