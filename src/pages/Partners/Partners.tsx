@@ -1,38 +1,194 @@
-import React, { Suspense } from 'react';
+import React, {Suspense} from 'react';
 import {VikingBanner} from '../../components/PageBanner/PageBanner';
-import { CenterSection } from '../../components/CenterSection/CenterSection';
-import { Section } from '../../components/Section/Section';
-import { ImageSection } from '../../components/ImageSection/ImageSection';
-import { InlineLink } from '../../components/InlineLink/InlineLink';
-import { List } from '../../components/List/List';
-import { TicketPrice } from '../../components/TicketPrice/TicketPrice';
+import {CenterSection} from '../../components/CenterSection/CenterSection';
+import {Section} from '../../components/Section/Section';
+import {ImageSection} from '../../components/ImageSection/ImageSection';
+import {InlineLink} from '../../components/InlineLink/InlineLink';
+import {List} from '../../components/List/List';
+import {TicketPrice} from '../../components/TicketPrice/TicketPrice';
 import VideoSource from '../../components/Jumbotron/VideoSource';
-import { useCanPlayVideoType } from '../../core/hooks/UseCanPlayVideoType';
-import { PartnerPriceList, PartnerPrice } from '../../components/PartnerPrices/PartnerPrices';
+import {useCanPlayVideoType} from '../../core/hooks/UseCanPlayVideoType';
+import {PartnerPrice, PartnerPriceList} from '../../components/PartnerPrices/PartnerPrices';
 import {Figure} from "../../components/Figure/Figure";
+import Grid from "../../components/Grid/Grid";
+import dipsLogo from './logos/dips.svg';
+import basefarmLogo from './logos/basefarm.svg';
+import milesLogo from './logos/miles.svg';
+import vismaLogo from './logos/visma.svg';
 
 export function PartnersPage() {
     const canPlayWebm = useCanPlayVideoType('webm');
     return (
         <>
             <VikingBanner header="Partner love" subHeader="January 20th - 21th, 2021"/>
-            <CenterSection color="pink" header={<h1>JavaZone 2020: Bigger and better than ever</h1>}>
+            <CenterSection color="blue" header={<h1>JavaZone 2020: Bigger and better than ever</h1>}>
                 <p>
                     JavaZone started out in 2001 as a small conference for Java developers but has since then evolved to become one of the largest developer conferences in the world. Each year thousands of people gather in Oslo Spektrum for three full days of learning, mingling, and fun!
                 </p>
             </CenterSection>
-            <Section color="pink" header={<h1>Last four years: Completely. Sold. Out.</h1>}>
+            <Grid columns={11}>
+                <a href="https://www.knowit.no/">
+                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/knowit.svg" alt="Knowit Objectnet AS"
+                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://techpros.no/">TECHPROS AS</a>
+                <a href="https://www.7n.com/">
+                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/7N.svg"
+                         alt="7N"
+                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.soprasteria.no/om-sopra-steria">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/soprasteria.svg" alt="Sopra Steria"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.accenture.com/no-en">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/accenture.svg" alt="Accenture AS"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.nav.no/no/Person">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/nav.svg" alt="NAV"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.miles.no/">
+                    <img
+                        src={milesLogo} alt="Miles Oslo AS"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.itera.no/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/itera.svg" alt="Itera"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+
+                <a href="https://www.kantega.no/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/kantega.svg" alt="Kantega AS"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.fremtind.no/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/fremtind.svg" alt="Fremtind Forsikring AS"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/></a>
+                <a href="https://www.finn.no/">
+                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/finn.svg"
+                         alt="FINN.no"
+                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+
+                <a href="https://schibsted.com/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/schibsted.svg" alt="Schibsted"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+
+                <a href="https://schibsted.com/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/schibsted.svg" alt="Schibsted"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+
+                <a href="https://www.visma.no/consulting/">
+                    <img
+                        src={vismaLogo}
+                        alt="Visma Consulting AS"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+
+                <a href="https://2park.no/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/2park.svg"
+                        alt="2Park Technologes AS"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.digdir.no/">Digitaliseringsdirektoratet</a>
+                <a href="https://www.evry.com/no/">
+                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/evry.svg"
+                         alt="EVRY Norge AS"
+                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.dips.com/no">
+                    <img
+                        src={dipsLogo}
+                        alt="DIPS AS"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.statnett.no/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/statnett.svg"
+                        alt="Statnett SF"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/></a>
+                <a href="https://www.jpro.no/">
+                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/jpro.svg"
+                         alt="JProfessionals AS"
+                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.sparebank1.no/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/sparebank1.svg"
+                        alt="SpareBank 1 Banksamarbeidet"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://basefarm.no/">
+                    <img
+                        src={basefarmLogo}
+                        alt="Basefarm AS"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.vipps.no/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/vipps.svg"
+                        alt="Vipps AS"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://scienta.no/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/scienta.svg"
+                        alt="Scienta"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://enso.no/">
+                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/enso.svg"
+                         alt="Konsulentselskapet Enso AS"
+                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://scelto.no/">
+                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/scelto.svg"
+                         alt="Scelto AS"
+                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.politiet.no/en/om/organisasjonen/andre/police-ict-services/">
+                    <img
+                    src="https://d3o108dy577i1m.cloudfront.net/2019/logos/politiet.svg"
+                    alt="Politiets IKT-tjenester" className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.oslo.kommune.no/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/oslo_kommune.svg"
+                        alt="Oslo Kommune"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+                <a href="https://www.webstep.no/">
+                    <img
+                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/webstep.svg"
+                        alt="Webstep AS"
+                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
+                </a>
+            </Grid>
+            <Section color="blue" header={<h1>Last four years: Completely. Sold. Out.</h1>}>
                 <p>
                     Last year, a record breaking 3200 people attended JavaZone. We were completely sold out of tickets AND partner stands. The same happened last year, and the year before, and the year before. So you might want to join in early if you want to be part of the conference!
                 </p>
             </Section>
-            <Section color="pink" header={<h1>Our philosophy: Partners, not sponsors</h1>}>
+            <Section color="blue" header={<h1>Our philosophy: Partners, not sponsors</h1>}>
                 <p>
                     We want JavaZone‘s Expo Area to be an attractive space where our partners and participants can hang out and spend time together. In previous years, our partners have done a great job helping us achieve this goal, and we look forward to seeing what they bring to JavaZone 2020! JavaZone’s Expo Area is a vibrant, busy space full of life and activity. As a partner you are not just supporting our conference economically – you participate in the event and help creating a unique atmosphere. We work closely with our partners to help them realize their ideas and make the most out of their stands. Have you got a great concept for your JavaZone stand and need help to realize it? Don’t be shy - just ask us. Almost anything is possible!
                 </p>
             </Section>
             <Figure name="ragnar"/>
-            <CenterSection color="pink" header={<h1>The Expo Area</h1>}>
+            <CenterSection color="blue" header={<h1>The Expo Area</h1>}>
                 <p>
                     All our partner stands are traditionally located in the Expo Area, which is located in the center of the venue. During each break, the Expo is full of attendees. This is partly because we continuously serve food from the restaurant stands – throughout the day, and partly because of you – our partners – make this area one of the liveliest Expo Areas of any conference.
                 </p>
@@ -51,7 +207,7 @@ export function PartnersPage() {
                     </video>
                 </Suspense>
             </CenterSection>
-            <Section color="pink" header={<h1>Partner Options</h1>}>
+            <Section color="blue" header={<h1>Partner Options</h1>}>
                 <p>
                     Even though all partners are considered equal, there are a few options to choose from. There is a base package that everyone gets, and then there are a few available expansions. Note that these expansions have limited availability.
                 </p>
@@ -60,7 +216,7 @@ export function PartnersPage() {
                     <li>A 6-square meter stand space in the central arena at Oslo Spektrum with two side walls.</li>
                     <li>4 tickets to the conference for manning the stand.</li>
                     <li>Discounted participant tickets for your employees.</li>
-                    <li>Branding on <InlineLink color="pink" external url="https://www.javazone.no">javazone.no</InlineLink>, at the venue, the program and in other promotional material that JavaZone produces.</li>
+                    <li>Branding on <InlineLink color="blue" external url="https://www.javazone.no">javazone.no</InlineLink>, at the venue, the program and in other promotional material that JavaZone produces.</li>
                 </List>
                 <h2>Possible expansions</h2>
                 <h4>Extended Stand Space</h4>
@@ -88,7 +244,7 @@ export function PartnersPage() {
                     <li>Optional backing wall to the area, or some freedom to design your own use of the space.</li>
                 </List>
             </Section>
-            <CenterSection color="pink" header={<h1>Partnership prices</h1>}>
+            <CenterSection color="blue" header={<h1>Partnership prices</h1>}>
                 <TicketPrice>73.000</TicketPrice>
 
                 <p>
@@ -103,14 +259,14 @@ export function PartnersPage() {
                     <i style={{fontSize: '1rem'}}>All prices are ex VAT and ticket fee (NOK 120 per ticket)</i>
                 </p>
             </CenterSection>
-            <Section color="pink" header={<h1>Partnership stand</h1>}>
+            <Section color="blue" header={<h1>Partnership stand</h1>}>
                 <PartnerPriceList>
                     <PartnerPrice item="Extra Stand Space">40.000</PartnerPrice>
                     <PartnerPrice item="Restaurant Stand">67.000</PartnerPrice>
                     <PartnerPrice item="Concept Stand">62.000</PartnerPrice>
                 </PartnerPriceList>
             </Section>
-            <Section color="pink" header={<h1>Partnership ticket</h1>}>
+            <Section color="blue" header={<h1>Partnership ticket</h1>}>
                 <PartnerPriceList>
                     <PartnerPrice item="Tickets for employees (1 - 30)">6.190</PartnerPrice>
                     <PartnerPrice item="Tickets for employees (31 - 50)">5.990</PartnerPrice>
@@ -119,8 +275,8 @@ export function PartnersPage() {
                 </PartnerPriceList>
             </Section>
             <ImageSection imageName="2018/180912_JavaZone_0158" />
-            <CenterSection color="pink" header={<h1>Contact us</h1>}>
-                <p>You can contact us about partnership details at <InlineLink color="pink" external url="mailto:partner@java.no">partner@java.no</InlineLink></p>
+            <CenterSection color="blue" header={<h1>Contact us</h1>}>
+                <p>You can contact us about partnership details at <InlineLink color="blue" external url="mailto:partner@java.no">partner@java.no</InlineLink></p>
             </CenterSection>
         </>
     )
