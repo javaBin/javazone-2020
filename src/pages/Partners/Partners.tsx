@@ -26,7 +26,7 @@ export function PartnersPage() {
                     JavaZone started out in 2001 as a small conference for Java developers but has since then evolved to become one of the largest developer conferences in the world. Each year thousands of people gather in Oslo Spektrum for three full days of learning, mingling, and fun!
                 </p>
             </CenterSection>
-            <Grid columns={11}>
+            <Grid columns={10}>
                 <a href="https://www.knowit.no/">
                     <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/knowit.svg" alt="Knowit Objectnet AS"
                          className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
