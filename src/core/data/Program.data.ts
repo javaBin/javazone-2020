@@ -437,10 +437,10 @@ export const program: Program[] = [
                     },
                     {
                         id: "32",
-                        title: 'Teamledelse',
+                        title: 'Alle team trenger forskjellig ledelse',
                         speakers: [{
                             name: 'Ingunn Moen',
-                            bio: ''
+                            bio: 'Jeg jobber i team, og har studert teamledelse i autonome team. Er opptatt av hva som skal til for at folk skal jobbe godt sammen, og ha det gøy på jobb.'
                         }],
                         abstract: 'Alle team har ikke samme behov for teamledelse. Noen trenger ledelse for å finne ut hva de skal gjøre. Andre kan ikke lov til å bestemme hva de skal gjøre, men kan selv styre hvordan de skal gjøre jobben. Vi sier at hvis vi rekrutterer folk som er gode på å jobbe i team, så vil det gå av seg selv. Men det vet vi at det ofte ikke gjør.\n' +
                             '\n' +
