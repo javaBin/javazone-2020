@@ -1,16 +1,14 @@
 import React from 'react';
-import { PageBanner } from '../../components/PageBanner/PageBanner';
+import { VikingBanner } from '../../components/PageBanner/PageBanner';
 import { Section } from '../../components/Section/Section';
 import { InlineLink } from '../../components/InlineLink/InlineLink';
-import { Seperator } from '../../components/Seperator/Seperator';
 import { List } from '../../components/List/List';
 
 export function CookieInfoPage() {
     return (
         <>
-            <PageBanner header="JavaZone Website and Cookies" subHeader="Here, have a cookie from our cookie jar!" imageName="2018/180913_JavaZone_0010" />
-            <Seperator />
-            <Section header={<h1>What Are Cookies?</h1>}>
+            <VikingBanner header="JavaZone Website and Cookies" subHeader="Here, have a cookie from our cookie jar!"/>
+            <Section color="blue" header={<h1>What Are Cookies?</h1>}>
                 <p>
                     This Website uses cookies. A cookie is a small file of letters and numbers that we put on your computer. These cookies allow us to distinguish you from other users of the Website which helps us to provide you with a good experience when you browse our Website, and to improve our Website.
                 </p>
@@ -29,7 +27,7 @@ export function CookieInfoPage() {
                     </List>
                 </p>
             </Section>
-            <Section header={<h1>How we use cookies</h1>}>
+            <Section color="blue" header={<h1>How we use cookies</h1>}>
                 <p>
                     The cookies we use has two main purposes:
                     <List>
@@ -54,7 +52,7 @@ export function CookieInfoPage() {
                     In case personal data is processed in the course of using cookies and/or similar technologies that are used for other purposes, e.g. improving our website or marketing purposes, the processing is based on Article 6 (1) lit. f GDPR and represents our legitimate interest in maintaining our user base, bringing new users to the Website and informing (potential) users about services organized and provided by JavaZone.
                 </p>
                 <p>
-                    You can control and/or delete cookies as you wish – for details, see <InlineLink external url="https://www.allaboutcookies.org">https://www.allaboutcookies.org</InlineLink>. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit the Website and some services and functionalities may not work.
+                    You can control and/or delete cookies as you wish – for details, see <InlineLink color="blue" external url="https://www.allaboutcookies.org">https://www.allaboutcookies.org</InlineLink>. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit the Website and some services and functionalities may not work.
                 </p>
                 <p>
                     Google Analytics
@@ -66,16 +64,16 @@ export function CookieInfoPage() {
                     The Website uses Google Analytic’s IP anonymisation function. Google will truncate/anonymise the last octet of the IP address for Member States of the European Union as well as for other parties to the Agreement on the European Economic Area. Only in exceptional cases, the full IP address is sent to and shortened by Google servers in the USA. On our behalf, Google will use this information for the purpose of evaluating your use of the Website, compiling reports on Website activity and providing other services relating to Website activity and internet usage to us. Google will not associate your IP address with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser. However, please note that if you do this, you may not be able to use the full functionality of this Website.
                 </p>
                 <p>
-                    Furthermore, you can prevent Google’s collection and use of data (cookies and IP address) by downloading and installing the browser plug-in available under <InlineLink external url="https://tools.google.com/dlpage/gaoptout?hl=en">https://tools.google.com/dlpage/gaoptout?hl=en</InlineLink>. An opt-out cookie will be set to prevent the future collection of your information when you visit this Website.
+                    Furthermore, you can prevent Google’s collection and use of data (cookies and IP address) by downloading and installing the browser plug-in available under <InlineLink color="blue" external url="https://tools.google.com/dlpage/gaoptout?hl=en">https://tools.google.com/dlpage/gaoptout?hl=en</InlineLink>. An opt-out cookie will be set to prevent the future collection of your information when you visit this Website.
                 </p>
                 <p>
-                    Further information can be found under <InlineLink external url="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage</InlineLink>
+                    Further information can be found under <InlineLink color="blue" external url="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage</InlineLink>
                 </p>
                 <p>
-                    The information generated by cookies on the use of this website (including your IP address) are transmitted to Google; <InlineLink external url="https://support.google.com/analytics/answer/2763052?hl=en">https://support.google.com/analytics/answer/2763052?hl=en</InlineLink>. You may refuse the use of cookies by selecting the appropriate settings on your browser. 
+                    The information generated by cookies on the use of this website (including your IP address) are transmitted to Google; <InlineLink color="blue" external url="https://support.google.com/analytics/answer/2763052?hl=en">https://support.google.com/analytics/answer/2763052?hl=en</InlineLink>. You may refuse the use of cookies by selecting the appropriate settings on your browser.
                 </p>
                 <p>
-                    You can also opt-out of personalized advertising in Google AdWords Settings. For instructions, see <InlineLink external url="https://support.google.com/ads/answer/2662922?hl=en">https://support.google.com/ads/answer/2662922?hl=en</InlineLink>
+                    You can also opt-out of personalized advertising in Google AdWords Settings. For instructions, see <InlineLink color="blue" external url="https://support.google.com/ads/answer/2662922?hl=en">https://support.google.com/ads/answer/2662922?hl=en</InlineLink>
                 </p>
             </Section>
         </>

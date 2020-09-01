@@ -1,6 +1,5 @@
 import React, {useLayoutEffect} from 'react';
-import {PageBanner} from '../../components/PageBanner/PageBanner';
-import {Seperator} from '../../components/Seperator/Seperator';
+import {VikingBanner} from '../../components/PageBanner/PageBanner';
 import {CenterSection} from '../../components/CenterSection/CenterSection';
 import Link from "../../components/Link/Link";
 import styles from './BuyTicketsPage.module.scss';
@@ -28,9 +27,7 @@ export function BuyTicketsPage() {
 
     return (
         <>
-            <PageBanner header="The Ticket Booth" subHeader={`Get your tickets now!`}
-                        imageName="2018/180912_JavaZone_0019"/>
-            <Seperator/>
+            <VikingBanner header="The Ticket Booth" subHeader="Get your tickets now!"/>
             <CenterSection>
                 <div className={styles.back}>
                     <Link url="/tickets">
