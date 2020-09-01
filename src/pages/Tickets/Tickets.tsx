@@ -19,7 +19,7 @@ export function TicketsPage() {
             <Section color="green" header={<h1>It's a free event?</h1>}>
                 <p>Yeah. JavaZone VR is a free event and will be streamed live for all to see.</p>
 
-                <p>The program and streaming information will be made available on the <InlineLink color="green" url="/program">program page</InlineLink>. watch the space for updates on how to watch them live!</p>
+                <p>The program and streaming information will be made available on the <InlineLink color="green" url="/program">program page</InlineLink>. Watch the space for updates on how to watch them live!</p>
             </Section>
 
             <Section color="green" header={<h1>What about the regular event?</h1>}>
