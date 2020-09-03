@@ -6,6 +6,11 @@ interface Partner {
 
 export const partnerList: Partner[] = [
     {
+        "homepageUrl": "https://techpros.no/new/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/techpros-v2.png",
+        "name": "TECHPROS"
+    },
+    {
         "homepageUrl": "https://www.knowit.no",
         "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/knowit.svg",
         "name": "Knowit Objectnet AS"
