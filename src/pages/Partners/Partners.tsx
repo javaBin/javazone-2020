@@ -10,14 +10,20 @@ import VideoSource from '../../components/Jumbotron/VideoSource';
 import {useCanPlayVideoType} from '../../core/hooks/UseCanPlayVideoType';
 import {PartnerPrice, PartnerPriceList} from '../../components/PartnerPrices/PartnerPrices';
 import {Figure} from "../../components/Figure/Figure";
-import Grid from "../../components/Grid/Grid";
-import dipsLogo from './logos/dips.svg';
-import basefarmLogo from './logos/basefarm.svg';
-import milesLogo from './logos/miles.svg';
-import vismaLogo from './logos/visma.svg';
+import styles from './Partners.module.scss'
+import {partnerList} from "./PartnerList";
+
+/* Randomize array in-place using Durstenfeld shuffle algorithm */
+function shuffleArray<T>(array: T[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
 export function PartnersPage() {
     const canPlayWebm = useCanPlayVideoType('webm');
+    shuffleArray(partnerList);
     return (
         <>
             <VikingBanner header="Partner love" subHeader="January 20th - 21th, 2021"/>
@@ -26,157 +32,6 @@ export function PartnersPage() {
                     JavaZone started out in 2001 as a small conference for Java developers but has since then evolved to become one of the largest developer conferences in the world. Each year thousands of people gather in Oslo Spektrum for three full days of learning, mingling, and fun!
                 </p>
             </CenterSection>
-            <Grid columns={10}>
-                <a href="https://www.knowit.no/">
-                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/knowit.svg" alt="Knowit Objectnet AS"
-                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://techpros.no/">TECHPROS AS</a>
-                <a href="https://www.7n.com/">
-                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/7N.svg"
-                         alt="7N"
-                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.soprasteria.no/om-sopra-steria">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/soprasteria.svg" alt="Sopra Steria"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.accenture.com/no-en">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/accenture.svg" alt="Accenture AS"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.nav.no/no/Person">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/nav.svg" alt="NAV"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.miles.no/">
-                    <img
-                        src={milesLogo} alt="Miles Oslo AS"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.itera.no/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/itera.svg" alt="Itera"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-
-                <a href="https://www.kantega.no/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/kantega.svg" alt="Kantega AS"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.fremtind.no/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/fremtind.svg" alt="Fremtind Forsikring AS"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/></a>
-                <a href="https://www.finn.no/">
-                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/finn.svg"
-                         alt="FINN.no"
-                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-
-                <a href="https://schibsted.com/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/schibsted.svg" alt="Schibsted"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-
-                <a href="https://schibsted.com/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/schibsted.svg" alt="Schibsted"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-
-                <a href="https://www.visma.no/consulting/">
-                    <img
-                        src={vismaLogo}
-                        alt="Visma Consulting AS"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-
-                <a href="https://2park.no/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/2park.svg"
-                        alt="2Park Technologes AS"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.digdir.no/">Digitaliseringsdirektoratet</a>
-                <a href="https://www.evry.com/no/">
-                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/evry.svg"
-                         alt="EVRY Norge AS"
-                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.dips.com/no">
-                    <img
-                        src={dipsLogo}
-                        alt="DIPS AS"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.statnett.no/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/statnett.svg"
-                        alt="Statnett SF"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/></a>
-                <a href="https://www.jpro.no/">
-                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/jpro.svg"
-                         alt="JProfessionals AS"
-                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.sparebank1.no/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/sparebank1.svg"
-                        alt="SpareBank 1 Banksamarbeidet"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://basefarm.no/">
-                    <img
-                        src={basefarmLogo}
-                        alt="Basefarm AS"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.vipps.no/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/vipps.svg"
-                        alt="Vipps AS"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://scienta.no/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/scienta.svg"
-                        alt="Scienta"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://enso.no/">
-                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/enso.svg"
-                         alt="Konsulentselskapet Enso AS"
-                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://scelto.no/">
-                    <img src="https://d3o108dy577i1m.cloudfront.net/2019/logos/scelto.svg"
-                         alt="Scelto AS"
-                         className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.politiet.no/en/om/organisasjonen/andre/police-ict-services/">
-                    <img
-                    src="https://d3o108dy577i1m.cloudfront.net/2019/logos/politiet.svg"
-                    alt="Politiets IKT-tjenester" className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.oslo.kommune.no/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/oslo_kommune.svg"
-                        alt="Oslo Kommune"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-                <a href="https://www.webstep.no/">
-                    <img
-                        src="https://d3o108dy577i1m.cloudfront.net/2019/logos/webstep.svg"
-                        alt="Webstep AS"
-                        className="PartnerList__PartnerLogo-sc-1djk2vh-1 fheDOq"/>
-                </a>
-            </Grid>
             <Section color="blue" header={<h1>Last four years: Completely. Sold. Out.</h1>}>
                 <p>
                     Last year, a record breaking 3200 people attended JavaZone. We were completely sold out of tickets AND partner stands. The same happened last year, and the year before, and the year before. So you might want to join in early if you want to be part of the conference!
@@ -187,7 +42,16 @@ export function PartnersPage() {
                     We want JavaZone‘s Expo Area to be an attractive space where our partners and participants can hang out and spend time together. In previous years, our partners have done a great job helping us achieve this goal, and we look forward to seeing what they bring to JavaZone 2020! JavaZone’s Expo Area is a vibrant, busy space full of life and activity. As a partner you are not just supporting our conference economically – you participate in the event and help creating a unique atmosphere. We work closely with our partners to help them realize their ideas and make the most out of their stands. Have you got a great concept for your JavaZone stand and need help to realize it? Don’t be shy - just ask us. Almost anything is possible!
                 </p>
             </Section>
-            <Figure name="ragnar"/>
+            <div className={styles.partnerInfo}>
+                <h1 className={styles.partnerHeader}>Partners</h1>
+                <div className={styles.partnersContainer}>
+                {partnerList.map(partner => {
+                    return <a href={partner.homepageUrl}>
+                        <img className={styles.logo} alt={partner.name} src={partner.logoUrl}/>
+                    </a>
+                })}
+                </div>
+            </div>
             <CenterSection color="blue" header={<h1>The Expo Area</h1>}>
                 <p>
                     All our partner stands are traditionally located in the Expo Area, which is located in the center of the venue. During each break, the Expo is full of attendees. This is partly because we continuously serve food from the restaurant stands – throughout the day, and partly because of you – our partners – make this area one of the liveliest Expo Areas of any conference.
@@ -244,6 +108,7 @@ export function PartnersPage() {
                     <li>Optional backing wall to the area, or some freedom to design your own use of the space.</li>
                 </List>
             </Section>
+            <Figure name="ragnar"/>
             <CenterSection color="blue" header={<h1>Partnership prices</h1>}>
                 <TicketPrice>73.000</TicketPrice>
 
