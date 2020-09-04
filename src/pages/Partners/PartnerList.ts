@@ -6,6 +6,36 @@ interface Partner {
 
 export const partnerList: Partner[] = [
     {
+        "homepageUrl": "https://www.digdir.no/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/digidir.png",
+        "name": "Digitaliseringsdirektoratet"
+    },
+    {
+        "homepageUrl": "https://www.twilio.com//",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/twillo.png",
+        "name": "Twillo"
+    },
+    {
+        "homepageUrl": "https://tidal.com/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/tidal.svg",
+        "name": "TIDAL"
+    },
+    {
+        "homepageUrl": "https://www.storebrand.no/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/storebrand.png",
+        "name": "Storebrand"
+    },
+    {
+        "homepageUrl": "https://www.ssb.no/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/ssb.png",
+        "name": "SSB"
+    },
+    {
+        "homepageUrl": "https://www.redhat.com/en",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/redhat.svg",
+        "name": "Redhat"
+    },
+    {
         "homepageUrl": "https://techpros.no/new/",
         "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/techpros-v2.png",
         "name": "TECHPROS"
