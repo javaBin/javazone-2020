@@ -1,0 +1,24 @@
+@import '../../variables.scss';
+
+.partnerInfo{
+  background: $color-logo-blue;
+  padding: 1rem;
+}
+
+.partnerHeader {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.partnersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  width: 10rem;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
