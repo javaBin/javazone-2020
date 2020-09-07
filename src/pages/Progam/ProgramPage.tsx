@@ -9,7 +9,7 @@ import {Section} from "../../components/Section/Section";
 export function ProgramPage(){
     return (
         <>
-            <VikingBanner header="JavaZone VR Program 2020" subHeader="Mark your schedule" />
+            <VikingBanner header="JavaZone VR Program 2020" subHeader="Mark your schedule September 9th 2020" />
             <CenterSection color="blue" header={<h1>Information</h1>}>
                 <p>
                     JavaZone VR will have four parallel tracks all of which will be streamed live on this page!
