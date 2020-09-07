@@ -89,7 +89,9 @@ export const program: Program[] = [
                             name: 'Hans Ove Ringstad',
                             bio: 'Hans Ove jobber i Kantega, har bakgrunn som utvikler, og har siden 2014 bl.a hatt ansvar for folks persondata.',
                         }],
-                        abstract: 'Tenk deg at du plutselig blir med i et team som jobber med reelle persondata. Som en del av dette teamet så får du også tilgang til disse dataene. Du har selvfølgelig hørt om GDPR, og vet at disse dataene ikke må komme på avveie, men hvilket ansvar har du egentlig? Hva kan du gjøre for å hjelpe resten av teamet slik at dere ikke roter til dette viktige ansvaret? Dette er ikke en presentasjon om GDPR. Den baserer seg på egne og andres praktiske erfaringer om hvordan håndtere persondata i hverdagen. Den vil vise eksempler på utfordringer og hva som kan gå galt. Vi ser på hva du trenger å vite om avvik, og hvorfor det ikke bare dreier seg om it-sikkerhet. Så tar vi for oss hva ditt ansvar er, og til slutt noen tips og råd.'
+                        abstract: 'Tenk deg at du plutselig blir med i et team som jobber med reelle persondata. Som en del av dette teamet så får du også tilgang til disse dataene. Du har selvfølgelig hørt om GDPR, og vet at disse dataene ikke må komme på avveie, men hvilket ansvar har du egentlig? Hva kan du gjøre for å hjelpe resten av teamet slik at dere ikke roter til dette viktige ansvaret?\n' +
+                            '\n' +
+                            'Dette er ikke en presentasjon om GDPR. Den baserer seg på egne og andres praktiske erfaringer om hvordan sikre persondata i hverdagen. Den vil vise eksempler på utfordringer og hva som kan gå galt. Vi ser på hva avvik er, hva ditt ansvar er, og noen tips og råd.'
                     }
                 ]
             },
