@@ -76,3 +76,15 @@
         }
     }
 }
+
+.button {
+    border: 2px solid $color-logo-pink-dark;
+    color: white;
+
+    //this is bad, don't use it. remove it in the future
+    background: $color-logo-pink !important;
+    margin-top: 1rem;
+    &:hover {
+        background: $color-logo-pink-dark !important;
+    }
+}
