@@ -4,6 +4,7 @@ import React from "react";
 import {VRProgram} from "../../components/VRProgram/VRProgram";
 import {List} from "../../components/List/List";
 import {Section} from "../../components/Section/Section";
+import Link from "../../components/Link/Link";
 
 
 export function ProgramPage(){
@@ -30,6 +31,8 @@ export function ProgramPage(){
                 <p>
                     See below for a detailed program. And watch this space for updates on how to watch them live!
                 </p>
+
+                <Link blankInternal={true} color="blue" url="/live">Watch the livestream here!</Link>
             </Section>
             <CenterSection color="blue" header={<h1>Program</h1>}>
                 <VRProgram />

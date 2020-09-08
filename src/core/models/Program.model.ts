@@ -20,4 +20,6 @@ export interface Schedule {
 export interface Program {
     location: string;
     schedule: Schedule[];
+    slido: string,
+    liveEmbeddedUrl: string,
 }

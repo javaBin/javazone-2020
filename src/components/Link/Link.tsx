@@ -23,6 +23,7 @@ interface LinkProps {
     external?: boolean;
     noBlankTarget?: boolean;
     color?: ColorChoices;
+    blankInternal?: boolean
 }
 
 function Link(props: LinkProps) {
@@ -33,7 +34,7 @@ function Link(props: LinkProps) {
                     <span >{props.children}</span>
                 </a>
             : 
-                <RouterLink to={props.url} className={cls}>
+                <RouterLink to={props.url} className={cls} target={props.blankInternal ? '_blank' : ''} >
                    <span >
                     {props.children}
                     </span>
