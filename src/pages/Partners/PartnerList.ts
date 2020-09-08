@@ -11,6 +11,11 @@ export const partnerList: Partner[] = [
         "name": "Digitaliseringsdirektoratet"
     },
     {
+        "homepageUrl": "https://www.systek.no/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/systek.svg",
+        "name": "Systek"
+    },
+    {
         "homepageUrl": "https://www.twilio.com//",
         "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/twillo.png",
         "name": "Twillo"
