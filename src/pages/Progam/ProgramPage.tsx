@@ -32,7 +32,7 @@ export function ProgramPage(){
                     See below for a detailed program. And watch this space for updates on how to watch them live!
                 </p>
 
-                <Link blankInternal={true} color="blue" url="/live">Watch the livestream here!</Link>
+                <Link blankInternal={true} color="blue" url="/live">Watch the livestream!</Link>
             </Section>
             <CenterSection color="blue" header={<h1>Program</h1>}>
                 <VRProgram />
