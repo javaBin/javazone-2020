@@ -77,7 +77,7 @@ export const partnerList: Partner[] = [
     },
     {
         "homepageUrl": "https://www.kantega.no/",
-        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/kantega.svg",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/kantega.png",
         "name": "Kantega AS"
     },
     {
