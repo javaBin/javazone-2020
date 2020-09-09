@@ -5,7 +5,7 @@ export const program: Program[] = [
     {
         location: 'Teknologihuset - Oslo',
         slido: "https://app.sli.do/event/4ojqxtzb?section=e31c0e50-0745-4182-895f-cb43f7f425af",
-        liveEmbeddedUrl: "https://vimeo.com/event/281210/embed",
+        liveEmbeddedUrl: "https://vimeo.com/event/282808/embed",
         schedule: [
             {
                 time: '9.30 – 10.30',
@@ -254,7 +254,7 @@ export const program: Program[] = [
     },
     {
         location: 'Virtual',
-        liveEmbeddedUrl: "https://vimeo.com/event/281206/embed",
+        liveEmbeddedUrl: "https://vimeo.com/event/282798/embed",
         slido: "https://app.sli.do/event/4ojqxtzb?section=72c5dfdd-7c56-4a97-b594-5e929e64b539",
         schedule: [
             {
