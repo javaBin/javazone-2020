@@ -1,39 +1,13 @@
 import {VikingBanner} from "../../components/PageBanner/PageBanner";
 import {CenterSection} from "../../components/CenterSection/CenterSection";
-import React from "react";
 import {VRProgram} from "../../components/VRProgram/VRProgram";
-import {List} from "../../components/List/List";
-import {Section} from "../../components/Section/Section";
-import Link from "../../components/Link/Link";
+import React from "react";
 
 
 export function ProgramPage(){
     return (
         <>
-            <VikingBanner header="JavaZone VR Program 2020" subHeader="Mark your schedule September 9th 2020" />
-            <CenterSection color="blue" header={<h1>Information</h1>}>
-                <p>
-                    JavaZone VR will have four parallel tracks all of which will be streamed live on this page!
-                </p>
-                <p>
-                    Please note that all given times are in Oslo time (CEST/ UTC+2).
-                </p>
-            </CenterSection>
-            <Section color="blue" header={<h1>The different tracks</h1>}>
-                <p>
-                    <List>
-                        <li>The first track will be streamed live from Teknologihuset in Oslo.</li>
-                        <li>Our partner Nav in Oslo will host the second track.</li>
-                        <li>Our partner Kantega will host the third track from their location in Trondheim.</li>
-                        <li>The final track will be a purely virtual track featuring speakers from all over the world.</li>
-                    </List>
-                </p>
-                <p>
-                    See below for a detailed program. And watch this space for updates on how to watch them live!
-                </p>
-
-                <Link blankInternal={true} color="blue" url="/live">Watch the livestream!</Link>
-            </Section>
+            <VikingBanner header="JavaZone VR Program 2020" subHeader="Watch the videos" />
             <CenterSection color="blue" header={<h1>Program</h1>}>
                 <VRProgram />
             </CenterSection>

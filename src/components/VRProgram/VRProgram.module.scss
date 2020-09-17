@@ -63,6 +63,20 @@
   margin-bottom: 1rem;
 }
 
+.talkMainInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.talkContainer{
+  display: flex;
+  align-content: center;
+}
+
+.video{
+  margin-left: 0.5rem;
+}
+
 .talk {
   display: flex;
   flex-direction: column;

@@ -18,7 +18,7 @@ function FrontpageButton(){
     const cls = classNames(styles.button, linkStyles.link)
     return <RouterLink to="/live" className={cls}>
                <span>
-                   Watch livestream!
+                   The VR videos are now live 🎥
                </span>
     </RouterLink>
 }
@@ -43,7 +43,8 @@ export function Jumbotron(props: JumbotronProps) {
                 <img className={styles.logo} src="logo-sharp.svg" alt="logo"/>
                 <h1>{props.title}</h1>
                 <h2>{props.subTitle}</h2>
-                <FrontpageButton/>
+                <h2>{props.location}</h2>
+                {/*<FrontpageButton/>*/}
             </div>
         </div>
     )

@@ -16,8 +16,7 @@ export const program: Program[] = [
                         name: 'Ron Pressler',
                         bio: 'Ron works at Oracle, in the Java Platform Group, and is the technical lead for OpenJDK\'s Project Loom, which seeks to add lightweight threads to the JDK.\n'
                     }],
-                    abstract: 'Concurrent applications, those serving multiple independent application actions simultaneously, are the bread and butter of Java server-side programming. The thread has been Java’s primary unit of concurrency since Java’s inception, and is a core construct around which the entire Java platform is designed, but its cost is such that it can no longer efficiently represent a domain unit of concurrency, such as the session, request or transaction. As a result, Java has seen a proliferation of libraries and frameworks that offer scalability at the cost of abandoning the thread as the unit of software concurrency and, with it, the straightforward support of Java’s observability tooling, such as debuggers and profilers. Project Loom aims to reinstate the thread as an efficient unit of concurrency by adding a lightweight implementation of threads to the Java platform, which would allow straightforward code — that’s easy to write, understand and maintain, and works in harmony with the platform and its tooling — to scale and meet the requirements of even most demanding concurrent applications.'
-
+                    abstract: 'Concurrent applications, those serving multiple independent application actions simultaneously, are the bread and butter of Java server-side programming. The thread has been Java’s primary unit of concurrency since Java’s inception, and is a core construct around which the entire Java platform is designed, but its cost is such that it can no longer efficiently represent a domain unit of concurrency, such as the session, request or transaction. As a result, Java has seen a proliferation of libraries and frameworks that offer scalability at the cost of abandoning the thread as the unit of software concurrency and, with it, the straightforward support of Java’s observability tooling, such as debuggers and profilers. Project Loom aims to reinstate the thread as an efficient unit of concurrency by adding a lightweight implementation of threads to the Java platform, which would allow straightforward code — that’s easy to write, understand and maintain, and works in harmony with the platform and its tooling — to scale and meet the requirements of even most demanding concurrent applications.',
                 }]
             },
             {
@@ -93,7 +92,8 @@ export const program: Program[] = [
                         }],
                         abstract: 'Tenk deg at du plutselig blir med i et team som jobber med reelle persondata. Som en del av dette teamet så får du også tilgang til disse dataene. Du har selvfølgelig hørt om GDPR, og vet at disse dataene ikke må komme på avveie, men hvilket ansvar har du egentlig? Hva kan du gjøre for å hjelpe resten av teamet slik at dere ikke roter til dette viktige ansvaret?\n' +
                             '\n' +
-                            'Dette er ikke en presentasjon om GDPR. Den baserer seg på egne og andres praktiske erfaringer om hvordan sikre persondata i hverdagen. Den vil vise eksempler på utfordringer og hva som kan gå galt. Vi ser på hva avvik er, hva ditt ansvar er, og noen tips og råd.'
+                            'Dette er ikke en presentasjon om GDPR. Den baserer seg på egne og andres praktiske erfaringer om hvordan sikre persondata i hverdagen. Den vil vise eksempler på utfordringer og hva som kan gå galt. Vi ser på hva avvik er, hva ditt ansvar er, og noen tips og råd.',
+                        video: 'https://player.vimeo.com/video/459084572'
                     }
                 ]
             },

@@ -1,10 +1,11 @@
 import React, {ReactNode, useState} from 'react';
-import {Collapse} from 'react-collapse';
+import {UnmountClosed} from 'react-collapse';
 import styles from './VRProgram.module.scss';
 import {ActiveButton, ButtonGroup} from '../Button/ButtonGroup';
 import {Program, Schedule, Speakers, Speaker, Talk} from '../../core/models/Program.model';
 import {program} from '../../core/data/Program.data';
 import classNames from "classnames";
+import Link from "../Link/Link";
 
 
 function ClickableDiv(props: {clickAble: boolean, className?: string, onClick?: () => void, children?: ReactNode}){
@@ -63,12 +64,25 @@ function SlotInformation(props: {talk: Talk}){
     const cls = classNames(styles.talk, {[styles.clickable]: expandeble});
 
     return <ClickableDiv clickAble={expandeble} className={cls} onClick={() => setOpen(!open)}>
-        <span>{talk.title}</span>
-        <span className={styles.speaker}>{talk.speakers && talk.speakers.map(speaker => speaker.name).join(", ")}</span>
-        <Collapse isOpened={open}>
+        <div className={styles.talkContainer}>
+            <div className={styles.talkMainInfo}>
+                <span>{talk.title}</span>
+                <span className={styles.speaker}>{talk.speakers && talk.speakers.map(speaker => speaker.name).join(", ")}</span>
+            </div>
+            {!!talk.video && <span className={styles.video}>🎬</span>}
+        </div>
+        <UnmountClosed isOpened={open} >
+            {!!talk.video && <div style={{"padding":"56.25% 0 0 0", "marginTop": "1rem", "position": "relative"}}>
+            <iframe src={talk.video}
+                    title={talk.title}
+                    frameBorder="0"
+                    allow="autoplay; fullscreen"
+                    allowFullScreen
+                    style={{"position":"absolute", "top": 0, "left":0, "width":"100%", "height":"100%"}}/>
+            </div>}
             <Abstract abstract={talk.abstract}/>
             <Bios speakers={props.talk.speakers}/>
-        </Collapse>
+        </UnmountClosed>
     </ClickableDiv>
 }
 

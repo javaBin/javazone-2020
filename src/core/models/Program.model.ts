@@ -10,6 +10,7 @@ export interface Talk {
     id: string;
     speakers?: Speakers;
     abstract?: string;
+    video?: string;
 }
 
 export interface Schedule {
