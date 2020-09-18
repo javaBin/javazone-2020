@@ -5,7 +5,6 @@ import {ActiveButton, ButtonGroup} from '../Button/ButtonGroup';
 import {Program, Schedule, Speakers, Speaker, Talk} from '../../core/models/Program.model';
 import {program} from '../../core/data/Program.data';
 import classNames from "classnames";
-import Link from "../Link/Link";
 
 
 function ClickableDiv(props: {clickAble: boolean, className?: string, onClick?: () => void, children?: ReactNode}){
@@ -69,7 +68,7 @@ function SlotInformation(props: {talk: Talk}){
                 <span>{talk.title}</span>
                 <span className={styles.speaker}>{talk.speakers && talk.speakers.map(speaker => speaker.name).join(", ")}</span>
             </div>
-            {!!talk.video && <span className={styles.video}>🎬</span>}
+            {!!talk.video && <span className={styles.video} role="img" aria-label="Film available">🎬</span>}
         </div>
         <UnmountClosed isOpened={open} >
             {!!talk.video && <div style={{"padding":"56.25% 0 0 0", "marginTop": "1rem", "position": "relative"}}>

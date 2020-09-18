@@ -1,9 +1,6 @@
 import React, { lazy, Suspense, useEffect } from 'react';
 import styles from './Jumbotron.module.scss';
 import { useCanPlayVideoType } from '../../core/hooks/UseCanPlayVideoType';
-import {Link as RouterLink} from "react-router-dom";
-import linkStyles from '../Link/Link.module.scss';
-import classNames from "classnames";
 
 const VideoSource = lazy(() => import('./VideoSource'));
 
@@ -14,6 +11,7 @@ interface JumbotronProps {
     location?: string;
 }
 
+/*
 function FrontpageButton(){
     const cls = classNames(styles.button, linkStyles.link)
     return <RouterLink to="/live" className={cls}>
@@ -22,6 +20,7 @@ function FrontpageButton(){
                </span>
     </RouterLink>
 }
+ */
 
 export function Jumbotron(props: JumbotronProps) {
 
