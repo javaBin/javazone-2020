@@ -96,7 +96,7 @@ export function InfoPage() {
                 </p>
                 <p>
                     <strong>Before the conference</strong><br />
-                    You can contact us by email: <InlineLink color="pink" external noBlankTarget url="mailto:javazone@java.no">javazone@java.no</InlineLink> (this goes to a small group of people, the core organizers of JavaZone), or <InlineLink color="pink" external noBlankTarget url="mailto:styret@java.no">styret@java.no</InlineLink> (this goes to the javaBin board).
+                    You can contact us by email: <InlineLink color="pink" external noBlankTarget url="mailto:javazone@java.no">javazone@java.no</InlineLink> (this goes to a small group of people, the core organizers of JavaZone), or <InlineLink color="pink" external noBlankTarget url="mailto:javabin@java.no">javabin@java.no</InlineLink> (this goes to the javaBin board).
                 </p>
                 <p>
                     <strong>During the conference</strong><br />
