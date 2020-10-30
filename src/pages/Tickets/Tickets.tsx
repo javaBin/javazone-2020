@@ -11,7 +11,7 @@ import {Figure} from "../../components/Figure/Figure";
 export function TicketsPage() {
     return (
         <>
-            <VikingBanner header="The Ticket Booth" subHeader="Come join us in Oslo, January 20th - 21th, 2021"/>
+            <VikingBanner header="The Ticket Booth" subHeader="JavaZone VR September 9th"/>
             <CenterSection color="green" header={<h1>JavaZone VR is a free event</h1>}>
                 <TicketPrice>0</TicketPrice>
             </CenterSection>
@@ -23,7 +23,7 @@ export function TicketsPage() {
             </Section>
 
             <Section color="green" header={<h1>What about the regular event?</h1>}>
-                <p>Due to the COVID-19 outbreak we have decided to postpone the regular JavaZone 2020 until January 2021. The conference will be held on January 20th and 21st (With workshops on January 19th).</p>
+                <p>Due to the COVID-19 outbreak we have decided to postpone the regular JavaZone 2020 until 2021.</p>
                 <div><Link color="green" url='/corona'>More information</Link></div>
             </Section>
 

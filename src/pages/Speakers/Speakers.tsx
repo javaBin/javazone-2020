@@ -20,16 +20,13 @@ export function SpeakersPage() {
             <VikingBanner header="Call for Speakers" subHeader="Speak at JavaZone 2020" />
             <Section color="pink" header={<h1>About JavaZone</h1>}>
                 <p>
-                    JavaZone 2020 will be the 20th physical JavaZone conference and will consist of a day of pre-conference workshops on January 19th 2021, followed by two days of lightning talks and presentations on January 20th and 21st 2021.
-                </p>
-                <p>
                     Originally, JavaZone 2020 should have taken place in September 2020, just as its 19 prior editions. But as a consequence of the Coronavirus-outbreak we have moved the conference to a later date. To mark the occasion, we are organizing a one-day, virtual conference on September 9th: JavaZone VR. When submitting to JavaZone 2020, you can also suggest that we consider your talk for JavaZone VR. In this case, your presentation is considered for both events.
                 </p>
                 <p>
                     JavaZone 2019 was completely sold out, with more than 3200 attendees enjoying 127 sessions. For JavaZone VR, we expect several hundret participants.
                 </p>
                 <p>
-                    JavaZone hosts both international and Norwegian speakers. We'd love to have you join us the coming January!
+                    JavaZone hosts both international and Norwegian speakers.
                 </p>
                 <p>
                     Our call for speakers remains open until the <b style={{textDecoration: "underline"}}>31st of August</b>. Presentations for JavaZone VR are selected ongoing and are likely finalized prior to this date.
@@ -94,7 +91,7 @@ export function SpeakersPage() {
             <Section color="pink" header={<h1>What’s in it for me?</h1>}>
                 <h3>Accepted presentations, lightning talks, and workshops</h3>
                 <p>
-                    As a JavaZone speaker, you get free admission to the conference. Additionally, you are also invited to the speakers' dinner, held on January 19th. Finally, you can apply for a place on JourneyZone, our annual speaker adventure.
+                    As a JavaZone speaker, you get free admission to the conference. Additionally, you are also invited to the speakers' dinner. Finally, you can apply for a place on JourneyZone, our annual speaker adventure.
                 </p>
                 <h3>Coverage of Expenses</h3>
                 <p>

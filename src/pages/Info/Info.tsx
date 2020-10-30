@@ -9,9 +9,9 @@ import {Figure} from "../../components/Figure/Figure";
 export function InfoPage() {
     return (
         <>
-            <VikingBanner header="Another year, another JavaZone!" subHeader="January 20th - 21th, 2021"/>
+            <VikingBanner header="Another year, another JavaZone!" subHeader="January VR September 9"/>
             <Section color="pink" header={<h1>JavaZone & COVID-19</h1>}>
-                Due to the COVID-19 outbreak we have decided to postpone JavaZone 2020 until January 2021. The conference will be held on January 20th and 21st (With workshops on January 19th). In addition we will try a new concept: JavaZone VR. This will be an online conference held on September 9th and will be streamed live and free for all!
+                Due to the COVID-19 outbreak we have decided to postpone JavaZone 2020 until 2021. In addition we will try a new concept: JavaZone VR. This will be an online conference held on September 9th and will be streamed live and free for all!
             </Section>
             <Section color="pink" header={<h1>JavaZone 101 the who, what and where</h1>}>
                 <p>
@@ -24,7 +24,7 @@ export function InfoPage() {
                     We have been organizing JavaZone since 2001 and have been excited to watch the event grow bigger and better every year. In 2019 we hosted over 3200 participants and 160 speakers across 7 parallel tracks over the course of two days. In addition, we also offered a selection of 11 workshops held on the day before the conference started.
                 </p>
                 <p>
-                    We would not be what we are today without YOU! Thank you for your support and contributions over the years. Don’t procrastinate! Join your fellow Java developers at JavaZone on January 20th-21th, 2021!
+                    We would not be what we are today without YOU! Thank you for your support and contributions over the years. Don’t procrastinate! Join your fellow Java developers at JavaZone 2021!
                 </p>
                 <div><Link color="pink" url='/corona'>More information about JavaZone & COVID-19</Link></div>
             </Section>
