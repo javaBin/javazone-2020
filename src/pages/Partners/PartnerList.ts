@@ -206,11 +206,6 @@ export const partnerList: Partner[] = [
         "name": "Microsoft"
     },
     {
-        "homepageUrl": "https://www.cgi.com/norway/nb",
-        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/cgi.svg",
-        "name": "CGI"
-    },
-    {
         "homepageUrl": "https://uptimeconsulting.no/",
         "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/uptime.svg",
         "name": "Uptime Consulting"
