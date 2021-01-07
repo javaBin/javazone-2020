@@ -41,8 +41,8 @@ export function Jumbotron(props: JumbotronProps) {
             <div className={styles.jumbotronContent}>
                 <img className={styles.logo} src="logo-sharp.svg" alt="logo"/>
                 <h1>{props.title}</h1>
-                <h2>{props.subTitle}</h2>
-                <h2>{props.location}</h2>
+                <h2>See you next year!</h2>
+                <h2><InlineLink color="pink" external url="https://javazone.no">More information about 2021</InlineLink></h2>
                 {/*<FrontpageButton/>*/}
             </div>
         </div>
