@@ -1,5 +1,6 @@
 import React, { lazy, Suspense, useEffect } from 'react';
 import styles from './Jumbotron.module.scss';
+import { InlineLink } from '../InlineLink/InlineLink';
 import { useCanPlayVideoType } from '../../core/hooks/UseCanPlayVideoType';
 
 const VideoSource = lazy(() => import('./VideoSource'));
