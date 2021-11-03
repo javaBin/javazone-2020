@@ -16,6 +16,11 @@ export const partnerList: Partner[] = [
         "name": "Systek"
     },
     {
+        "homepageUrl": "https://camunda.com/",
+        "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2019/logos/camunda.svg",
+        "name": "Camunda"
+    },    
+    {
         "homepageUrl": "https://www.twilio.com//",
         "logoUrl": "https://d3o108dy577i1m.cloudfront.net/2020/logos/twillo.png",
         "name": "Twillo"
